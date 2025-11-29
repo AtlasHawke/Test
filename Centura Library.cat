@@ -159,9 +159,6 @@
               <comment>!BSC Errors from 20240406-1603
 Could not find wargear The Master-Crafted Special Rule
 	 Checked under The Master-Crafted Special Rule</comment>
-              <infoLinks>
-                <infoLink name="Master-crafted" id="f3e6-5802-4e0a-97da" hidden="false" type="rule" targetId="6de0-55b0-bf21-48b9"/>
-              </infoLinks>
             </selectionEntryGroup>
             <selectionEntryGroup name="The Legion Indomitus Praetor may take a:" id="0d71-8201-419e-a101">
               <entryLinks>
@@ -200,7 +197,6 @@ Could not find wargear in A Legion Indomitus Praetor may upgrade any one weapon 
           </modifiers>
         </infoLink>
         <infoLink name="Master of the Legion" hidden="false" type="rule" targetId="c772-87ea-d49c-c7ba" id="8049-0dfa-4fd7-b35b"/>
-        <infoLink name="independent character" id="0fbf-4600-6924-de41" hidden="false" type="rule" targetId="65ab-8a7c-23fc-c108"/>
       </infoLinks>
       <comment>!BSC Errors from 20240406-1603
 Could not find rule: Independent Character
@@ -6785,7 +6781,7 @@ Could not find type or subtype &apos;Battlements&apos;</comment>
     <catalogueLink id="2f60-4242-e6ed-8574" name="Legions Astartes" targetId="25e4-c9e5-8165-1337" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
   <entryLinks>
-    <entryLink import="true" name="Legion Indomitus Centurion" hidden="false" id="50de-6ca5-4616-af57" type="selectionEntry" targetId="4d40-5fee-4219-8354"/>
-    <entryLink import="true" name="Legion Indomitus Praetor" hidden="false" id="67e4-91ed-46e7-3e40" type="selectionEntry" targetId="0293-aa91-4e32-bd5f"/>
+    <entryLink import="true" name="Legion Indomitus Centurion" hidden="false" id="d03b-e704-e7c8-a1ae" type="selectionEntry" targetId="4d40-5fee-4219-8354"/>
+    <entryLink import="true" name="Legion Indomitus Praetor" hidden="false" id="39a8-2d8b-f8cf-c8e7" type="selectionEntry" targetId="0293-aa91-4e32-bd5f"/>
   </entryLinks>
 </catalogue>
