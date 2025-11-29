@@ -3422,6 +3422,11 @@ Could not find rule: Unstable Internment</comment>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="18b9-b3f1-4f1d-9e8b"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Twisted Talons" hidden="false" id="ceee-49db-e9a9-e052" type="selectionEntry" targetId="50a4-8da8-4a24-a941">
+              <modifiers>
+                <modifier type="set" value="2 Twisted Talons" field="name"/>
+              </modifiers>
+            </entryLink>
           </entryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="For every five models in the unit, one Possessed Legionary may exchange their Bolter with one of the following:" id="e9d9-ea8f-4c23-b432">
@@ -3500,9 +3505,8 @@ Could not find rule: Unstable Internment</comment>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
           </costs>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Two Twisted Talons
-	 Checked under Twisted Talon</comment>
+          <comment>
+</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -5209,9 +5213,13 @@ The option &apos;Hunter Killer Missiles&apos; may need a &apos;multiply by numbe
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="40"/>
           </costs>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Two Mutated Appendages
-	 Checked under Mutated Appendage</comment>
+          <entryLinks>
+            <entryLink import="true" name="Mutated Appendages" hidden="false" id="6695-8b75-85a2-6812" type="selectionEntry" targetId="8bbc-551e-4181-aeb1">
+              <modifiers>
+                <modifier type="set" value="2 Mutated Appendages" field="name"/>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -7007,5 +7015,34 @@ Could not find type or subtype &apos;Battlements&apos;</comment>
   <entryLinks>
     <entryLink import="true" name="Legion Indomitus Centurion" hidden="false" id="d03b-e704-e7c8-a1ae" type="selectionEntry" targetId="4d40-5fee-4219-8354"/>
     <entryLink import="true" name="Legion Indomitus Praetor" hidden="false" id="39a8-2d8b-f8cf-c8e7" type="selectionEntry" targetId="0293-aa91-4e32-bd5f"/>
+    <entryLink import="true" name="Legion Indomitus Command Squad" hidden="false" id="25bc-d368-378c-9ed1" targetId="10a1-9ca0-40bd-81fd" type="selectionEntry"/>
+    <entryLink import="true" name="Basilisk Anti-Air Emplacement Battery" hidden="false" id="e08e-f74c-57c3-cf3c" targetId="ca32-4dab-4bf6-b3ed" type="selectionEntry"/>
+    <entryLink import="true" name="Early Great Crusade Havoc Squad" hidden="false" id="a474-8d1c-2172-0331" targetId="e112-e4d2-45f7-b5bd" type="selectionEntry"/>
+    <entryLink import="true" name="Legion Assault Support Squad" hidden="false" id="1cbb-51d6-735b-f36c" targetId="c91c-8095-41e1-a730" type="selectionEntry"/>
+    <entryLink import="true" name="Legion Assault Veteran Squad" hidden="false" id="7bf7-b098-8226-ce17" targetId="bbbd-1956-4682-9ea4" type="selectionEntry"/>
+    <entryLink import="true" name="Legion Banesword" hidden="false" id="e569-c47e-563b-9ea3" targetId="658b-333a-4c15-b739" type="selectionEntry"/>
+    <entryLink import="true" name="Legion Castra Ferrum Centurion" hidden="false" id="426f-e48f-2d31-24d2" targetId="7cbb-4e3a-4030-b935" type="selectionEntry"/>
+    <entryLink import="true" name="Legion Cataphractii Heavy Destroyer Squad" hidden="false" id="7ec9-390d-4df9-5a3b" targetId="a80d-c621-43b6-8d8b" type="selectionEntry"/>
+    <entryLink import="true" name="Legion Contemptor Centurion" hidden="false" id="a848-881e-0a8d-1350" targetId="af55-3d23-4179-b438" type="selectionEntry"/>
+    <entryLink import="true" name="Legion Contemptor-Cortus Dreadnought Talon" hidden="false" id="8436-de6f-fd52-2cef" targetId="970a-bd04-4d61-ae08" type="selectionEntry"/>
+    <entryLink import="true" name="Legion Doomhammer" hidden="false" id="a05e-a36b-026b-eae8" targetId="ac9d-af7c-4709-a6d2" type="selectionEntry"/>
+    <entryLink import="true" name="Legion Fire Raptor Destroyer" hidden="false" id="f944-dee6-e282-ed3d" targetId="7264-ce9d-4a66-834e" type="selectionEntry"/>
+    <entryLink import="true" name="Legion Hussar Squadron" hidden="false" id="43f0-2c6c-72af-6c48" targetId="4437-5f83-4383-9545" type="selectionEntry"/>
+    <entryLink import="true" name="Legion Land Raider Dionysus" hidden="false" id="fc42-0a8a-6b6c-28f8" targetId="4f0d-7dbb-4d94-a26e" type="selectionEntry"/>
+    <entryLink import="true" name="Legion Land Raider Tartaros" hidden="false" id="58eb-96ae-444f-4756" targetId="9919-c7b2-474e-bb78" type="selectionEntry"/>
+    <entryLink import="true" name="Legion Novicii Squad*" hidden="false" id="8565-2301-8c3f-cde5" targetId="7322-a79c-4ce8-8b16" type="selectionEntry"/>
+    <entryLink import="true" name="Legion Orthrus Destroyer Squadron" hidden="false" id="9646-5212-589f-a31d" targetId="4b16-34fb-4262-95a2" type="selectionEntry"/>
+    <entryLink import="true" name="Legion Rhino Advancer" hidden="false" id="4bc1-aad5-46c7-6a07" targetId="83d6-bbaa-416c-9de9" type="selectionEntry"/>
+    <entryLink import="true" name="Legion Saturnine Centurion" hidden="false" id="71e6-0140-76fe-caa0" targetId="3e29-1bf1-48c9-b302" type="selectionEntry"/>
+    <entryLink import="true" name="Legion Servo-Automata Maniple" hidden="false" id="51a5-f65d-4e91-ecbf" targetId="6c47-ea09-4079-82bb" type="selectionEntry"/>
+    <entryLink import="true" name="Legion Sicaran Incinerator Squadron" hidden="false" id="dad5-dc24-0035-4705" targetId="bb59-1d00-42d4-aaa7" type="selectionEntry"/>
+    <entryLink import="true" name="Legion Sky-Seeker Squadron" hidden="false" id="7b00-a3da-f8de-3fb0" targetId="c0a1-df5f-4e38-89e8" type="selectionEntry"/>
+    <entryLink import="true" name="Legion Storm Eagle Transporter" hidden="false" id="c119-d191-55eb-1e15" targetId="e88e-ed4c-45bf-b30a" type="selectionEntry"/>
+    <entryLink import="true" name="Legion Tartaros Heavy Destroyer Squad" hidden="false" id="3ec8-a8fd-75cd-5c0e" targetId="32a8-5aa5-4636-9115" type="selectionEntry"/>
+    <entryLink import="true" name="Legion Terminator Saturnine Squad" hidden="false" id="efbc-5ce5-8286-8caf" targetId="77f4-7d9e-429c-9101" type="selectionEntry"/>
+    <entryLink import="true" name="Legion Vindicator Thunderer Squadron" hidden="false" id="2c8a-ce33-f75a-b9cc" targetId="0154-d7ea-4dcf-8db1" type="selectionEntry"/>
+    <entryLink import="true" name="Legion Whispercutter" hidden="false" id="3eb3-ff01-0ab3-4814" targetId="b176-b2c5-477c-9200" type="selectionEntry"/>
+    <entryLink import="true" name="Mutated Spawn" hidden="false" id="f824-0556-39b6-47fa" targetId="d20c-e065-4357-b70c" type="selectionEntry"/>
+    <entryLink import="true" name="Possessed Legionnaires" hidden="false" id="703c-9f61-0bdb-46da" targetId="f928-6ae6-4699-ba2b" type="selectionEntry"/>
   </entryLinks>
 </catalogue>
