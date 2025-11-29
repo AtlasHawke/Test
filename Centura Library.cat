@@ -400,6 +400,227 @@ Could not find wargear Legion Indomitus Terminator Armour
 Could not find rule: Independent Character
 Combi-Bolter is in two option lists for Legion Indomitus Centurion, you will need to combine them by hand.
 Power Weapon is in two option lists for Legion Indomitus Centurion, you will need to combine them by hand.</comment>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="0) Legion-specific Upgrades" id="dd48-d56b-d839-7453" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink import="true" name="Prosperine Arcana:" hidden="true" id="9ebe-8adb-d145-017a" collective="false" targetId="e6a0-3ea2-f7ca-411f" type="selectionEntryGroup"/>
+            <entryLink import="true" name="Psychic Disciplines" hidden="true" id="8992-8c71-7782-945d" collective="false" targetId="d632-a8aa-19f1-8e72" type="selectionEntryGroup">
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="parent" childId="d25a-f9ee-4a45-916e" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Dragonscale Shield" hidden="false" id="e23b-b2c3-b5eb-e19b" collective="false" targetId="489d-88d0-a0d8-b3e6" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="equalTo" value="0" field="selections" scope="force" childId="c805-ca3a-ff93-5e2f" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c96d-d4e8-bd3f-ca8d" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Cult Arcana Discipline" hidden="false" id="dccb-1544-8ba5-47f9" collective="false" targetId="d25a-f9ee-4a45-916e" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="8846-2f93-a2be-18dc" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="d332-0e64-7ecf-6c35" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Surgical Augment" hidden="true" id="c509-5aae-95bd-f680" collective="false" targetId="ffa3-1a57-1eb4-1818" type="selectionEntryGroup"/>
+            <entryLink import="true" name="Master-craft one weapon" hidden="false" id="fa27-8f96-a94a-0fdf" collective="false" targetId="3d6e-5c80-d195-0f2e" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="equalTo" value="0" field="selections" scope="force" childId="c805-ca3a-ff93-5e2f" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Argyrum-pattern Boarding Shield" hidden="false" id="80f3-8ac4-7414-55fb" collective="false" targetId="f670-7544-e4f3-f5fa" type="selectionEntry">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2a17-8633-d2af-9ab7" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Berserker" hidden="false" id="a4c4-92c4-e726-f25a" collective="false" targetId="93af-e204-255b-b095" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="8846-2f93-a2be-18dc" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="equalTo" value="0" field="selections" scope="force" childId="90ee-77dd-1b7f-ddfe" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="d332-0e64-7ecf-6c35" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Vigil Storm Shield" hidden="false" id="540e-57fe-062a-47ba" collective="false" targetId="ec3d-1f0c-d195-a006" type="selectionEntry">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b458-5f0d-ae9c-ab22" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Teleport Strike" hidden="false" id="b945-e9b8-ce84-3123" collective="false" targetId="4bb4-46d4-6cdd-4cd8" type="selectionEntry">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6c37-ba8b-d1b7-98de" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Toxin Bombs" hidden="false" id="f321-c145-eab7-08a0" collective="false" targetId="987b-9177-dde0-bf9b" type="selectionEntry">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="90d8-b653-4c79-543a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Preysight" hidden="false" id="7656-eb56-5977-c527" collective="false" targetId="b905-4d78-c141-4e63" type="selectionEntry">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cba9-3b66-c48c-dc1a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Cyber Hawk" hidden="false" id="b261-1c73-6ece-5a19" collective="false" targetId="2284-3de0-0f73-a311" type="selectionEntry">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d5fa-8c04-40e2-4e35" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Cyber-Familiar" hidden="true" id="2d81-cfc0-901a-0517" collective="false" targetId="6c85-4601-cf58-7b35" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="greaterThan" value="0" field="selections" scope="force" childId="bfc9-c99c-bf8a-3917" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1763-caef-4a80-820e" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Cameleoline" hidden="false" id="945f-a9f0-7ba7-6ca3" collective="false" targetId="9a64-04fb-d978-67f0" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="greaterThan" value="0" field="selections" scope="4d40-5fee-4219-8354" childId="368d-0cdc-5ce6-eb38" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                        <condition type="greaterThan" value="0" field="selections" scope="4d40-5fee-4219-8354" childId="3c8b-1020-32f3-3b2a" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d992-7113-6845-6795" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Trophies of Judgement" hidden="false" id="cb7c-cc80-bb35-68e5" collective="false" targetId="bde7-7c77-5973-cd52" type="selectionEntry">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1326-415b-5379-913e" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Lords of Murder" hidden="false" id="7024-027e-929e-4a73" collective="false" targetId="2b85-7073-16f5-0ea2" type="selectionEntry">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="11bd-3942-b26b-239f" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Infravisor" hidden="false" id="3ff9-6b6e-e28c-3772" collective="false" targetId="bc5b-fcd7-aeed-e97c" type="selectionEntry">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0dca-f357-a0ab-6b74" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Power Dagger" hidden="false" id="c396-d042-da46-a045" collective="false" targetId="8157-b77c-0dd3-85b2" type="selectionEntry">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f09d-7834-4721-3f30" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Venom Spheres" hidden="false" id="eac6-b460-a66b-af3f" collective="false" targetId="82f5-cca1-51a0-31dd" type="selectionEntry">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7130-4ff8-7113-0d8d" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Bitter Duty (Company of Bitter Iron)" hidden="false" id="fea1-998c-212e-f45b" collective="false" targetId="8219-e51c-94e0-fc1f" type="selectionEntry">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3d22-c511-8f45-e691" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Rad Grenades" hidden="true" id="9e38-478b-81bc-ff83" collective="false" targetId="1b0b-3dfc-9521-b27e" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="force" childId="d3b5-da3a-8c3b-3faf" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b73a-dc91-f560-1989" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="The Spreading Corruption" hidden="false" id="3823-3037-0876-97e1" collective="false" targetId="f783-f0ea-fe35-cdeb" type="selectionEntry"/>
+            <entryLink import="true" name="Debased Augments" hidden="true" id="6b7c-1b0c-d057-e6bf" collective="false" targetId="a819-94e-c873-8a35" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink import="true" name="Legiones Consularis" hidden="false" id="9aa8-f286-4b27-bf8d" collective="false" targetId="3cbf-9466-2558-2c22" type="selectionEntryGroup"/>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry name="Legion Saturnine Centurion" type="unit" id="3e29-1bf1-48c9-b302" page="8" publicationId="3970-79bb-bdc6-9599">
       <categoryLinks>
