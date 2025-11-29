@@ -373,6 +373,9 @@ Could not find wargear Legion Indomitus Terminator Armour
           <entryLinks>
             <entryLink import="true" name="Indomitus Terminator Armour" hidden="false" id="46e9-496a-da78-60ae" type="selectionEntry" targetId="5a55-baa5-1602-7223"/>
           </entryLinks>
+          <infoLinks>
+            <infoLink name="Independent Character" id="b0a4-beb8-67d4-8bf3" hidden="false" targetId="4f07-3d45-4f28-a0c6"/>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
