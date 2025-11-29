@@ -3043,6 +3043,7 @@
         <categoryLink name="Heavy Support:" hidden="false" id="c36-d912-e401-3360" targetId="7031-469a-1aeb-eab0" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Possessed Legionnaires" hidden="false" id="2b1c-4a0a-6c4e-7757" type="selectionEntry" targetId="f928-6ae6-4699-ba2b"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="d3ad-275c-e22b-a28f" name="Ammitara Occult Intercession Cabal" hidden="false" collective="false" import="true" type="unit">
@@ -5681,5 +5682,6 @@ Additionally, a unit that includes any models with this special rule may not be 
   </sharedSelectionEntryGroups>
   <catalogueLinks>
     <catalogueLink id="2f60-18fb-e6ed-8574" name="Legions Astartes" targetId="25e4-c9e5-8165-1337" type="catalogue" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="[Centura] Legiones Astartes" id="eddf-e65b-4553-fc82" targetId="d76-4e81-2fef-caa1" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

@@ -4079,7 +4079,7 @@ THIS IS A TEMPORARY NOTIFICATION THAT WILL BE REMOVED IN A FEW MONTHS WHEN HOPEF
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Rupture (6+)</characteristic>
           </characteristics>
         </profile>
         <profile id="5bff-6214-348d-0536" name="Grenade launcher - Frag (Secondary)" publicationId="a716-c1c4-7b26-8424" page="130" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
@@ -8293,7 +8293,7 @@ In addition, a model with the Paragon of Metal special rule may not be targeted 
         <profile id="ab97-57d4-692d-6b96" name="Baneblade Cannon" publicationId="9fab-fea7-a93c-2074" page="170" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">72&quot;</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">9</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
             <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Massive Blast (7&quot;), Rending (6+), Pinning</characteristic>
           </characteristics>
@@ -8351,7 +8351,7 @@ In addition, a model with the Paragon of Metal special rule may not be targeted 
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">12</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Large Blast (5&quot;), Sunder, Rending (5+), Brutal (3)</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Large Blast (5&quot;), Sunder, Rending (4+), Brutal (3), Wrecker</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8368,10 +8368,11 @@ In addition, a model with the Paragon of Metal special rule may not be targeted 
         </infoLink>
         <infoLink id="9090-9dd1-dd60-7dc8" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
           <modifiers>
-            <modifier type="set" field="name" value="Rending (5+)"/>
+            <modifier type="set" field="name" value="Rending (4+)"/>
           </modifiers>
         </infoLink>
         <infoLink id="9ecc-a171-5ecb-fbff" name="Sunder" hidden="false" targetId="20e2-75cf-bc16-cd8f" type="rule"/>
+        <infoLink name="Wrecker" id="475c-dad4-ad9c-792a" hidden="false" type="rule" targetId="ba77-a802-55df-da67"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -8749,7 +8750,7 @@ In addition, a model with the Paragon of Metal special rule may not be targeted 
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Large Blast (5&quot;), Breaching (6+), Pinning</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Large Blast (5&quot;), Rupture (4+), Breaching (6+), Pinning</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8757,6 +8758,11 @@ In addition, a model with the Paragon of Metal special rule may not be targeted 
         <infoLink id="1b98-e720-d21f-5c12" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
         <infoLink id="3460-c89e-6aaa-a409" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule"/>
         <infoLink id="566b-cb2c-af1c-f443" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule"/>
+        <infoLink name="Rupture (X)" id="cca2-b312-8dbe-4819" hidden="false" type="rule" targetId="0031-12d9-3b2e-a574">
+          <modifiers>
+            <modifier type="set" value="Rupture (4+)" field="name"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -9714,7 +9720,7 @@ Note that this is an exception to the normal rules for Fortifications, and if as
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">12&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Instant Death, Armourbane (Ranged), Gets Hot, Breaching (5+)</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Instant Death, Armourbane (Ranged), Gets Hot, Breaching (4+), Ejector Blowout</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9743,7 +9749,7 @@ Note that this is an exception to the normal rules for Fortifications, and if as
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">12&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Instant Death, Armourbane (Ranged), Gets Hot, Twin-linked</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Instant Death, Armourbane (Ranged), Gets Hot, Breaching (4+), Ejector Blowout Twin-linked</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9755,6 +9761,12 @@ Note that this is an exception to the normal rules for Fortifications, and if as
         </infoLink>
         <infoLink id="ce35-dd58-face-518e" name="Gets Hot" hidden="false" targetId="679f-9d97-5ace-a652" type="rule"/>
         <infoLink id="4daa-26e1-fa26-7235" name="Instant Death" hidden="false" targetId="9e96-fff1-b916-d9a3" type="rule"/>
+        <infoLink name="Ejector Blowout" id="6de2-65df-1695-a9ef" hidden="false" type="rule" targetId="6946-62a9-d0b2-f23f"/>
+        <infoLink name="Breaching (X)" id="5356-5641-ea40-ad49" hidden="false" type="rule" targetId="a760-f736-1bf3-fa3c">
+          <modifiers>
+            <modifier type="set" value="Breaching (4+)" field="name"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -9770,6 +9782,12 @@ Note that this is an exception to the normal rules for Fortifications, and if as
         </infoLink>
         <infoLink id="c617-962f-a9a8-cc64" name="Gets Hot" hidden="false" targetId="679f-9d97-5ace-a652" type="rule"/>
         <infoLink id="3c22-f365-07f7-2117" name="Instant Death" hidden="false" targetId="9e96-fff1-b916-d9a3" type="rule"/>
+        <infoLink name="Ejector Blowout" id="d28c-a120-505e-cde3" hidden="false" type="rule" targetId="6946-62a9-d0b2-f23f"/>
+        <infoLink name="Breaching (X)" id="97e8-c1b5-52b0-b1e1" hidden="false" type="rule" targetId="a760-f736-1bf3-fa3c">
+          <modifiers>
+            <modifier type="set" value="Breaching (4+)" field="name"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -9787,9 +9805,10 @@ Note that this is an exception to the normal rules for Fortifications, and if as
         </infoLink>
         <infoLink id="6c82-8060-42a5-a8ec" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
           <modifiers>
-            <modifier type="set" field="name" value="Breaching (5+)"/>
+            <modifier type="set" field="name" value="Breaching (4+)"/>
           </modifiers>
         </infoLink>
+        <infoLink name="Ejector Blowout" id="7482-62b9-c095-72d9" hidden="false" type="rule" targetId="6946-62a9-d0b2-f23f"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -9977,7 +9996,7 @@ Note that this is an exception to the normal rules for Fortifications, and if as
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Rupture (6+)</characteristic>
           </characteristics>
         </profile>
         <profile id="7223-39b1-9ee8-bbc0" name="Grenade launcher - Frag" publicationId="a716-c1c4-7b26-8424" page="130" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
@@ -10048,16 +10067,21 @@ Note that this is an exception to the normal rules for Fortifications, and if as
       <profiles>
         <profile id="c65a-2132-c8cd-1696" name="Stormhammer Cannon" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">72&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 3, Lance, Exoshock (6+)</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordinance 1, Massive Blast (7&quot;), Shred, Rending (6+)</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
+      <infoLinks>
+        <infoLink name="Blast" id="9e9c-cac3-99a5-2751" hidden="false" type="rule" targetId="1d9a-73ef-5f4f-8bd8"/>
+        <infoLink name="Shred" id="0431-f09c-23ad-0f91" hidden="false" type="rule" targetId="5e7e-1628-8174-6f2c"/>
+        <infoLink name="Rending (X)" id="fb70-61ca-f9e0-bda4" hidden="false" type="rule" targetId="0ac9-fab7-aef3-de1d"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry id="f0aa-947f-f493-f566" name="Shotgun" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -10966,7 +10990,7 @@ Once all models in the unit have moved onto the battlefield, the Warp Rift marke
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Large Blast (5&quot;), Twin-linked, Pinning, Shell Shock (1), Breaching (6+)</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 2, Large Blast (5&quot;), Pinning, Shell Shock (1), Rupture (4+) Breaching (6+)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10976,16 +11000,20 @@ Once all models in the unit have moved onto the battlefield, the Warp Rift marke
             <modifier type="set" field="name" value="Large Blast (5&quot;)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="39be-2e93-8bc1-68e6" name="Twin-linked" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
         <infoLink id="8a6b-a6f2-9a43-b785" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
         <infoLink id="d683-6fde-9bef-aa62" name="Shell Shock (X)" hidden="false" targetId="46b7-63a1-941c-96a5" type="rule">
           <modifiers>
-            <modifier type="set" field="name" value="Shell Shock (2)"/>
+            <modifier type="set" field="name" value="Shell Shock (1)"/>
           </modifiers>
         </infoLink>
         <infoLink id="5129-5038-7e37-d629" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Breaching (6+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Rupture (X)" id="a172-20ff-af62-4ed0" hidden="false" type="rule" targetId="0031-12d9-3b2e-a574">
+          <modifiers>
+            <modifier type="set" value="Rupture (4+)" field="name"/>
           </modifiers>
         </infoLink>
       </infoLinks>
@@ -11095,14 +11123,14 @@ Once all models in the unit have moved onto the battlefield, the Warp Rift marke
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">18&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 2, Instant Death, Armourbane (Ranged), Gets Hot, Breaching 5+</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 2, Instant Death, Armourbane (Ranged), Gets Hot, Breaching 4+, Ejector Blowout</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="7499-075e-aecd-741a" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
           <modifiers>
-            <modifier type="set" field="name" value="Breaching (5+)"/>
+            <modifier type="set" field="name" value="Breaching (4+)"/>
           </modifiers>
         </infoLink>
         <infoLink id="ec3f-a49e-b819-39c0" name="Armourbane (X)" hidden="false" targetId="cb59-f920-f071-7cd4" type="rule">
@@ -11112,6 +11140,7 @@ Once all models in the unit have moved onto the battlefield, the Warp Rift marke
         </infoLink>
         <infoLink id="6aec-11da-4a71-a35f" name="Gets Hot" hidden="false" targetId="679f-9d97-5ace-a652" type="rule"/>
         <infoLink id="cb92-f2a6-9243-fe31" name="Instant Death" hidden="false" targetId="9e96-fff1-b916-d9a3" type="rule"/>
+        <infoLink name="Ejector Blowout" id="7298-581a-1fab-89a0" hidden="false" type="rule" targetId="6946-62a9-d0b2-f23f"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -11614,6 +11643,60 @@ Be aware that we are actively trying to find a solution to this, but it is less 
           </conditions>
         </modifier>
       </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Psychic Discipline: Geomancy (Thousand Sons Only)" hidden="false" id="ffbf-c6ab-333f-929e">
+      <infoLinks>
+        <infoLink name="Aetheric Lightning" id="c9da-47cc-8774-d56c" hidden="false" targetId="3d0c-e779-247f-0332" type="profile"/>
+        <infoLink name="Force" id="3315-394f-61af-9ec6" hidden="false" targetId="f39e-4c3b-38e0-0050" type="rule"/>
+        <infoLink name="Psychic Focus" id="8959-5033-a41d-908f" hidden="false" targetId="bff3-3548-b2b8-72f1" type="rule"/>
+        <infoLink name="Ignores Cover" id="22ed-c769-4400-f9b3" hidden="false" type="rule" targetId="fdb5-59e2-c446-1cbc"/>
+        <infoLink name="Barrage" id="c4ac-8c0d-a07e-c15f" hidden="false" type="rule" targetId="7255-b5ee-c3f4-3037"/>
+        <infoLink name="Blast" id="f11e-748b-1252-a1ee" hidden="false" type="rule" targetId="1d9a-73ef-5f4f-8bd8"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Sundered Earth" typeId="cede-0217-1b10-2a34" typeName="Psychic Weapon" hidden="false" id="ad21-1884-448b-3920">
+          <characteristics>
+            <characteristic name="Range" typeId="62ec-fbf5-5252-0d17">24&quot;</characteristic>
+            <characteristic name="Strength" typeId="17ff-12e7-77d3-2fbe">5</characteristic>
+            <characteristic name="AP" typeId="f431-a7b9-d9d0-36c9">4</characteristic>
+            <characteristic name="Type" typeId="2159-62b6-4337-d516">Assault 1, Barrage, Ignores Cover, Massive Blast (7&quot;), Psychic Focus</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Warp Quake" typeId="5405-b3c6-e8d0-4e77" typeName="Psychic Power" hidden="false" id="cb9f-ea11-5d7e-0422">
+          <characteristics>
+            <characteristic name="Description" typeId="4c0f-7e2f-586c-9305">Instead of making a Shooting Attack, a Psyker with this Psychic Power may choose to take a Psychic Test. If the test is passed, select a single single
+enemy unit, Building, Ruin, or Fortification within 24”.
+If this unit is a Vehicle, Building, Fortification, or ruin, roll a D6 – on a roll of 1, nothing happens. On a roll of 2-4, it suffers an immediate Glancing
+Hit. On a roll of a 5 or 6, it suffers an immediate Penetrating Hit. Attacks with this weapon have no AP value.
+If the selected unit is not any of the types listed above, each model must take an immediate Initiative Test with a -1 modifier. If they fail, they suffer a
+single wound with an AP value of 4, and the unit they are in is immediately counted as having failed a Pinning Test.
+If the test is failed, then a target unit may not be selected, and the Psyker suffers Perils of the Warp.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Adrasite Spear" hidden="false" id="618c-18c3-7189-e5b3">
+      <profiles>
+        <profile name="Adrasite Spear - Shooting" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="80ef-6a7b-811c-7a6e">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">12&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Instant Death, Armourbane (Ranged), Breaching (4+), Gets Hot, Ejector Blowout</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armourbane (X)" id="a960-4a6a-0add-d6ca" hidden="false" type="rule" targetId="cb59-f920-f071-7cd4"/>
+        <infoLink name="Breaching (X)" id="0131-cb92-455b-d98d" hidden="false" type="rule" targetId="a760-f736-1bf3-fa3c">
+          <modifiers>
+            <modifier type="set" value="Breaching (4+)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Instant Death" id="45f6-1307-6423-1fdd" hidden="false" type="rule" targetId="9e96-fff1-b916-d9a3"/>
+        <infoLink name="Gets Hot" id="315c-9192-2b6a-09a5" hidden="false" type="rule" targetId="679f-9d97-5ace-a652"/>
+        <infoLink name="Ejector Blowout" id="9919-73d4-4e52-f9be" hidden="false" type="rule" targetId="6946-62a9-d0b2-f23f"/>
+      </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -18287,6 +18370,77 @@ In addition, any weapons a model with this Special Rule is equipped with which d
     </rule>
     <rule name="The Honored One" hidden="false" id="130d-ed6f-db5f-94ef">
       <description>This Character grants the benefit of a Legion Vexilla to all friendly Legiones Astartes (X) units with the same X as the Character and which have at least one model within 12”.</description>
+    </rule>
+    <rule name="Rupture (X)" id="0031-12d9-3b2e-a574" hidden="false">
+      <description>When rolling To Wound for a model that has the Rupture (X)
+Special Rule, or is attacking with a weapon that has the Rupture (X)
+Special Rule, for each To Wound roll equal to or higher than the
+value listed in brackets, the Controlling Player must resolve these
+wounds at AP 3 instead of the weapon’s normal AP value.</description>
+    </rule>
+    <rule name="Armored Superstructure" id="1915-7d46-21a8-7dd7" hidden="false">
+      <description>Whenever a roll is made on the Vehicle Damage Table against a
+model with this Special Rule, subtract -1 from the result rolled.</description>
+    </rule>
+    <rule name="Daemonic Hordes" id="ba12-2552-d8a7-fdac" hidden="false">
+      <description>If a model with the Daemonic Hordes Special Rule suffers an
+unsaved Wound from a Blast (any size) or Template weapon, each
+unsaved Wound is multiplied to two unsaved Wounds.
+In addition, a model with this Special Rule cannot suffer Instant
+Death as a result of any Attack which has a Strength value of
+double its Toughness Characteristic - Though attacks which would
+otherwise inflict Instant Death in this way may not benefit from
+the Feel No Pain (X) or Corrupted Resilience Special Rule. Attacks
+which have the Instant Death Special Rule in their profile are
+unaffected by this Special Rule and function normally.</description>
+    </rule>
+    <rule name="Ejector Blowout" id="6946-62a9-d0b2-f23f" hidden="false">
+      <description>A weapon with this Special Rule counts all Gets Hot results as AP2.</description>
+    </rule>
+    <rule name="Feeding Frenzy" id="2dfa-f758-ea8b-57ac" hidden="false">
+      <description>At the end of an Initiative Step in which an enemy model is slain in
+close combat as a result of attacks made by a model with this
+Special Rule, the Controlling Player may roll a D6 for each model
+slain. On a result of a 6 a model with this Special Rule in the
+attacking unit immediately regains 1 Wound, up to its starting
+Wounds Characteristic.</description>
+    </rule>
+    <rule name="Field Officer" id="6bba-30a3-e22f-e777" hidden="false">
+      <description>When this model with this Special Rule joins a unit with the CloseOrder Unit Sub-Type, it automatically gains the Close-Order Unit
+Sub-Type for as long as it remains part of that unit.</description>
+    </rule>
+    <rule name="Lords of the Ruinstorm" id="1778-a859-4e39-adeb" hidden="false">
+      <description>Only one model with this Special Rule may be included per 1,500
+points in your army.</description>
+    </rule>
+    <rule name="Sensor Flare" id="7697-3373-8191-ad09" hidden="false">
+      <description>If a model is Hit by a weapon with this Special Rule, it must take
+an immediate Blind Test.</description>
+    </rule>
+    <rule name="Shattered Legionary" id="9cbf-95bd-ed8d-cc43" hidden="false">
+      <description>You can include this model in a Shattered Legion Detachment that
+includes models representing the same Legion as this model&apos;s
+corresponding variant of Legiones Astartes (X). When you do so,
+replace this model&apos;s Legiones Astartes (X) Special Rule with the
+Legiones Astartes (Shattered Legions) Special Rule. This is an
+exception to the normal rules for Legiones Astartes (Shattered
+Legions). When included in a Shattered Legions Detachment, this
+model must represent the same Legion as the variant of Legiones
+Astartes (X) that is being replaced.</description>
+    </rule>
+    <rule name="The Black Shield" id="6e86-7bd0-718c-1d20" hidden="false">
+      <description>You can include Crysos Morturg model in a Blackshields
+Detachment. When you do so, replace this model’s Legiones
+Astartes (Death Guard) Special Rule with the Legiones Astartes
+(Blackshields) Special Rule.
+In addition, if Crysos Morturg is selected as the army’s Warlord in
+a Blackshields Detachment he gains the Master of the Legion
+Special Rule.
+If Crysos Morturg is selected as the army’s Warlord in a
+Blackshields Detachment, you can include Death Guard Mortus
+Poisoner Squads as part of that Detachment. If you do so, replace
+their Legiones Astartes (Death Guard) Special Rule with the
+Legiones Astartes (Blackshields) Special Rule.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

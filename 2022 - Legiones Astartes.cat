@@ -46397,15 +46397,16 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
           <profiles>
             <profile id="9cd1-a767-040d-a4a2" name="Kratos Battlecannon - AP Shells" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
               <characteristics>
-                <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
+                <characteristic name="Range" typeId="95ba-cda7-b831-6066">60&quot;</characteristic>
                 <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
                 <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
-                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 2, Sunder</characteristic>
+                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 2, Sunder, Brutal (2)</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
             <infoLink id="02f9-aa47-047e-4fbb" name="Sunder" hidden="false" targetId="20e2-75cf-bc16-cd8f" type="rule"/>
+            <infoLink name="Brutal (X)" id="27f9-be58-19a8-8361" hidden="false" type="rule" targetId="5079-1fec-d32b-8b84"/>
           </infoLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -46422,7 +46423,7 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
                 <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
                 <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
                 <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
-                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Armourbane (Ranged), Gets Hot</characteristic>
+                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Armourbane (Ranged), Wrecker, Gets Hot</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -46433,6 +46434,7 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
               </modifiers>
             </infoLink>
             <infoLink id="8118-9d39-bd72-be82" name="Gets Hot" hidden="false" targetId="679f-9d97-5ace-a652" type="rule"/>
+            <infoLink name="Wrecker" id="9440-a93a-78fe-8876" hidden="false" type="rule" targetId="ba77-a802-55df-da67"/>
           </infoLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
@@ -46446,16 +46448,18 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
           <profiles>
             <profile id="5657-ad47-a153-1a44" name="Kratos Battlecannon - HE Shells" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
               <characteristics>
-                <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
+                <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
                 <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
                 <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Large Blast (5&quot;), Pinning</characteristic>
+                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Large Blast (5&quot;), Pinning, Rupture (4+), Breaching (6+)</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
             <infoLink id="c1a7-fdd3-c03b-ceed" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
             <infoLink id="38a6-886b-6865-48f7" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule"/>
+            <infoLink name="Rupture (X)" id="4752-eb3c-59ba-1c5a" hidden="false" type="rule" targetId="0031-12d9-3b2e-a574"/>
+            <infoLink name="Breaching (X)" id="dc12-90fd-31ad-ca2d" hidden="false" type="rule" targetId="a760-f736-1bf3-fa3c"/>
           </infoLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>

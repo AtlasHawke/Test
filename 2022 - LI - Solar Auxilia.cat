@@ -9259,7 +9259,6 @@ While at least one model with a Command Vox is present on the battlefield and n
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="5f03-fa8d-d4fb-5bc9" name="Stormhammer Cannon" hidden="false" collective="false" import="true" targetId="7106-774e-c031-6902" type="selectionEntry">
-          <comment>Placeholder</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="139b-3c0c-0eb8-cbee" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9867-03ff-6252-bdfc" type="max"/>
