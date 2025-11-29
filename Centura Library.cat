@@ -159,6 +159,9 @@
               <comment>!BSC Errors from 20240406-1603
 Could not find wargear The Master-Crafted Special Rule
 	 Checked under The Master-Crafted Special Rule</comment>
+              <infoLinks>
+                <infoLink name="Master-crafted" id="f3e6-5802-4e0a-97da" hidden="false" type="rule" targetId="6de0-55b0-bf21-48b9"/>
+              </infoLinks>
             </selectionEntryGroup>
             <selectionEntryGroup name="The Legion Indomitus Praetor may take a:" id="0d71-8201-419e-a101">
               <entryLinks>
@@ -197,6 +200,7 @@ Could not find wargear in A Legion Indomitus Praetor may upgrade any one weapon 
           </modifiers>
         </infoLink>
         <infoLink name="Master of the Legion" hidden="false" type="rule" targetId="c772-87ea-d49c-c7ba" id="8049-0dfa-4fd7-b35b"/>
+        <infoLink name="independent character" id="0fbf-4600-6924-de41" hidden="false" type="rule" targetId="65ab-8a7c-23fc-c108"/>
       </infoLinks>
       <comment>!BSC Errors from 20240406-1603
 Could not find rule: Independent Character
@@ -6975,6 +6979,9 @@ Could not find wargear Legion Indomitus Terminator Armour
 Could not find rule: Independent Character
 Combi-Bolter is in two option lists for Legion Indomitus Centurion, you will need to combine them by hand.
 Power Weapon is in two option lists for Legion Indomitus Centurion, you will need to combine them by hand.</comment>
+      <entryLinks>
+        <entryLink import="true" name="Legiones Consularis" hidden="false" id="9f2b-9fb5-88e8-0903" collective="false" targetId="3cbf-9466-2558-2c22" type="selectionEntryGroup"/>
+      </entryLinks>
     </selectionEntry>
   </selectionEntries>
 </catalogue>
