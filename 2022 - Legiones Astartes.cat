@@ -64492,6 +64492,26 @@ A model with the Infantry Unit Type that selects a Legion Scimitar jetbike as an
         </infoLink>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Achea Force Stave" hidden="false" id="0e26-9092-0203-dfee">
+      <profiles>
+        <profile name="Achea Force Stave" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="0843-9c60-a61c-f47e">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+1</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Reach (1), Achean Force</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Achean Force" id="c92b-2600-41a1-96b2" hidden="false" targetId="c56f-80ff-5d8e-1af4" type="rule"/>
+        <infoLink name="Reach (X)" id="8cc5-e4c1-efc1-d6ac" hidden="false" targetId="19bf-62a2-5737-890b" type="rule">
+          <modifiers>
+            <modifier type="set" value="Reach (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="61a2-7005-1e6c-c08e" name="Hexagrammaton Choice:" hidden="true" collective="false" import="true">
@@ -66732,6 +66752,28 @@ Hit rolls for each attack, for a total of 24 To Hit rolls over the full 6 attack
           </costs>
         </entryLink>
       </entryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Achea Force Stave" hidden="true" id="ee30-6625-580a-a15f">
+          <profiles>
+            <profile name="Achea Force Stave" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="fe0f-4514-2994-45b3">
+              <characteristics>
+                <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+                <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+1</characteristic>
+                <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Reach (1), Achean Force</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Achean Force" id="7c6e-44ac-0319-2bc2" hidden="false" targetId="c56f-80ff-5d8e-1af4" type="rule"/>
+            <infoLink name="Reach (X)" id="8813-f564-71f1-57e2" hidden="false" targetId="19bf-62a2-5737-890b" type="rule">
+              <modifiers>
+                <modifier type="set" value="Reach (1)" field="name"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="8b46-faad-df3a-6929" name="Terminator Melee Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="4123-9851-52ba-4f34">
       <modifiers>
@@ -67031,6 +67073,28 @@ Hit rolls for each attack, for a total of 24 To Hit rolls over the full 6 attack
         <entryLink id="e65d-3d7a-a10f-5e05" name="Achea Force Axe" hidden="false" collective="false" import="true" targetId="d27f-9247-2c27-4450" type="selectionEntry"/>
         <entryLink id="203d-c8fd-c806-faa2" name="Achea Force Maul" hidden="false" collective="false" import="true" targetId="126d-534d-dcb0-e931" type="selectionEntry"/>
       </entryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Achea Force Stave" hidden="false" id="6490-306e-2fc1-cbd4">
+          <profiles>
+            <profile name="Achea Force Stave" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="2339-ac56-56ff-11ee">
+              <characteristics>
+                <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+                <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+1</characteristic>
+                <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Reach (1), Achean Force</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Achean Force" id="036f-54a1-f425-cdbc" hidden="false" targetId="c56f-80ff-5d8e-1af4" type="rule"/>
+            <infoLink name="Reach (X)" id="a6b5-a428-b122-86ed" hidden="false" targetId="19bf-62a2-5737-890b" type="rule">
+              <modifiers>
+                <modifier type="set" value="Reach (1)" field="name"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="87f6-1951-d3b4-37dd" name="Chainsword (all)" hidden="false" collective="false" import="true" defaultSelectionEntryId="8c6c-7028-af50-2cdd">
       <constraints>
@@ -67714,6 +67778,83 @@ Hit rolls for each attack, for a total of 24 To Hit rolls over the full 6 attack
           </modifiers>
         </entryLink>
       </entryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Psychic Discipline: Sinistrum (Thousand Sons Only)" hidden="false" id="ca4d-da17-d6d8-23dc">
+          <infoLinks>
+            <infoLink name="Aetheric Lightning" id="e2fa-7f78-139f-94d8" hidden="false" targetId="3d0c-e779-247f-0332" type="profile"/>
+            <infoLink name="Psychic Focus" id="765e-b79a-e6b1-c2e7" hidden="false" targetId="bff3-3548-b2b8-72f1" type="rule"/>
+            <infoLink name="Force" id="50a6-4bae-fb54-abfe" hidden="false" targetId="f39e-4c3b-38e0-0050" type="rule"/>
+            <infoLink name="Heavy Beam" id="a11b-eb12-4da4-6cbc" hidden="false" type="rule" targetId="24e7-27da-9bf7-f096"/>
+            <infoLink name="Crawling Fire" id="9375-fbf3-1a9c-9a44" hidden="false" type="rule" targetId="8258-a7af-e4df-531d"/>
+            <infoLink name="Blast" id="bad7-e346-f3c3-ee3c" hidden="false" type="rule" targetId="1d9a-73ef-5f4f-8bd8"/>
+          </infoLinks>
+          <profiles>
+            <profile name="Ancient Fury" typeId="cede-0217-1b10-2a34" typeName="Psychic Weapon" hidden="false" id="8306-9820-5395-329a">
+              <characteristics>
+                <characteristic name="Range" typeId="62ec-fbf5-5252-0d17">18&quot;</characteristic>
+                <characteristic name="Strength" typeId="17ff-12e7-77d3-2fbe">6</characteristic>
+                <characteristic name="AP" typeId="f431-a7b9-d9d0-36c9">4</characteristic>
+                <characteristic name="Type" typeId="2159-62b6-4337-d516">Assault 1, Heavy Beam, Breaching (5+), Psychic Focus</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Wrathful Fire" typeId="cede-0217-1b10-2a34" typeName="Psychic Weapon" hidden="false" id="0603-6b26-efec-4817">
+              <characteristics>
+                <characteristic name="Range" typeId="62ec-fbf5-5252-0d17">18&quot;</characteristic>
+                <characteristic name="Strength" typeId="17ff-12e7-77d3-2fbe">5</characteristic>
+                <characteristic name="AP" typeId="f431-a7b9-d9d0-36c9">3</characteristic>
+                <characteristic name="Type" typeId="2159-62b6-4337-d516">Assault 1, Blast (3&quot;), Crawling Fire, Psychic Focus</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Veil of Time" typeId="5405-b3c6-e8d0-4e77" typeName="Psychic Power" hidden="false" id="1e7c-528e-8a6b-9fdd">
+              <characteristics>
+                <characteristic name="Description" typeId="4c0f-7e2f-586c-9305">Instead of making a Shooting Attack, a Psyker with this Psychic Power may choose to take a Psychic Test. If the test is passed, select a single friendly
+unit within 6” – this unit gains the Shrouded (5+) and Fleet (2) Special Rules until the start of the Controlling Player’s Next Game Turn. If the test is
+failed, then the target unit gains no benefit and the Psyker suffers Perils of the Warp.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule name="Psychic Discipline: Sinistrum" id="b1fe-fc61-1a54-0716" hidden="false">
+              <description>A Psyker with this Discipline gains all the listed Powers, weapons and other Special Rules, as well as the Aetheric Lightning Psychic Weapon
+
+Ancient Fury (Psychic Weapon)
+Wrathful Fire (Psychic Weapon)
+Veil of Time (Psychic Power)</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Psychic Discipline: Geomancy (Thousand Sons Only)" hidden="false" id="193f-71f6-d4b0-95e4">
+          <infoLinks>
+            <infoLink name="Aetheric Lightning" id="62ed-cee8-1b74-b62e" hidden="false" targetId="3d0c-e779-247f-0332" type="profile"/>
+            <infoLink name="Force" id="58c5-d930-3e2e-2307" hidden="false" targetId="f39e-4c3b-38e0-0050" type="rule"/>
+            <infoLink name="Psychic Focus" id="5bf7-5d11-5792-b16a" hidden="false" targetId="bff3-3548-b2b8-72f1" type="rule"/>
+            <infoLink name="Ignores Cover" id="0014-ed17-d5c4-28da" hidden="false" type="rule" targetId="fdb5-59e2-c446-1cbc"/>
+            <infoLink name="Barrage" id="86f8-298b-2ef3-af17" hidden="false" type="rule" targetId="7255-b5ee-c3f4-3037"/>
+            <infoLink name="Blast" id="ec44-2717-912e-dcc9" hidden="false" type="rule" targetId="1d9a-73ef-5f4f-8bd8"/>
+          </infoLinks>
+          <profiles>
+            <profile name="Sundered Earth" typeId="cede-0217-1b10-2a34" typeName="Psychic Weapon" hidden="false" id="26a9-f2ef-46ff-0123">
+              <characteristics>
+                <characteristic name="Range" typeId="62ec-fbf5-5252-0d17">24&quot;</characteristic>
+                <characteristic name="Strength" typeId="17ff-12e7-77d3-2fbe">5</characteristic>
+                <characteristic name="AP" typeId="f431-a7b9-d9d0-36c9">4</characteristic>
+                <characteristic name="Type" typeId="2159-62b6-4337-d516">Assault 1, Barrage, Ignores Cover, Massive Blast (7&quot;), Psychic Focus</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Warp Quake" typeId="5405-b3c6-e8d0-4e77" typeName="Psychic Power" hidden="false" id="9ae5-7ef5-fd38-5702">
+              <characteristics>
+                <characteristic name="Description" typeId="4c0f-7e2f-586c-9305">Instead of making a Shooting Attack, a Psyker with this Psychic Power may choose to take a Psychic Test. If the test is passed, select a single single
+enemy unit, Building, Ruin, or Fortification within 24”.
+If this unit is a Vehicle, Building, Fortification, or ruin, roll a D6 – on a roll of 1, nothing happens. On a roll of 2-4, it suffers an immediate Glancing
+Hit. On a roll of a 5 or 6, it suffers an immediate Penetrating Hit. Attacks with this weapon have no AP value.
+If the selected unit is not any of the types listed above, each model must take an immediate Initiative Test with a -1 modifier. If they fail, they suffer a
+single wound with an AP value of 4, and the unit they are in is immediately counted as having failed a Pinning Test.
+If the test is failed, then a target unit may not be selected, and the Psyker suffers Perils of the Warp.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="eeb8-0216-3d95-f0da" name="Terminator Lightning Claws" hidden="false" collective="false" import="true" defaultSelectionEntryId="46a5-4775-ba65-fd6a">
       <constraints>
