@@ -67854,6 +67854,7 @@ If the test is failed, then a target unit may not be selected, and the Psyker su
             </profile>
           </profiles>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Dumbass" hidden="false" id="b06f-964f-2d6a-eacd"/>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="eeb8-0216-3d95-f0da" name="Terminator Lightning Claws" hidden="false" collective="false" import="true" defaultSelectionEntryId="46a5-4775-ba65-fd6a">
