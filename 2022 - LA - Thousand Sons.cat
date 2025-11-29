@@ -3044,7 +3044,6 @@
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Possessed Legionnaires" hidden="false" id="2b1c-4a0a-6c4e-7757" type="selectionEntry" targetId="f928-6ae6-4699-ba2b"/>
-    <entryLink import="true" name="Legion Indomitus Centurion" hidden="false" id="79f8-6c55-6085-87a1" type="selectionEntry" targetId="4d40-5fee-4219-8354"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="d3ad-275c-e22b-a28f" name="Ammitara Occult Intercession Cabal" hidden="false" collective="false" import="true" type="unit">
