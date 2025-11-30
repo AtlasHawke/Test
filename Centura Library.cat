@@ -3423,6 +3423,7 @@ Could not find rule: Unstable Internment</comment>
                     <condition type="atLeast" value="1" field="selections" scope="parent" childId="0555-ec41-9da6-5ad6" shared="true"/>
                   </conditions>
                 </modifier>
+                <modifier type="set" value="1" field="defaultAmount"/>
               </modifiers>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="407e-13fa-9131-0ca1"/>
@@ -3463,7 +3464,6 @@ Could not find rule: Unstable Internment</comment>
               <selectionEntryGroups>
                 <selectionEntryGroup name="0) Bolter:" id="69dd-a0c3-ce11-9892" hidden="false" collective="false" import="true" defaultSelectionEntryId="5aa6-5888-d992-a73a">
                   <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="a6ff-3b01-9053-e070" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="a5db-92a8-95e1-1a68" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </constraints>
                   <entryLinks>
@@ -3658,6 +3658,7 @@ Could not find rule: Unstable Internment</comment>
                     <condition type="atLeast" value="1" field="selections" scope="parent" childId="0555-ec41-9da6-5ad6" shared="true"/>
                   </conditions>
                 </modifier>
+                <modifier type="set" value="1" field="defaultAmount"/>
               </modifiers>
             </selectionEntry>
           </selectionEntries>
