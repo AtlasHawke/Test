@@ -3306,6 +3306,9 @@ THIS IS A TEMPORARY NOTIFICATION THAT WILL BE REMOVED IN A FEW MONTHS WHEN HOPEF
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">-</characteristic>
             <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 4, Pinning, Shell Shock (1)</characteristic>
           </characteristics>
+          <modifiers>
+            <modifier type="append" value="Twin-Linked" field="2f86-c8b4-b3b4-3ff9"/>
+          </modifiers>
         </profile>
       </profiles>
       <infoLinks>

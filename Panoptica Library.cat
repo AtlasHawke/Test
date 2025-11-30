@@ -659,6 +659,23 @@ Sometimes, a unit that an Independent Character has joined will be the target of
 
 Conversely, if an Independent Character joins a unit after that unit has been the target of an ongoing effect (or joins a unit after they themselves have been the target of an ongoing effect), benefits and penalties from that effect are not shared.</description>
     </rule>
+    <rule name="Fire Points (Arc, X)" id="ae93-0355-aa32-7169" hidden="false">
+      <description>A Fire Point is unique in that it is a mount that does not include any weapons, instead it allows models Embarked upon the Fortification to fire the weapons they are equipped with from the Building. A Fire Point will note both the arc into which it can fire as well as the number of embarked models that can fire from it. Embarked models firing from a Fire Point measure their range and line of sight from the openings on the model that denote the Fire Point and may fire any Ranged weapons they are equipped with as per the normal rules for Shooting. If not otherwise stated, two models may fire from a Fire Point.</description>
+    </rule>
+    <rule name="Emplacement Mounted" id="1aa8-32d7-6ec9-a5c9" hidden="false">
+      <description>An Emplacement Mounted weapon may fire into any arc, but may only be fired if at least one model from the unit that currently Claims the Fortification is either in base contact with the weapon or Embarked in the building upon which it is mounted. When being used to make attacks, the BS of the model is used rather than the BS of the Fortification.</description>
+    </rule>
+    <rule name="Volatile Ordnance" id="94c7-0e2a-1073-c10a" hidden="false">
+      <description>All weapons with the Heavy Type a model with this Special Rule is
+equipped with have the Gets Hot Special Rule. As long as at least one
+Havoc Master is present in the squad, the unit may ignore the first
+Gets Hot result it suffers per phase.</description>
+    </rule>
+    <rule name="Unstable Internment" id="5cc5-42bb-16b3-9f79" hidden="false">
+      <description>A model with this Special Rule must always attempt to make a Charge
+or Sweeping Advance if it is possible to do so.
+A model with this Special Rule can never count as Scoring.</description>
+    </rule>
   </sharedRules>
   <sharedSelectionEntries>
     <selectionEntry name="Adrastus Bolt Caliver - Bolt Volley" type="upgrade" id="8c95-14de-426e-a476">
@@ -11339,6 +11356,18 @@ In addition, all models with a Scapuli-Pattern Thruster Pack that have been acti
           </constraints>
         </entryLink>
       </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Aspectum-Pattern Occularis Array" hidden="false" id="239e-9517-c9c5-6977">
+      <profiles>
+        <profile name="Aspectum-Pattern Occularis Array" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="176c-02b3-34a9-1f86">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model armed with this wargear has the Night Vision Special Rule,
+and any enemy model targeted by a Shooting Attack from this
+model suffers a -1 penalty to all Cover Saves it makes as a result of
+attacks made by this model.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
   </sharedSelectionEntries>
   <categoryEntries>
