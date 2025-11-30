@@ -181,8 +181,7 @@ Could not find wargear The Master-Crafted Special Rule
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="6467-e753-4190-810c" name="Character" primary="false"/>
             <categoryLink targetId="9231-183c-b97b-63f9" id="577a-2ded-4c5e-b2c9" name="Heavy Sub-type:" primary="false"/>
           </categoryLinks>
-          <comment>
-Could not find wargear in A Legion Indomitus Praetor may upgrade any one weapon to have:</comment>
+          <comment>Could not find wargear in A Legion Indomitus Praetor may upgrade any one weapon to have:</comment>
           <entryLinks>
             <entryLink import="true" name="Indomitus Terminator Armour" hidden="false" id="d854-3fb0-3df8-b087" type="selectionEntry" targetId="289a-3c8d-4151-83af"/>
           </entryLinks>
@@ -200,8 +199,6 @@ Could not find wargear in A Legion Indomitus Praetor may upgrade any one weapon 
         <infoLink name="Master of the Legion" hidden="false" type="rule" targetId="c772-87ea-d49c-c7ba" id="8049-0dfa-4fd7-b35b"/>
         <infoLink name="independent character" id="a983-2aac-135f-270f" hidden="false" type="rule" targetId="65ab-8a7c-23fc-c108"/>
       </infoLinks>
-      <comment>
-</comment>
     </selectionEntry>
     <selectionEntry name="Legion Indomitus Centurion" type="unit" id="4d40-5fee-4219-8354" page="7" publicationId="3970-79bb-bdc6-9599">
       <categoryLinks>
@@ -1294,8 +1291,7 @@ Power Weapon is in two option lists for Legion Saturnine Centurion, you will nee
         </infoLink>
       </infoLinks>
       <comment>!BSC Errors from 20240406-1603
-The option &apos;Havoc Launcher&apos; may need a &apos;multiply by number of models&apos; modifier
-</comment>
+The option &apos;Havoc Launcher&apos; may need a &apos;multiply by number of models&apos; modifier</comment>
     </selectionEntry>
     <selectionEntry name="Legion Contemptor Centurion" type="unit" id="af55-3d23-4179-b438" page="10" publicationId="3970-79bb-bdc6-9599">
       <categoryLinks>
@@ -1864,6 +1860,17 @@ Could not find type or subtype &apos;Dreadnought&apos;</comment>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cca2-e0ea-467e-ac0c"/>
                   </constraints>
                 </entryLink>
+                <entryLink import="true" name="Gravis Heavy Bolter Battery" hidden="false" id="4e83-2343-f7ff-d6f2" type="selectionEntry" targetId="a160-9267-67ac-4546">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="70db-33c6-487c-e0ab"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="set" value="Two Sponson Mounted Heavy Bolter Batteries" field="name"/>
+                  </modifiers>
+                </entryLink>
               </entryLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="12a6-9be4-4c43-a3b5"/>
@@ -1871,16 +1878,6 @@ Could not find type or subtype &apos;Dreadnought&apos;</comment>
               <comment>!BSC Errors from 20240406-1603
 Could not find wargear Two Sponson Mounted Gravis Heavy Bolter Batteries
 	 Checked under Gravis Heavy Bolter Batterie</comment>
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Two Sponson Mounted Gravis Heavy Bolter Batteries" hidden="false" id="c10f-01f7-56d3-a20a">
-                  <entryLinks>
-                    <entryLink import="true" name="Gravis Heavy Bolter Battery" hidden="false" id="4e83-2343-f7ff-d6f2" type="selectionEntry" targetId="a160-9267-67ac-4546"/>
-                  </entryLinks>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="25fe-747b-81f2-f9bc"/>
-                  </constraints>
-                </selectionEntry>
-              </selectionEntries>
             </selectionEntryGroup>
             <selectionEntryGroup name="The Legion Land Raider Dionysus may take one of the following:" id="0929-dc90-4861-9f4c">
               <entryLinks>
@@ -2001,8 +1998,6 @@ Could not find wargear Two Sponson Mounted Gravis Heavy Bolter Batteries
             <categoryLink targetId="9b0d-738c-10e4-4ec1" id="a653-c454-48c6-8271" name="Reinforced Sub-type:" primary="false"/>
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="59e8-806f-427e-a53e" name="Character" primary="false"/>
           </categoryLinks>
-          <comment>
-</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
