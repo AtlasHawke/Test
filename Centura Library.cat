@@ -3394,6 +3394,7 @@ Could not find rule: Unstable Internment</comment>
             </profile>
           </profiles>
           <constraints>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="a4dc-8078-2d1a-0814"/>
             <constraint type="max" value="0" field="selections" scope="f928-6ae6-4699-ba2b" shared="true" id="b0d7-e54f-b8f1-3846"/>
           </constraints>
           <entryLinks>
