@@ -3458,7 +3458,7 @@ Could not find rule: Unstable Internment</comment>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cec1-d747-9d6d-3a74"/>
               </constraints>
               <selectionEntryGroups>
-                <selectionEntryGroup name="0) Bolter:" id="69dd-a0c3-ce11-9892" hidden="false" collective="false" import="true" defaultSelectionEntryId="2276-464e-f684-669b">
+                <selectionEntryGroup name="0) Bolter:" id="69dd-a0c3-ce11-9892" hidden="false" collective="false" import="true" defaultSelectionEntryId="5aa6-5888-d992-a73a">
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="a6ff-3b01-9053-e070" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="a5db-92a8-95e1-1a68" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
@@ -3473,19 +3473,6 @@ Could not find rule: Unstable Internment</comment>
                       </costs>
                     </entryLink>
                     <entryLink import="true" name="Bolter" hidden="false" id="5aa6-5888-d992-a73a" collective="false" targetId="a080-c391-6083-5e5d" type="selectionEntry">
-                      <modifiers>
-                        <modifier type="set" value="true" field="hidden">
-                          <conditionGroups>
-                            <conditionGroup type="or">
-                              <conditions>
-                                <condition type="atLeast" value="1" field="selections" scope="ad97-c090-fa67-696f" childId="db53-8568-775f-1ab9" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-                                <condition type="atLeast" value="1" field="selections" scope="ad97-c090-fa67-696f" childId="1941-21b5-932c-74d6" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-                                <condition type="atLeast" value="1" field="selections" scope="force" childId="c7be-f327-8718-3dfb" shared="true" includeChildSelections="true"/>
-                              </conditions>
-                            </conditionGroup>
-                          </conditionGroups>
-                        </modifier>
-                      </modifiers>
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="2cf3-df75-3805-94fe" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                       </constraints>
@@ -3624,22 +3611,6 @@ Could not find rule: Unstable Internment</comment>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1cd9-86d6-12d2-51aa"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="2 Twisted Talons" id="86d8-b700-f421-9cca" hidden="false">
-              <entryLinks>
-                <entryLink import="true" name="2 Twisted Talons" hidden="false" id="32f5-3cd2-3bc2-29c2" type="selectionEntry" targetId="9f7d-5bdf-2cfa-1f68">
-                  <modifiers>
-                    <modifier type="set" value="2 Twisted Talons" field="name"/>
-                  </modifiers>
-                </entryLink>
-              </entryLinks>
-              <modifiers>
-                <modifier type="set" value="true" field="hidden">
-                  <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="0555-ec41-9da6-5ad6" shared="true"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
             <categoryLink name="Infantry:" hidden="false" id="dfe7-bb59-ad7a-00da" targetId="8b4f-bfe2-ce7b-f1b1" primary="false"/>
@@ -3656,6 +3627,27 @@ Could not find rule: Unstable Internment</comment>
               </repeats>
             </modifier>
           </modifiers>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="2 Twisted Talons" hidden="false" id="88de-94d0-5e25-ace7">
+              <profiles>
+                <profile name="2 Twisted Talons" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="9b90-1138-f974-150a">
+                  <characteristics>
+                    <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+                    <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+1</characteristic>
+                    <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+                    <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Rending (6+)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Rending (X)" id="a964-7c03-1e86-6965" hidden="false" type="rule" targetId="0ac9-fab7-aef3-de1d">
+                  <modifiers>
+                    <modifier type="set" value="Rending (6+)" field="name"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Possessed Legionary" hidden="false" id="e212-b057-81e4-5648" page="21" publicationId="3970-79bb-bdc6-9599" collective="true">
           <profiles>
@@ -3700,30 +3692,7 @@ Could not find rule: Unstable Internment</comment>
             </entryLink>
           </entryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup name="2 Twisted Talons" id="eda2-9e8b-5751-4243" hidden="false" defaultSelectionEntryId="9f7d-5bdf-2cfa-1f68">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="2 Twisted Talons" hidden="false" id="c455-0d44-44fd-6ee1">
-                  <profiles>
-                    <profile name="2 Twisted Talons" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="a9ec-1e5e-91f9-96cc">
-                      <characteristics>
-                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
-                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+1</characteristic>
-                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Rending (6+)</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <infoLinks>
-                    <infoLink name="Rending (X)" id="23b9-4c1f-6696-4a52" hidden="false" type="rule" targetId="0ac9-fab7-aef3-de1d">
-                      <modifiers>
-                        <modifier type="set" value="Rending (6+)" field="name"/>
-                      </modifiers>
-                    </infoLink>
-                  </infoLinks>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="0) Bolter:" id="b06f-1b6e-10d5-f41f" hidden="false" collective="false" import="true" defaultSelectionEntryId="2276-464e-f684-669b">
+            <selectionEntryGroup name="0) Bolter:" id="b06f-1b6e-10d5-f41f" hidden="false" collective="false" import="true" defaultSelectionEntryId="13e9-9f84-5813-0695">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="1139-accb-e076-60be" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="66de-96f6-c2b7-72f1" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
@@ -3738,19 +3707,6 @@ Could not find rule: Unstable Internment</comment>
                   </costs>
                 </entryLink>
                 <entryLink import="true" name="Bolter" hidden="false" id="13e9-9f84-5813-0695" collective="false" targetId="a080-c391-6083-5e5d" type="selectionEntry">
-                  <modifiers>
-                    <modifier type="set" value="true" field="hidden">
-                      <conditionGroups>
-                        <conditionGroup type="or">
-                          <conditions>
-                            <condition type="atLeast" value="1" field="selections" scope="ad97-c090-fa67-696f" childId="db53-8568-775f-1ab9" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-                            <condition type="atLeast" value="1" field="selections" scope="ad97-c090-fa67-696f" childId="1941-21b5-932c-74d6" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-                            <condition type="atLeast" value="1" field="selections" scope="force" childId="c7be-f327-8718-3dfb" shared="true" includeChildSelections="true"/>
-                          </conditions>
-                        </conditionGroup>
-                      </conditionGroups>
-                    </modifier>
-                  </modifiers>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="5b70-739a-f56d-8538" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </constraints>
@@ -3865,6 +3821,27 @@ Could not find rule: Unstable Internment</comment>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
           </costs>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="2 Twisted Talons" hidden="false" id="3090-6a9d-f6cc-4c84">
+              <profiles>
+                <profile name="2 Twisted Talons" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="afae-675a-eb83-f358">
+                  <characteristics>
+                    <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+                    <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+1</characteristic>
+                    <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+                    <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Rending (6+)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Rending (X)" id="a30b-a2d2-854c-276e" hidden="false" type="rule" targetId="0ac9-fab7-aef3-de1d">
+                  <modifiers>
+                    <modifier type="set" value="Rending (6+)" field="name"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
