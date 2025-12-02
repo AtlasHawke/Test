@@ -5915,14 +5915,16 @@ Bolt Pistol is in two option lists for Legion Sky-Seeker, you will need to combi
                             <modifier type="set" value="Volkite Cavalier (with Suspensor Web)" field="name"/>
                           </modifiers>
                           <entryLinks>
-                            <entryLink import="true" name="Suspensor Web" hidden="false" id="a703-8b9a-b193-4692" type="selectionEntry" targetId="062d-4882-4ade-a325"/>
+                            <entryLink import="true" name="Suspensor Web" hidden="false" id="a703-8b9a-b193-4692" type="selectionEntry" targetId="062d-4882-4ade-a325">
+                              <constraints>
+                                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3c6c-3c06-5a1e-adc6-min"/>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3c6c-3c06-5a1e-adc6-max"/>
+                              </constraints>
+                            </entryLink>
                           </entryLinks>
                           <costs>
                             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
                           </costs>
-                          <constraints>
-                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cc08-8e61-f56f-d716"/>
-                          </constraints>
                         </entryLink>
                         <entryLink import="true" name="Meltagun" hidden="false" id="2290-85ba-5c8d-f4a8" type="selectionEntry" targetId="4ebd-57e0-3560-e568">
                           <costs>
