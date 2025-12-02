@@ -1138,7 +1138,7 @@ Power Weapon is in two option lists for Legion Saturnine Centurion, you will nee
           </profiles>
           <constraints>
             <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="c8f6-3ff9-78e3-3786"/>
-            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="78b7-a2cd-ce65-a10e"/>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="78b7-a2cd-ce65-a10e"/>
           </constraints>
           <selectionEntryGroups>
             <selectionEntryGroup name="Any model in the unit may exchange their Combi-Bolter with one of the following:" id="bfdb-1607-80fc-603e" hidden="false">
@@ -1272,10 +1272,10 @@ Power Weapon is in two option lists for Legion Saturnine Centurion, you will nee
             </entryLink>
           </entryLinks>
           <modifiers>
-            <modifier type="set" value="1" field="c8f6-3ff9-78e3-3786">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="10a1-9ca0-40bd-81fd" childId="e5e5-ff40-a6f5-8bc0" shared="true"/>
-              </conditions>
+            <modifier type="decrement" value="1" field="c8f6-3ff9-78e3-3786">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="10a1-9ca0-40bd-81fd" childId="e5e5-ff40-a6f5-8bc0" shared="true" roundUp="false"/>
+              </repeats>
             </modifier>
             <modifier type="decrement" value="1" field="78b7-a2cd-ce65-a10e">
               <repeats>
