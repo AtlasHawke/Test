@@ -1291,7 +1291,7 @@ Power Weapon is in two option lists for Legion Saturnine Centurion, you will nee
             </profile>
           </profiles>
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="10a1-9ca0-40bd-81fd" shared="true" id="cf51-b22c-cef8-8219"/>
+            <constraint type="max" value="0" field="selections" scope="10a1-9ca0-40bd-81fd" shared="true" id="cf51-b22c-cef8-8219"/>
           </constraints>
           <selectionEntryGroups>
             <selectionEntryGroup name="Any model in the unit may exchange their Combi-Bolter with one of the following:" id="ca68-4c38-6663-ccd2">
