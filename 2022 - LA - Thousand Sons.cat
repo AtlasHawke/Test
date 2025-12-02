@@ -3043,6 +3043,46 @@
         <categoryLink name="Heavy Support:" hidden="false" id="c36-d912-e401-3360" targetId="7031-469a-1aeb-eab0" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Legion Indomitus Centurion" hidden="false" id="783e-cdfb-2500-351d" type="selectionEntry" targetId="4d40-5fee-4219-8354">
+      <entryLinks>
+        <entryLink import="true" name="Retinue" hidden="false" id="30bd-933e-043d-57ca" collective="false" targetId="39e7-5296-42e0-fe94" type="selectionEntryGroup">
+          <comment>template_id_6e59-4592-47ef-b76d    template_targetId_be38-a066-4f8e-ae54</comment>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <comment>node_id_8287-16ff-46ba-9838</comment>
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="parent" childId="35d4-0dcd-f7d2-a6da" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false">
+                  <comment>node_id_81c1-fca9-44dc-ba4c</comment>
+                </condition>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Warlord Traits" hidden="false" id="bf8b-55c9-00aa-922b" collective="false" targetId="631b-b029-0909-b8f6" type="selectionEntryGroup">
+          <comment>template_id_2a38-6544-4267-b584    template_targetId_7dee-602c-4b47-be09</comment>
+        </entryLink>
+      </entryLinks>
+    </entryLink>
+    <entryLink import="true" name="Legion Saturnine Centurion" hidden="false" id="36ab-ee1e-90c2-af7d" type="selectionEntry" targetId="3e29-1bf1-48c9-b302">
+      <entryLinks>
+        <entryLink import="true" name="Retinue" hidden="false" id="6dbb-d92c-0295-dd57" collective="false" targetId="39e7-5296-42e0-fe94" type="selectionEntryGroup">
+          <comment>template_id_6e59-4592-47ef-b76d    template_targetId_be38-a066-4f8e-ae54</comment>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <comment>node_id_8287-16ff-46ba-9838</comment>
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="parent" childId="35d4-0dcd-f7d2-a6da" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false">
+                  <comment>node_id_81c1-fca9-44dc-ba4c</comment>
+                </condition>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Warlord Traits" hidden="false" id="ba7b-74f3-2e97-c950" collective="false" targetId="631b-b029-0909-b8f6" type="selectionEntryGroup">
+          <comment>template_id_2a38-6544-4267-b584    template_targetId_7dee-602c-4b47-be09</comment>
+        </entryLink>
+      </entryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="d3ad-275c-e22b-a28f" name="Ammitara Occult Intercession Cabal" hidden="false" collective="false" import="true" type="unit">
