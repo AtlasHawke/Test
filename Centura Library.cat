@@ -897,160 +897,6 @@ Power Weapon is in two option lists for Legion Saturnine Centurion, you will nee
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="40"/>
       </costs>
       <selectionEntries>
-        <selectionEntry type="model" name="Legion Indomitus Chosen" id="6b87-f7c7-406a-a4eb" page="9" publicationId="3970-79bb-bdc6-9599">
-          <profiles>
-            <profile id="d09d-8687-4c5d-98c1" name="Legion Indomitus Chosen" typeId="4bb2-cb95-e6c8-5a21">
-              <characteristics>
-                <characteristic typeId="893e-2d76-8f04-44e5" name="Move">6</characteristic>
-                <characteristic typeId="cc42-7ed5-7092-5c84" name="WS">5</characteristic>
-                <characteristic typeId="74ae-c840-0036-d244" name="BS">4</characteristic>
-                <characteristic typeId="e478-41d4-a092-48a8" name="S">4</characteristic>
-                <characteristic typeId="c32b-5fdd-3fbe-9b1f" name="T">4</characteristic>
-                <characteristic typeId="57ee-1126-32a9-5672" name="W">2</characteristic>
-                <characteristic typeId="62d3-22d7-2d49-52dc" name="I">4</characteristic>
-                <characteristic typeId="f111-2ce5-dd12-d6b0" name="A">2</characteristic>
-                <characteristic typeId="e8a6-1da9-d384-8727" name="Ld">8</characteristic>
-                <characteristic typeId="e593-6b3c-f169-04f0" name="Save">2+</characteristic>
-                <characteristic typeId="ddd7-6f5c-a939-b69e" name="Unit Type">Infantry (Heavy)</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <constraints>
-            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="922b-be1b-4fd0-bde2"/>
-            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="387b-79cf-49e6-b1e7"/>
-          </constraints>
-          <selectionEntryGroups>
-            <selectionEntryGroup name="Any model in the unit may exchange their Combi-Bolter with one of the following:" id="8270-f9ce-420e-a418">
-              <entryLinks>
-                <entryLink name="Combi-Bolter" hidden="false" type="selectionEntry" targetId="0f3d-c07c-7a7e-d534" id="576b-555c-447a-9a21">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="db82-84ee-4bf6-a6b4"/>
-                  </constraints>
-                </entryLink>
-                <entryLink name="Volkite Charger" hidden="false" type="selectionEntry" targetId="5c82-c306-9c5c-5908" id="1fc0-d487-4242-b120">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
-                  </costs>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6eaf-5999-403d-b5af"/>
-                  </constraints>
-                </entryLink>
-                <entryLink name="Minor Combi-Weapon" hidden="false" type="selectionEntry" targetId="605e-1b86-ca08-9226" id="c1f4-e6c7-4521-98f7">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
-                  </costs>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a8e9-ce0e-43c2-b016"/>
-                  </constraints>
-                </entryLink>
-                <entryLink name="Magna Combi-Weapon" hidden="false" type="selectionEntry" targetId="e5b1-83e5-7272-a59e" id="d009-6380-4430-9231">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
-                  </costs>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6f23-1b0e-4305-9dfd"/>
-                  </constraints>
-                </entryLink>
-                <entryLink name="Proteus Pattern Storm Shield" hidden="false" type="selectionEntry" targetId="e1c6-886d-4048-93ed" id="7431-1e7a-4dad-9ab6">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
-                  </costs>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8b02-c3bf-44ea-85f0"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ae07-56f9-43e3-afb2"/>
-              </constraints>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="Any model in the unit may exchange their Power Weapon with one of the following:" id="60bd-baff-4c7a-9d1c">
-              <entryLinks>
-                <entryLink name="Power Weapon" hidden="false" type="selectionEntry" targetId="36a7-1c39-670c-5fec" id="c331-cff9-401a-8acb">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b07c-f6ef-49cb-b580"/>
-                  </constraints>
-                </entryLink>
-                <entryLink name="Lightning Claw" hidden="false" type="selectionEntry" targetId="2603-c45c-25ee-2a86" id="381b-114f-466e-a8ab">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
-                  </costs>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ecb9-c5ff-45fe-af20"/>
-                  </constraints>
-                </entryLink>
-                <entryLink name="Power Fist" hidden="false" type="selectionEntry" targetId="768d-b89b-7328-d749" id="d03e-c10e-46cf-8cc9">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
-                  </costs>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3e3a-be7b-4638-97f2"/>
-                  </constraints>
-                </entryLink>
-                <entryLink name="Chainfist" hidden="false" type="selectionEntry" targetId="1b03-1224-cd1a-6d3e" id="f7ef-2e2e-4fe9-a00e">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
-                  </costs>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0487-d508-4746-b9a7"/>
-                  </constraints>
-                </entryLink>
-                <entryLink name="Thunder Hammer" hidden="false" type="selectionEntry" targetId="e6cc-bfce-a4d9-301c" id="5c9f-82cf-4e31-9428">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
-                  </costs>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="385a-4b9a-4672-a8ed"/>
-                  </constraints>
-                </entryLink>
-                <entryLink name="Chainfist" hidden="false" type="selectionEntry" targetId="9c9c-346a-4c47-8715" id="8b49-8e6a-44bb-9327">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
-                  </costs>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6545-ee4d-4217-bf82"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2b01-6930-4695-b472"/>
-              </constraints>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="Any model in the unit may exchange their Power Weapon and Combi-Bolter for:" id="f45a-0208-44f5-91b4">
-              <entryLinks>
-                <entryLink name="Lightning Claw" hidden="false" type="selectionEntry" targetId="2603-c45c-25ee-2a86" id="75c2-82b9-46b6-b55a">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
-                  </costs>
-                  <modifiers>
-                    <modifier type="set" field="name" value="Two Lightning Claws"/>
-                  </modifiers>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d31f-95ce-4f15-b6b6"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="67de-d3a5-4613-ace4"/>
-              </constraints>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <categoryLinks>
-            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="b95e-ffe7-463e-84e6" name="Infantry:" primary="false"/>
-            <categoryLink targetId="9231-183c-b97b-63f9" id="ab81-5768-4afa-8f0d" name="Heavy Sub-type:" primary="false"/>
-          </categoryLinks>
-          <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
-          </costs>
-          <entryLinks>
-            <entryLink import="true" name="Indomitus Terminator Armour" hidden="false" id="f196-bf4b-e781-d8f4" type="selectionEntry" targetId="289a-3c8d-4151-83af">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2db1-aa65-1d6a-2b5d-min"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2db1-aa65-1d6a-2b5d-max"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
-        </selectionEntry>
         <selectionEntry type="model" name="Legion Indomitus Standard Bearer" id="c219-1777-48c8-bb0f" page="9" publicationId="3970-79bb-bdc6-9599">
           <profiles>
             <profile id="6fcc-81d1-4fe2-b479" name="Legion Indomitus Standard Bearer" typeId="4bb2-cb95-e6c8-5a21">
@@ -1272,173 +1118,332 @@ Power Weapon is in two option lists for Legion Saturnine Centurion, you will nee
             <categoryLink targetId="9231-183c-b97b-63f9" id="10c1-0bc3-4334-baaf" name="Heavy Sub-type:" primary="false"/>
           </categoryLinks>
         </selectionEntry>
-        <selectionEntry type="model" name="Legion Indomitus Chosen w/Havoc Launcher" id="8169-146a-549e-21fa" page="9" publicationId="3970-79bb-bdc6-9599">
-          <profiles>
-            <profile id="e5dd-5eae-dfc7-6de1" name="Legion Indomitus Chosen" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
-              <characteristics>
-                <characteristic typeId="893e-2d76-8f04-44e5" name="Move">6</characteristic>
-                <characteristic typeId="cc42-7ed5-7092-5c84" name="WS">5</characteristic>
-                <characteristic typeId="74ae-c840-0036-d244" name="BS">4</characteristic>
-                <characteristic typeId="e478-41d4-a092-48a8" name="S">4</characteristic>
-                <characteristic typeId="c32b-5fdd-3fbe-9b1f" name="T">4</characteristic>
-                <characteristic typeId="57ee-1126-32a9-5672" name="W">2</characteristic>
-                <characteristic typeId="62d3-22d7-2d49-52dc" name="I">4</characteristic>
-                <characteristic typeId="f111-2ce5-dd12-d6b0" name="A">2</characteristic>
-                <characteristic typeId="e8a6-1da9-d384-8727" name="Ld">8</characteristic>
-                <characteristic typeId="e593-6b3c-f169-04f0" name="Save">2+</characteristic>
-                <characteristic typeId="ddd7-6f5c-a939-b69e" name="Unit Type">Infantry (Heavy)</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <constraints>
-            <constraint type="max" value="0" field="selections" scope="10a1-9ca0-40bd-81fd" shared="true" id="cf51-b22c-cef8-8219"/>
-          </constraints>
-          <selectionEntryGroups>
-            <selectionEntryGroup name="Any model in the unit may exchange their Combi-Bolter with one of the following:" id="ca68-4c38-6663-ccd2">
-              <entryLinks>
-                <entryLink name="Combi-Bolter" hidden="false" type="selectionEntry" targetId="0f3d-c07c-7a7e-d534" id="e609-0612-a3aa-86de">
+        <selectionEntry type="upgrade" import="true" name="0) Chosen" hidden="false" id="0f7d-6d41-3f9f-a70f">
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Legion Indomitus Chosen" hidden="false" id="0963-c896-e326-28c2" page="9" publicationId="3970-79bb-bdc6-9599">
+              <profiles>
+                <profile name="Legion Indomitus Chosen" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="457e-3dc5-7711-ffe3">
+                  <characteristics>
+                    <characteristic typeId="ddd7-6f5c-a939-b69e" name="Unit Type">Infantry (Heavy)</characteristic>
+                    <characteristic typeId="893e-2d76-8f04-44e5" name="Move">6</characteristic>
+                    <characteristic typeId="cc42-7ed5-7092-5c84" name="WS">5</characteristic>
+                    <characteristic typeId="74ae-c840-0036-d244" name="BS">4</characteristic>
+                    <characteristic typeId="e478-41d4-a092-48a8" name="S">4</characteristic>
+                    <characteristic typeId="c32b-5fdd-3fbe-9b1f" name="T">4</characteristic>
+                    <characteristic typeId="57ee-1126-32a9-5672" name="W">2</characteristic>
+                    <characteristic typeId="62d3-22d7-2d49-52dc" name="I">4</characteristic>
+                    <characteristic typeId="f111-2ce5-dd12-d6b0" name="A">2</characteristic>
+                    <characteristic typeId="e8a6-1da9-d384-8727" name="Ld">8</characteristic>
+                    <characteristic typeId="e593-6b3c-f169-04f0" name="Save">2+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Any model in the unit may exchange their Combi-Bolter with one of the following:" id="81e1-a34f-f9c8-e6a1" hidden="false">
+                  <entryLinks>
+                    <entryLink import="true" name="Combi-Bolter" hidden="false" id="9116-fe89-9bf6-4075" type="selectionEntry" targetId="0f3d-c07c-7a7e-d534">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="315f-c0a3-e873-460d"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Volkite Charger" hidden="false" id="69b8-8063-6c5d-1d8c" type="selectionEntry" targetId="5c82-c306-9c5c-5908">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a2b9-6849-9164-92fb"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Minor Combi-Weapon" hidden="false" id="3a82-8d6b-f22e-7fff" type="selectionEntry" targetId="605e-1b86-ca08-9226">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e55a-4378-3bce-de5a"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Magna Combi-Weapon" hidden="false" id="a2f9-8ab3-ed90-a989" type="selectionEntry" targetId="e5b1-83e5-7272-a59e">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d48e-9d56-25b0-9ee2"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Proteus Pattern Storm Shield" hidden="false" id="f92c-26a0-554f-b794" type="selectionEntry" targetId="e1c6-886d-4048-93ed">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0f52-b824-762c-13be"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="84b5-9b78-a57e-7928"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dba5-3af4-8072-2b34"/>
                   </constraints>
-                </entryLink>
-                <entryLink name="Volkite Charger" hidden="false" type="selectionEntry" targetId="5c82-c306-9c5c-5908" id="6a26-be3a-4cbd-4c3c">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
-                  </costs>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Any model in the unit may exchange their Power Weapon with one of the following:" id="f905-df6e-1474-c615" hidden="false">
+                  <entryLinks>
+                    <entryLink import="true" name="Power Weapon" hidden="false" id="f8d8-8760-29e7-af4d" type="selectionEntry" targetId="36a7-1c39-670c-5fec">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c318-e3a7-8f0f-e9a6"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Lightning Claw" hidden="false" id="af6b-87dd-512f-8247" type="selectionEntry" targetId="2603-c45c-25ee-2a86">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b044-bd90-f7c8-6ff7"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Power Fist" hidden="false" id="721a-62cf-ae0a-08de" type="selectionEntry" targetId="768d-b89b-7328-d749">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8bd8-eff9-3f85-5cae"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Chainfist" hidden="false" id="c10c-8c3d-3d42-7696" type="selectionEntry" targetId="1b03-1224-cd1a-6d3e">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7174-0682-b632-779e"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Thunder Hammer" hidden="false" id="aac5-df57-76c6-7cd3" type="selectionEntry" targetId="e6cc-bfce-a4d9-301c">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d871-716f-e18a-f9ab"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Chainfist" hidden="false" id="f96a-5e78-eaf5-d0b5" type="selectionEntry" targetId="9c9c-346a-4c47-8715">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dc6e-6a8f-34dc-57d0"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f2d4-2982-ec87-e4ad"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8cf9-9cea-a4f7-69e5"/>
                   </constraints>
-                </entryLink>
-                <entryLink name="Minor Combi-Weapon" hidden="false" type="selectionEntry" targetId="605e-1b86-ca08-9226" id="fe1a-ca4a-7feb-dab3">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
-                  </costs>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Any model in the unit may exchange their Power Weapon and Combi-Bolter for:" id="570d-4244-78fb-090c" hidden="false">
+                  <entryLinks>
+                    <entryLink import="true" name="Lightning Claw" hidden="false" id="2a10-76be-2386-86e2" type="selectionEntry" targetId="2603-c45c-25ee-2a86">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                      </costs>
+                      <modifiers>
+                        <modifier type="set" value="Two Lightning Claws" field="name"/>
+                      </modifiers>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="de64-8c8b-d79c-3175"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1875-5239-404f-7ad8"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0269-1e0a-a2b2-9bca"/>
                   </constraints>
-                </entryLink>
-                <entryLink name="Magna Combi-Weapon" hidden="false" type="selectionEntry" targetId="e5b1-83e5-7272-a59e" id="bb23-6884-c005-a89f">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
-                  </costs>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="98b1-0384-3b6b-4205"/>
-                  </constraints>
-                </entryLink>
-                <entryLink name="Proteus Pattern Storm Shield" hidden="false" type="selectionEntry" targetId="e1c6-886d-4048-93ed" id="86b3-6c4f-ed6e-c219">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
-                  </costs>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="81b7-c58d-8100-44e0"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9bc7-20af-121d-f9ab"/>
-              </constraints>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="Any model in the unit may exchange their Power Weapon with one of the following:" id="81af-d614-7cbd-0476">
-              <entryLinks>
-                <entryLink name="Power Weapon" hidden="false" type="selectionEntry" targetId="36a7-1c39-670c-5fec" id="fde9-91c2-00bb-f111">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="41cc-d214-f41f-c6cf"/>
-                  </constraints>
-                </entryLink>
-                <entryLink name="Lightning Claw" hidden="false" type="selectionEntry" targetId="2603-c45c-25ee-2a86" id="7b82-3f32-5a16-064a">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
-                  </costs>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7183-d312-4738-bbc9"/>
-                  </constraints>
-                </entryLink>
-                <entryLink name="Power Fist" hidden="false" type="selectionEntry" targetId="768d-b89b-7328-d749" id="3841-389e-93f6-8afb">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
-                  </costs>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eb69-edbc-e64b-e7a0"/>
-                  </constraints>
-                </entryLink>
-                <entryLink name="Chainfist" hidden="false" type="selectionEntry" targetId="1b03-1224-cd1a-6d3e" id="6879-6a8b-825f-9249">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
-                  </costs>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4b46-5123-7840-2dfb"/>
-                  </constraints>
-                </entryLink>
-                <entryLink name="Thunder Hammer" hidden="false" type="selectionEntry" targetId="e6cc-bfce-a4d9-301c" id="10c7-a353-1a46-7ff7">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
-                  </costs>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b1cc-b659-59fb-f1d8"/>
-                  </constraints>
-                </entryLink>
-                <entryLink name="Chainfist" hidden="false" type="selectionEntry" targetId="9c9c-346a-4c47-8715" id="e1b7-607d-55a1-f7b3">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
-                  </costs>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9f31-bedc-4648-b97e"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="abfc-0828-eb39-094f"/>
-              </constraints>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="Any model in the unit may exchange their Power Weapon and Combi-Bolter for:" id="3ddd-7bfa-1b6b-1d89">
-              <entryLinks>
-                <entryLink name="Lightning Claw" hidden="false" type="selectionEntry" targetId="2603-c45c-25ee-2a86" id="9db5-05d1-08e1-8848">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
-                  </costs>
-                  <modifiers>
-                    <modifier type="set" field="name" value="Two Lightning Claws"/>
-                  </modifiers>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e570-39c4-45bb-c18c"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="337a-6035-38f5-f847"/>
-              </constraints>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <categoryLinks>
-            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="7524-9087-c436-e522" name="Infantry:" primary="false"/>
-            <categoryLink targetId="9231-183c-b97b-63f9" id="6422-af87-5af3-dbbb" name="Heavy Sub-type:" primary="false"/>
-          </categoryLinks>
-          <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="45"/>
-          </costs>
-          <entryLinks>
-            <entryLink import="true" name="Indomitus Terminator Armour" hidden="false" id="d943-610c-88eb-b7c4" type="selectionEntry" targetId="289a-3c8d-4151-83af">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7c3b-0684-9637-2086-min"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7c3b-0684-9637-2086-max"/>
-              </constraints>
-            </entryLink>
-            <entryLink import="true" name="Havoc Launcher" hidden="false" id="f9b2-cc75-6f4c-c818" type="selectionEntry" targetId="bde9-5abf-ec3d-2273">
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <categoryLinks>
+                <categoryLink name="Infantry:" hidden="false" id="bb05-1934-dddf-e35a" targetId="8b4f-bfe2-ce7b-f1b1" primary="false"/>
+                <categoryLink name="Heavy Sub-type:" hidden="false" id="72fa-1b4b-38ff-97dc" targetId="9231-183c-b97b-63f9" primary="false"/>
+              </categoryLinks>
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
               </costs>
+              <entryLinks>
+                <entryLink import="true" name="Indomitus Terminator Armour" hidden="false" id="3c03-c60a-2002-d5c5" type="selectionEntry" targetId="289a-3c8d-4151-83af">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="338d-13ec-3b43-4285-min"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="338d-13ec-3b43-4285-max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Legion Indomitus Chosen w/Havoc Launcher" hidden="false" id="e223-44ad-af99-ff30" page="9" publicationId="3970-79bb-bdc6-9599">
+              <profiles>
+                <profile name="Legion Indomitus Chosen" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="b42c-64e7-1715-6a2c">
+                  <characteristics>
+                    <characteristic typeId="ddd7-6f5c-a939-b69e" name="Unit Type">Infantry (Heavy)</characteristic>
+                    <characteristic typeId="893e-2d76-8f04-44e5" name="Move">6</characteristic>
+                    <characteristic typeId="cc42-7ed5-7092-5c84" name="WS">5</characteristic>
+                    <characteristic typeId="74ae-c840-0036-d244" name="BS">4</characteristic>
+                    <characteristic typeId="e478-41d4-a092-48a8" name="S">4</characteristic>
+                    <characteristic typeId="c32b-5fdd-3fbe-9b1f" name="T">4</characteristic>
+                    <characteristic typeId="57ee-1126-32a9-5672" name="W">2</characteristic>
+                    <characteristic typeId="62d3-22d7-2d49-52dc" name="I">4</characteristic>
+                    <characteristic typeId="f111-2ce5-dd12-d6b0" name="A">2</characteristic>
+                    <characteristic typeId="e8a6-1da9-d384-8727" name="Ld">8</characteristic>
+                    <characteristic typeId="e593-6b3c-f169-04f0" name="Save">2+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2f43-3f1c-a922-7303"/>
+                <constraint type="max" value="0" field="selections" scope="10a1-9ca0-40bd-81fd" shared="true" id="3914-a205-2f82-d18a"/>
+                <constraint type="max" value="2" field="selections" scope="10a1-9ca0-40bd-81fd" shared="true" id="d35a-7da0-4636-a352"/>
               </constraints>
-            </entryLink>
-          </entryLinks>
-          <modifiers>
-            <modifier type="increment" value="1" field="cf51-b22c-cef8-8219">
-              <repeats>
-                <repeat value="2" repeats="1" field="selections" scope="10a1-9ca0-40bd-81fd" childId="model" shared="true" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Any model in the unit may exchange their Combi-Bolter with one of the following:" id="35f6-8546-867f-37de" hidden="false">
+                  <entryLinks>
+                    <entryLink import="true" name="Combi-Bolter" hidden="false" id="03d9-d9b5-8200-cb97" type="selectionEntry" targetId="0f3d-c07c-7a7e-d534">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8b61-8014-84b1-c928"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Volkite Charger" hidden="false" id="f3a3-1f58-7f82-d795" type="selectionEntry" targetId="5c82-c306-9c5c-5908">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0a96-55e8-c41a-88ad"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Minor Combi-Weapon" hidden="false" id="61f2-afb1-fec6-2133" type="selectionEntry" targetId="605e-1b86-ca08-9226">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7978-3046-3a97-63f2"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Magna Combi-Weapon" hidden="false" id="d518-1228-180a-be65" type="selectionEntry" targetId="e5b1-83e5-7272-a59e">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e703-c3dc-9f30-7506"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Proteus Pattern Storm Shield" hidden="false" id="1b18-2476-7e4a-cb88" type="selectionEntry" targetId="e1c6-886d-4048-93ed">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6b60-921b-f172-5a57"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5198-c407-ef1f-d2fc"/>
+                  </constraints>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Any model in the unit may exchange their Power Weapon with one of the following:" id="e39d-f604-bf20-7b93" hidden="false">
+                  <entryLinks>
+                    <entryLink import="true" name="Power Weapon" hidden="false" id="5ba5-26f4-5a71-ca95" type="selectionEntry" targetId="36a7-1c39-670c-5fec">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4047-fba9-c616-ff05"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Lightning Claw" hidden="false" id="9c95-003b-5e5a-b094" type="selectionEntry" targetId="2603-c45c-25ee-2a86">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4a21-a8e1-71c8-ba36"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Power Fist" hidden="false" id="5c6d-83b4-0558-3c66" type="selectionEntry" targetId="768d-b89b-7328-d749">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c55a-f6cf-3f56-3028"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Chainfist" hidden="false" id="b5cc-a35e-3e19-fb29" type="selectionEntry" targetId="1b03-1224-cd1a-6d3e">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b847-c843-0953-fb27"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Thunder Hammer" hidden="false" id="0fc2-e8e9-421b-d595" type="selectionEntry" targetId="e6cc-bfce-a4d9-301c">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e285-e95d-e9ad-755e"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Chainfist" hidden="false" id="4f8b-b1d3-5f7a-74bf" type="selectionEntry" targetId="9c9c-346a-4c47-8715">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f617-0dac-5362-9119"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4004-2a19-4c9d-335b"/>
+                  </constraints>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Any model in the unit may exchange their Power Weapon and Combi-Bolter for:" id="5184-02c2-d65c-6b9c" hidden="false">
+                  <entryLinks>
+                    <entryLink import="true" name="Lightning Claw" hidden="false" id="fb21-c845-63f9-d9fb" type="selectionEntry" targetId="2603-c45c-25ee-2a86">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                      </costs>
+                      <modifiers>
+                        <modifier type="set" value="Two Lightning Claws" field="name"/>
+                      </modifiers>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="24af-47dc-9964-a7f4"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9a1c-5ad7-01cd-fe6e"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <categoryLinks>
+                <categoryLink name="Infantry:" hidden="false" id="4cb6-b11e-5dc2-f242" targetId="8b4f-bfe2-ce7b-f1b1" primary="false"/>
+                <categoryLink name="Heavy Sub-type:" hidden="false" id="fb7c-d9db-9d6d-4522" targetId="9231-183c-b97b-63f9" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="45"/>
+              </costs>
+              <entryLinks>
+                <entryLink import="true" name="Indomitus Terminator Armour" hidden="false" id="0e03-3223-eaaa-00c1" type="selectionEntry" targetId="289a-3c8d-4151-83af">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f602-ccdb-bb60-7ee6-min"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f602-ccdb-bb60-7ee6-max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Havoc Launcher" hidden="false" id="9148-e10e-93f5-ed0b" type="selectionEntry" targetId="bde9-5abf-ec3d-2273">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2ede-7448-70ca-346d"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <modifiers>
+                <modifier type="increment" value="1" field="3914-a205-2f82-d18a">
+                  <repeats>
+                    <repeat value="2" repeats="1" field="selections" scope="10a1-9ca0-40bd-81fd" childId="model" shared="true" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="ad63-4f96-1b08-4d9a"/>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="6abd-ae09-9be5-b808"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
