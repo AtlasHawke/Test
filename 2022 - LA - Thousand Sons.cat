@@ -5676,6 +5676,7 @@ Additionally, a unit that includes any models with this special rule may not be 
         </entryLink>
         <entryLink id="c505-e39e-a306-c969" name="Command Squad, Tartaros" hidden="false" collective="false" import="true" targetId="58d0-a0fd-d20b-cb1b" type="selectionEntry"/>
         <entryLink id="d46c-418f-b9b2-b2c8" name="Command Squad" hidden="false" collective="false" import="true" targetId="0aca-632d-1642-8af9" type="selectionEntry"/>
+        <entryLink import="true" name="Legion Indomitus Command Squad" hidden="false" id="bdfa-371c-16f5-0ba7" type="selectionEntry" targetId="10a1-9ca0-40bd-81fd"/>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
