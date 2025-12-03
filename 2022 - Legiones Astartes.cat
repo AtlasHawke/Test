@@ -68471,7 +68471,7 @@ If the test is failed, then a target unit may not be selected, and the Psyker su
           <modifiers>
             <modifier type="set" value="false" field="hidden">
               <conditions>
-                <condition type="equalTo" value="1" field="selections" scope="force" childId="0402-be48-5bfc-9b31" shared="true" includeChildSelections="true"/>
+                <condition type="equalTo" value="1" field="selections" scope="force" childId="21c3-2f28-7820-e51a" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
           </modifiers>
