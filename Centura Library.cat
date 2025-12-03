@@ -8244,6 +8244,9 @@ Could not find profile for Legion Cataphractii Ruin Master in [&apos;Legion Cata
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
                   </costs>
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="dea2-68c1-bcc6-d336"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="One Lascannon &amp; one Twin-Linked Heavy Bolter" hidden="false" id="63c6-1c45-bd88-5a4b">
                   <entryLinks>
@@ -8329,13 +8332,32 @@ Could not find profile for Legion Cataphractii Ruin Master in [&apos;Legion Cata
                     <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="566e-a451-4e08-8d03"/>
                   </constraints>
                 </entryLink>
+                <entryLink import="true" name="Magna Combi-weapon" hidden="false" id="b579-b020-89f1-8283" type="selectionEntry" targetId="4d02-259d-fa50-ef3a">
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="e801-4ffc-7880-ef91"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="set" value="Pintle Mounted Magna Combi-Weapon" field="name"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Minor Combi-weapon" hidden="false" id="e4e0-2267-2b0d-0103" type="selectionEntry" targetId="53c0-b5d7-f001-b816">
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="3285-b47f-6c05-3952"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="set" value="Pintle Mounted Minor Combi-Weapon" field="name"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
               <constraints>
                 <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="43e6-a1eb-4167-8ca0"/>
               </constraints>
-              <comment>!BSC Errors from 20240406-1603
-Could not find wargear Pintle Mounted Combi-Weapon (Any Type)
-	 Checked under Combi-Weapon (Any Type)</comment>
             </selectionEntryGroup>
             <selectionEntryGroup name="The Legion Banesword may take any of the following:" id="0dd6-2848-4b14-b841">
               <entryLinks>
@@ -8368,10 +8390,8 @@ Could not find wargear Pintle Mounted Combi-Weapon (Any Type)
             <categoryLink targetId="e2b6-b770-784c-9e95" id="3181-58a4-45b3-b27e" name="Vehicle:" primary="false"/>
           </categoryLinks>
           <comment>!BSC Errors from 20240406-1603
-Could not find wargear in A Legion Banesword may take up to two pairs of side sponsons, with each sponson armed with:
-Could not find wargear in A Legion Banesword may take up to two pairs of side sponsons, with each sponson armed with:
 Could not find wargear in The Legion Banesword may take up to two of the following:
-Could not find type or subtype &apos;Super-Heavy&apos;</comment>
+</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
