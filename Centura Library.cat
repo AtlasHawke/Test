@@ -8209,7 +8209,6 @@ Could not find profile for Legion Cataphractii Ruin Master in [&apos;Legion Cata
                     <modifier type="set" value="Hull (Front) Mounted Twin-Linked Heavy Bolter" field="name"/>
                   </modifiers>
                   <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e566-f55e-2fca-16c4"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="96f9-99f9-0fc6-8a1f"/>
                   </constraints>
                 </entryLink>
@@ -8226,13 +8225,19 @@ Could not find profile for Legion Cataphractii Ruin Master in [&apos;Legion Cata
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="One Lascannon &amp; one Twin-Linked Heavy Flamer" hidden="false" id="d05c-3c88-ba97-e572">
                   <entryLinks>
-                    <entryLink import="true" name="Lascannon" hidden="false" id="b192-f43d-8b16-535f" type="selectionEntry" targetId="b252-5a86-6e0f-218b"/>
+                    <entryLink import="true" name="Lascannon" hidden="false" id="b192-f43d-8b16-535f" type="selectionEntry" targetId="b252-5a86-6e0f-218b">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="07c6-0436-0749-4f9f-min"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="07c6-0436-0749-4f9f-max"/>
+                      </constraints>
+                    </entryLink>
                     <entryLink import="true" name="Twin-linked Heavy Flamer" hidden="false" id="050c-9ef4-8f11-2005" type="selectionEntry" targetId="18ea-34ad-326b-281b">
                       <modifiers>
                         <modifier type="set" value="Hull (Front) Mounted Twin-Linked Heavy Flamer" field="name"/>
                       </modifiers>
                       <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f75d-b534-15fa-2b00"/>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f75d-b534-15fa-2b00-min"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f75d-b534-15fa-2b00-max"/>
                       </constraints>
                     </entryLink>
                   </entryLinks>
@@ -8242,14 +8247,19 @@ Could not find profile for Legion Cataphractii Ruin Master in [&apos;Legion Cata
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="One Lascannon &amp; one Twin-Linked Heavy Bolter" hidden="false" id="63c6-1c45-bd88-5a4b">
                   <entryLinks>
-                    <entryLink import="true" name="Lascannon" hidden="false" id="c792-53fd-fd95-a38e" type="selectionEntry" targetId="b252-5a86-6e0f-218b"/>
+                    <entryLink import="true" name="Lascannon" hidden="false" id="c792-53fd-fd95-a38e" type="selectionEntry" targetId="b252-5a86-6e0f-218b">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="faae-a78c-f13a-a59f-min"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="faae-a78c-f13a-a59f-max"/>
+                      </constraints>
+                    </entryLink>
                     <entryLink import="true" name="Twin-linked Heavy Bolter" hidden="false" id="883d-949f-b6ab-772f" type="selectionEntry" targetId="d03c-9f7e-84fa-d6e8">
                       <modifiers>
                         <modifier type="set" value="Hull (Front) Mounted Twin-Linked Heavy Bolter" field="name"/>
                       </modifiers>
                       <constraints>
-                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8de0-9fac-4ee0-2c7e"/>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3209-cbe8-c094-64d9"/>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1993-dea3-8a25-2d5f-min"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1993-dea3-8a25-2d5f-max"/>
                       </constraints>
                     </entryLink>
                   </entryLinks>
