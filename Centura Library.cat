@@ -1948,8 +1948,7 @@ Could not find type or subtype &apos;Dreadnought&apos;</comment>
                       <entryLinks>
                         <entryLink import="true" name="Gravis Power Fist" hidden="false" id="d0b7-c209-b816-828a" type="selectionEntry" targetId="6f2c-6294-43c1-a2ec">
                           <constraints>
-                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9160-4847-84f0-4a60-min"/>
-                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9160-4847-84f0-4a60-max"/>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9160-4847-84f0-4a60"/>
                           </constraints>
                         </entryLink>
                         <entryLink import="true" name="Gravis Force Weapon" hidden="true" id="8d29-3c77-4dfc-0137" type="selectionEntry" targetId="8ed7-56b7-49b9-9048">
@@ -1960,6 +1959,9 @@ Could not find type or subtype &apos;Dreadnought&apos;</comment>
                               </conditions>
                             </modifier>
                           </modifiers>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1cb7-b3eb-d1d8-4bc3"/>
+                          </constraints>
                         </entryLink>
                         <entryLink import="true" name="Full-Spectra Comms Array" hidden="true" id="5a9b-7018-4da0-54dc" type="selectionEntry" targetId="a936-3fc5-4ffd-b483">
                           <modifiers>
@@ -1969,8 +1971,15 @@ Could not find type or subtype &apos;Dreadnought&apos;</comment>
                               </conditions>
                             </modifier>
                           </modifiers>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0083-fea6-d22a-c95a"/>
+                          </constraints>
                         </entryLink>
                       </entryLinks>
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bd07-c266-b9cd-88e4-min"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bd07-c266-b9cd-88e4-max"/>
+                      </constraints>
                     </selectionEntryGroup>
                   </selectionEntryGroups>
                 </selectionEntry>
