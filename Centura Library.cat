@@ -8333,11 +8333,9 @@ Could not find profile for Legion Cataphractii Ruin Master in [&apos;Legion Cata
                   </constraints>
                 </entryLink>
                 <entryLink import="true" name="Magna Combi-weapon" hidden="false" id="b579-b020-89f1-8283" type="selectionEntry" targetId="4d02-259d-fa50-ef3a">
-                  <constraints>
-                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="e801-4ffc-7880-ef91"/>
-                  </constraints>
                   <modifiers>
                     <modifier type="set" value="Pintle Mounted Magna Combi-Weapon" field="name"/>
+                    <modifier type="set" value="2" field="9855-fd69-eb95-2c52"/>
                   </modifiers>
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
