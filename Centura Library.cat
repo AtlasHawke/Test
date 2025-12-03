@@ -1782,6 +1782,7 @@ Could not find type or subtype &apos;Dreadnought&apos;</comment>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6884-d63e-4f87-96fb"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Pater Consularis" hidden="false" id="f3c6-3b52-84c9-0679" type="selectionEntryGroup" targetId="b7ff-adcc-8ed5-ac18"/>
           </entryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="The Legion Castra Ferrum Centurion may replace a Gravis Bolt Cannon and/or Gravis Power Fist and in-built Combi-Bolter with one of the following:" id="451d-2131-48b3-9320">
@@ -8385,8 +8386,7 @@ Could not find profile for Legion Cataphractii Ruin Master in [&apos;Legion Cata
           <categoryLinks>
             <categoryLink targetId="e2b6-b770-784c-9e95" id="3181-58a4-45b3-b27e" name="Vehicle:" primary="false"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear in The Legion Banesword may take up to two of the following:
+          <comment>
 </comment>
         </selectionEntry>
       </selectionEntries>

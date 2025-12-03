@@ -68394,7 +68394,7 @@ Hit rolls for each attack, for a total of 24 To Hit rolls over the full 6 attack
         </entryLink>
       </entryLinks>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Psychic Discipline: Sinistrum (Thousand Sons Only)" hidden="false" id="ca4d-da17-d6d8-23dc">
+        <selectionEntry type="upgrade" import="true" name="Psychic Discipline: Sinistrum (Thousand Sons Only)" hidden="true" id="ca4d-da17-d6d8-23dc">
           <infoLinks>
             <infoLink name="Aetheric Lightning" id="e2fa-7f78-139f-94d8" hidden="false" targetId="3d0c-e779-247f-0332" type="profile"/>
             <infoLink name="Psychic Focus" id="765e-b79a-e6b1-c2e7" hidden="false" targetId="bff3-3548-b2b8-72f1" type="rule"/>
@@ -68437,8 +68437,15 @@ Wrathful Fire (Psychic Weapon)
 Veil of Time (Psychic Power)</description>
             </rule>
           </rules>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="force" childId="0402-be48-5bfc-9b31" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Psychic Discipline: Geomancy (Thousand Sons Only)" hidden="false" id="193f-71f6-d4b0-95e4">
+        <selectionEntry type="upgrade" import="true" name="Psychic Discipline: Geomancy (Thousand Sons Only)" hidden="true" id="193f-71f6-d4b0-95e4">
           <infoLinks>
             <infoLink name="Aetheric Lightning" id="62ed-cee8-1b74-b62e" hidden="false" targetId="3d0c-e779-247f-0332" type="profile"/>
             <infoLink name="Force" id="58c5-d930-3e2e-2307" hidden="false" targetId="f39e-4c3b-38e0-0050" type="rule"/>
@@ -68468,6 +68475,13 @@ If the test is failed, then a target unit may not be selected, and the Psyker su
               </characteristics>
             </profile>
           </profiles>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="force" childId="0402-be48-5bfc-9b31" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>

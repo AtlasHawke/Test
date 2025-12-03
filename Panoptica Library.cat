@@ -11542,4 +11542,84 @@ A unit which passes suffers no negative penalty, and in addition may react as no
   <catalogueLinks>
     <catalogueLink id="5f24-4242-71c3-0547" name="Mech Library" targetId="7265-8b7a-50ae-51ec" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Pater Consularis" id="b7ff-adcc-8ed5-ac18" hidden="false">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Librarian" hidden="false" id="f7e0-716a-bced-3b8c">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="50"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Master of Signals" hidden="false" id="607c-829b-7d6e-eaaa">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="40"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Forge Lord" hidden="false" id="4794-a96b-0a52-ed35">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="50"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Battlesmith (X)" id="b824-16e3-b8c7-f28d" hidden="false" targetId="5d57-4d02-1e36-4a82" type="rule">
+              <modifiers>
+                <modifier type="set" value="Battlesmith (4+)" field="name"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Master of Automata" id="dee2-3d7e-7b7c-cfe9" hidden="false" targetId="8eef-f84b-37cb-554b" type="rule"/>
+            <infoLink name="Firing Protocols (X)" id="4da3-0ebd-ed49-a2c7" hidden="false" type="rule" targetId="32a3-f599-5c92-2945">
+              <modifiers>
+                <modifier type="set" value="Firing Protocols (2)" field="name"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <rules>
+            <rule name="Legiones Thallaxes" id="2dcd-79b7-4647-8811" hidden="false">
+              <description>An army that includes one or models with this special ruke may take up to three Thallax Cohorts as a non-Compulsory Elites choice in the same detachment as the model with this special rule - these units may not select a Dedicated Transport of any kind. Any models in a Thallax Cohort which are included in an army due to this special rule gain the same Legiones Astartes (X) special rile as the Legion Forge Lord it shares a Detachment with, but may not select any Legion specific Wargear or other options.</description>
+            </rule>
+          </rules>
+          <entryLinks>
+            <entryLink import="true" name="Machinator Array" hidden="false" id="f206-9b29-a199-5df3" type="selectionEntry" targetId="16dc-7363-417f-85bd">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a679-98f0-5bdc-af54-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a679-98f0-5bdc-af54-max"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Cortex Controller" hidden="false" id="aa44-e3d5-6769-4ac1" type="selectionEntry" targetId="b660-7367-404c-b87a">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a9df-e3b0-0546-25ad"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Cyber-Familiar" hidden="false" id="5698-303e-d1a4-f764" type="selectionEntry" targetId="6c85-4601-cf58-7b35">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dc1b-ecf0-1aa7-5e38"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Siege Breaker" hidden="false" id="7d7a-1427-9c01-8089">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="55"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Chaplain" hidden="false" id="6c51-e026-3a94-24d5">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="50"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Armistos" hidden="false" id="ab68-64c8-b07f-6e11">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Herald" hidden="false" id="fdc2-25d8-7024-feae">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="40"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
 </catalogue>
