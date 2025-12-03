@@ -8159,7 +8159,7 @@ Could not find profile for Legion Cataphractii Ruin Master in [&apos;Legion Cata
       <selectionEntries>
         <selectionEntry type="model" name="Legion Banesword" id="0118-c399-4f8f-8dd6" page="54" publicationId="3970-79bb-bdc6-9599">
           <profiles>
-            <profile id="6861-4814-41c3-829d" name="Legion Banesword" typeId="2fae-b053-3f78-e7b2">
+            <profile id="6861-4814-41c3-829d" name="Legion Banesword" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle">
               <characteristics>
                 <characteristic typeId="3614-4a2d-bffb-90e4" name="Move">12</characteristic>
                 <characteristic typeId="51fb-b7d9-aa59-863d" name="BS">4</characteristic>
@@ -8186,15 +8186,6 @@ Could not find profile for Legion Cataphractii Ruin Master in [&apos;Legion Cata
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b0a8-9aff-4446-879a"/>
               </constraints>
             </entryLink>
-            <entryLink name="Twin-linked Heavy Bolter" hidden="false" type="selectionEntry" targetId="d03c-9f7e-84fa-d6e8" id="1d89-7af9-4d85-9d4d">
-              <modifiers>
-                <modifier type="set" field="name" value="Hull (Front) Mounted Twin-Linked Heavy Bolter"/>
-              </modifiers>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b549-1f98-4b22-95cc"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="193f-9072-4d4a-a71c"/>
-              </constraints>
-            </entryLink>
             <entryLink name="Smoke Launchers" hidden="false" type="selectionEntry" targetId="0873-34dd-e52d-d33c" id="3c6a-70f5-46c5-9853">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8016-ccae-4911-b34c"/>
@@ -8203,7 +8194,7 @@ Could not find profile for Legion Cataphractii Ruin Master in [&apos;Legion Cata
             </entryLink>
           </entryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup name="A Legion Banesword may elect to exchange its Hull (Front) Mounted Twin Linked Heavy Bolter for:" id="e4e6-c0eb-4504-8d13">
+            <selectionEntryGroup name="A Legion Banesword may elect to exchange its Hull (Front) Mounted Twin Linked Heavy Bolter for:" id="e4e6-c0eb-4504-8d13" defaultSelectionEntryId="9b64-a357-71d8-86a1">
               <entryLinks>
                 <entryLink name="Twin-linked Heavy Flamer" hidden="false" type="selectionEntry" targetId="18ea-34ad-326b-281b" id="7707-0d6a-4e18-aeb2">
                   <modifiers>
@@ -8213,20 +8204,60 @@ Could not find profile for Legion Cataphractii Ruin Master in [&apos;Legion Cata
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="81d0-1df6-42af-bd03"/>
                   </constraints>
                 </entryLink>
+                <entryLink import="true" name="Twin-linked Heavy Bolter" hidden="false" id="9b64-a357-71d8-86a1" type="selectionEntry" targetId="d03c-9f7e-84fa-d6e8">
+                  <modifiers>
+                    <modifier type="set" value="Hull (Front) Mounted Twin-Linked Heavy Bolter" field="name"/>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e566-f55e-2fca-16c4"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="96f9-99f9-0fc6-8a1f"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5860-d552-48cb-af95"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5860-d552-48cb-af95-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5860-d552-48cb-af95-max"/>
               </constraints>
             </selectionEntryGroup>
             <selectionEntryGroup name="A Legion Banesword may take up to two pairs of side sponsons, with each sponson armed with:" id="768e-20cb-40b1-b840">
               <constraints>
                 <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="1416-95a3-46b5-9568"/>
               </constraints>
-              <comment>!BSC Errors from 20240406-1603
-Could not find wargear One Lascannon &amp; one Twin-Linked Heavy Flamer
-	 Checked under One Lascannon &amp; one Twin-Linked Heavy Flamer
-Could not find wargear One Lascannon &amp; one Twin-Linked Heavy Bolter
-	 Checked under One Lascannon &amp; one Twin-Linked Heavy Bolter</comment>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="One Lascannon &amp; one Twin-Linked Heavy Flamer" hidden="false" id="d05c-3c88-ba97-e572">
+                  <entryLinks>
+                    <entryLink import="true" name="Lascannon" hidden="false" id="b192-f43d-8b16-535f" type="selectionEntry" targetId="b252-5a86-6e0f-218b"/>
+                    <entryLink import="true" name="Twin-linked Heavy Flamer" hidden="false" id="050c-9ef4-8f11-2005" type="selectionEntry" targetId="18ea-34ad-326b-281b">
+                      <modifiers>
+                        <modifier type="set" value="Hull (Front) Mounted Twin-Linked Heavy Flamer" field="name"/>
+                      </modifiers>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f75d-b534-15fa-2b00"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="One Lascannon &amp; one Twin-Linked Heavy Bolter" hidden="false" id="63c6-1c45-bd88-5a4b">
+                  <entryLinks>
+                    <entryLink import="true" name="Lascannon" hidden="false" id="c792-53fd-fd95-a38e" type="selectionEntry" targetId="b252-5a86-6e0f-218b"/>
+                    <entryLink import="true" name="Twin-linked Heavy Bolter" hidden="false" id="883d-949f-b6ab-772f" type="selectionEntry" targetId="d03c-9f7e-84fa-d6e8">
+                      <modifiers>
+                        <modifier type="set" value="Hull (Front) Mounted Twin-Linked Heavy Bolter" field="name"/>
+                      </modifiers>
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8de0-9fac-4ee0-2c7e"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3209-cbe8-c094-64d9"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="40"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
             </selectionEntryGroup>
             <selectionEntryGroup name="The Legion Banesword may take up to two of the following:" id="1c6e-15a6-4a0e-8678">
               <entryLinks>
