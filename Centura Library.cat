@@ -8266,6 +8266,9 @@ Could not find profile for Legion Cataphractii Ruin Master in [&apos;Legion Cata
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="40"/>
                   </costs>
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="ee27-822e-ea9d-0823"/>
+                  </constraints>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
@@ -8357,7 +8360,7 @@ Could not find wargear Pintle Mounted Combi-Weapon (Any Type)
                 </entryLink>
               </entryLinks>
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="33f7-6163-401e-b5fd"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="33f7-6163-401e-b5fd"/>
               </constraints>
             </selectionEntryGroup>
           </selectionEntryGroups>
