@@ -8342,11 +8342,9 @@ Could not find profile for Legion Cataphractii Ruin Master in [&apos;Legion Cata
                   </costs>
                 </entryLink>
                 <entryLink import="true" name="Minor Combi-weapon" hidden="false" id="e4e0-2267-2b0d-0103" type="selectionEntry" targetId="53c0-b5d7-f001-b816">
-                  <constraints>
-                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="3285-b47f-6c05-3952"/>
-                  </constraints>
                   <modifiers>
                     <modifier type="set" value="Pintle Mounted Minor Combi-Weapon" field="name"/>
+                    <modifier type="set" value="2" field="e05f-a0be-3ed3-7d75"/>
                   </modifiers>
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
