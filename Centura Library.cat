@@ -1704,7 +1704,7 @@ Power Weapon is in two option lists for Legion Saturnine Centurion, you will nee
                           <modifiers>
                             <modifier type="set" value="false" field="hidden">
                               <conditions>
-                                <condition type="equalTo" value="1" field="selections" scope="373b-bdcb-41c1-a3ff" childId="664d-b570-9ffd-c105" shared="true"/>
+                                <condition type="equalTo" value="1" field="selections" scope="3091-a920-4eb9-9a52" childId="664d-b570-9ffd-c105" shared="true"/>
                               </conditions>
                             </modifier>
                           </modifiers>
@@ -1716,7 +1716,7 @@ Power Weapon is in two option lists for Legion Saturnine Centurion, you will nee
                           <modifiers>
                             <modifier type="set" value="false" field="hidden">
                               <conditions>
-                                <condition type="equalTo" value="1" field="selections" scope="373b-bdcb-41c1-a3ff" childId="81aa-4382-b15d-b389" shared="true"/>
+                                <condition type="equalTo" value="1" field="selections" scope="3091-a920-4eb9-9a52" childId="81aa-4382-b15d-b389" shared="true"/>
                               </conditions>
                             </modifier>
                           </modifiers>
@@ -4461,7 +4461,15 @@ Could not find wargear In-built Meltagun
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="2 Twisted Talons" hidden="false" id="3090-6a9d-f6cc-4c84">
               <profiles>
-                <profile name="2 Twisted Talons" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="afae-675a-eb83-f358">
+                <profile name="Twisted Talons" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="afae-675a-eb83-f358">
+                  <characteristics>
+                    <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+                    <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+1</characteristic>
+                    <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+                    <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Rending (6+)</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Twisted Talons" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="97d0-87ff-cafd-7263">
                   <characteristics>
                     <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
                     <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+1</characteristic>
@@ -7345,12 +7353,15 @@ The option &apos;Hunter Killer Missiles&apos; may need a &apos;multiply by numbe
           </costs>
           <entryLinks>
             <entryLink import="true" name="Mutated Appendages" hidden="false" id="6695-8b75-85a2-6812" type="selectionEntry" targetId="8bbc-551e-4181-aeb1">
-              <modifiers>
-                <modifier type="set" value="2 Mutated Appendages" field="name"/>
-              </modifiers>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ebef-4043-f793-f24c"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="902a-9f4e-5c97-0de0"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Mutated Appendages" hidden="false" id="8f4b-d8a1-9858-d39a" type="selectionEntry" targetId="8bbc-551e-4181-aeb1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6b5d-f67a-7862-a0e7"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2a64-a2fc-c476-9a25"/>
               </constraints>
             </entryLink>
           </entryLinks>
