@@ -7218,7 +7218,6 @@ Could not find wargear Legion Veteran Sergeant
             </profile>
           </profiles>
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="dec5-a7a9-42f1-b057"/>
             <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="b3e1-42ab-445c-b68d"/>
           </constraints>
           <entryLinks>
