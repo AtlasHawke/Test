@@ -7202,7 +7202,7 @@ Could not find wargear in For every ten models in the unit beyond its original s
           </profiles>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="dec5-a7a9-42f1-b057"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b3e1-42ab-445c-b68d"/>
+            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="b3e1-42ab-445c-b68d"/>
           </constraints>
           <entryLinks>
             <entryLink name="Frag Grenades" hidden="false" type="selectionEntry" targetId="4fd8-9e1f-ae28-3004" id="adf1-44db-4249-ba26">
