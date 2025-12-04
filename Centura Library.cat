@@ -7140,7 +7140,7 @@ Bolt Pistol is in two option lists for Legion Sky-Seeker, you will need to combi
           <selectionEntryGroups>
             <selectionEntryGroup name="For every ten models in the unit beyond its original starting size, one Legion Novitiate may be upgraded to a:" id="1235-bfb5-4fe0-80d7">
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="24a3-2a98-4915-a3e0"/>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="24a3-2a98-4915-a3e0"/>
               </constraints>
               <comment>!BSC Errors from 20240406-1603
 Could not find wargear Legion Veteran Sergeant
@@ -7164,10 +7164,6 @@ Could not find wargear Legion Veteran Sergeant
                       </characteristics>
                     </profile>
                   </profiles>
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4052-cc48-e2a4-3a19"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6c43-b678-395f-e301"/>
-                  </constraints>
                   <entryLinks>
                     <entryLink import="true" name="Frag Grenades" hidden="false" id="87ea-d7d0-d35b-45b5" type="selectionEntry" targetId="4fd8-9e1f-ae28-3004">
                       <constraints>
