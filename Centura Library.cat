@@ -2785,6 +2785,9 @@ Could not find wargear Two Sponson Mounted Gravis Heavy Bolter Batteries
         <infoLink name="Support Squad" hidden="false" type="rule" targetId="768e-56d6-ca52-24ae" id="d53a-bcc5-4e77-96e6"/>
         <infoLink name="Vox Override" id="4dc3-eb33-5dfa-4ede" hidden="false" type="rule" targetId="00bd-a6e9-2a48-8f40"/>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="250"/>
+      </costs>
     </selectionEntry>
     <selectionEntry name="Legion Terminator Saturnine Squad" type="unit" id="77f4-7d9e-429c-9101" page="18" publicationId="3970-79bb-bdc6-9599">
       <categoryLinks>
