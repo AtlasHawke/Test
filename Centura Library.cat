@@ -4964,6 +4964,13 @@ A model with the Infantry Unit Type that selects a Legion Spatha combat bike as 
                 <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">8</characteristic>
                 <characteristic name="Save" typeId="e593-6b3c-f169-04f0">3+</characteristic>
               </characteristics>
+              <modifiers>
+                <modifier type="set" value="2+" field="e593-6b3c-f169-04f0">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="parent" childId="9196-3af7-9545-e62b" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </profile>
           </profiles>
           <constraints>
@@ -5282,20 +5289,18 @@ A model with the Infantry Unit Type that selects a Legion Spatha combat bike as 
                   </costs>
                 </selectionEntry>
               </selectionEntries>
-              <modifiers>
-                <modifier type="set" value="7efd-ddf5-8637-4e9" field="defaultSelectionEntryId">
-                  <conditions>
-                    <condition type="equalTo" value="1" field="selections" scope="force" childId="c7be-f327-8718-3dfb" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="22"/>
           </costs>
           <entryLinks>
-            <entryLink import="true" name="Chainsword" hidden="false" id="6354-d18b-c1b6-00a3" type="selectionEntry" targetId="b5b7-b50a-ac86-9173"/>
+            <entryLink import="true" name="Chainsword" hidden="false" id="6354-d18b-c1b6-00a3" type="selectionEntry" targetId="b5b7-b50a-ac86-9173">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c1a8-5f0f-0ace-d87d-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c1a8-5f0f-0ace-d87d-max"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Spatha Combat Bike (Hussar)" hidden="false" id="23c2-4846-c547-b93f">
