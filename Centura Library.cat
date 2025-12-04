@@ -1531,7 +1531,7 @@ Power Weapon is in two option lists for Legion Saturnine Centurion, you will nee
       <selectionEntries>
         <selectionEntry type="model" name="Legion Contemptor Centurion" id="3091-a920-4eb9-9a52" page="10" publicationId="3970-79bb-bdc6-9599">
           <profiles>
-            <profile id="d52a-88de-4a37-b7ab" name="Legion Contemptor Centurion" typeId="4bb2-cb95-e6c8-5a21">
+            <profile id="d52a-88de-4a37-b7ab" name="Legion Contemptor Centurion" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
               <characteristics>
                 <characteristic typeId="893e-2d76-8f04-44e5" name="Move">8</characteristic>
                 <characteristic typeId="cc42-7ed5-7092-5c84" name="WS">5</characteristic>
@@ -1725,6 +1725,37 @@ Could not find wargear in The Legion Contemptor Centurion may replace the in-bui
 Could not find wargear in The Legion Contemptor Centurion may replace the in-built Combi-Bolter on a Gravis Power Fist or Gravis Chainfist with one of the following:
 Could not find wargear in The Legion Contemptor Centurion may replace the in-built Combi-Bolter on a Gravis Power Fist or Gravis Chainfist with one of the following:
 Could not find type or subtype &apos;Dreadnought&apos;</comment>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="(Chaplain) Master craft one weapon to represent a Crozius Arcanum" hidden="true" id="bce1-14e7-bcec-9ff4" collective="false">
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="parent" childId="4831-6948-851c-3925" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="08be-6994-6a63-6279" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2334-6158-3d2d-2d01" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Master-crafted" id="7e71-b483-9eee-fb7d" hidden="false" targetId="6de0-55b0-bf21-48b9" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -1905,6 +1936,9 @@ Could not find type or subtype &apos;Dreadnought&apos;</comment>
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
                   </costs>
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="5203-e4ae-43bb-387f"/>
+                  </constraints>
                 </entryLink>
               </entryLinks>
               <constraints>
@@ -2128,8 +2162,6 @@ Could not find type or subtype &apos;Dreadnought&apos;</comment>
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="bebc-4b44-4e44-af5f" name="Character" primary="false"/>
             <categoryLink targetId="9231-183c-b97b-63f9" id="ed2e-7841-4a90-86f5" name="Heavy Sub-type:" primary="false"/>
           </categoryLinks>
-          <comment>
-</comment>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="(Chaplain) Master craft one weapon to represent a Crozius Arcanum" hidden="true" id="9489-ac43-d9de-4740" collective="false">
               <modifiers>
@@ -2137,7 +2169,7 @@ Could not find type or subtype &apos;Dreadnought&apos;</comment>
                   <conditionGroups>
                     <conditionGroup type="and">
                       <conditions>
-                        <condition type="equalTo" value="1" field="selections" scope="parent" childId="4831-6948-851c-3925" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="equalTo" value="1" field="selections" scope="parent" childId="f538-a22f-d99c-0f9f" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
                       </conditions>
                       <conditionGroups>
                         <conditionGroup type="or">
@@ -8584,8 +8616,6 @@ Could not find profile for Legion Cataphractii Ruin Master in [&apos;Legion Cata
           <categoryLinks>
             <categoryLink targetId="e2b6-b770-784c-9e95" id="3181-58a4-45b3-b27e" name="Vehicle:" primary="false"/>
           </categoryLinks>
-          <comment>
-</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
