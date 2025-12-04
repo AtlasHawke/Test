@@ -4664,7 +4664,7 @@ Could not find type or subtype &apos;Automata&apos;</comment>
             </profile>
           </profiles>
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c634-a713-4401-9b76"/>
+            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="c634-a713-4401-9b76"/>
           </constraints>
           <selectionEntryGroups>
             <selectionEntryGroup name="For every five models in the unit, one Legion Hussar may exchange his Bolt Pistol for one of the following:" id="8dbe-e23c-2bba-47fb" hidden="false">
@@ -4686,11 +4686,6 @@ Could not find type or subtype &apos;Automata&apos;</comment>
                     <entryLink import="true" name="Plasma Pistol" hidden="false" id="7f31-d045-deba-9fd3" collective="false" targetId="717f-cf0a-1593-4bd8" type="selectionEntry" sortIndex="16">
                       <costs>
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
-                      </costs>
-                    </entryLink>
-                    <entryLink import="true" name="Power Fist" hidden="false" id="cd5f-b6e8-a49b-5634" collective="false" targetId="768d-b89b-7328-d749" type="selectionEntry" sortIndex="19">
-                      <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
                       </costs>
                     </entryLink>
                     <entryLink import="true" name="Volkite Serpenta" hidden="false" id="a4e2-7518-f720-740e" collective="false" targetId="d535-1da8-290d-69a6" type="selectionEntry" sortIndex="8">
@@ -4753,7 +4748,7 @@ Could not find type or subtype &apos;Automata&apos;</comment>
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="1"/>
                       </costs>
                     </entryLink>
-                    <entryLink import="true" name="Warpfire Pistol" hidden="false" id="1a90-c3de-4cef-0e6a" collective="false" targetId="a94d-1f53-2902-0237" type="selectionEntry" sortIndex="21">
+                    <entryLink import="true" name="Warpfire Pistol" hidden="true" id="1a90-c3de-4cef-0e6a" collective="false" targetId="a94d-1f53-2902-0237" type="selectionEntry" sortIndex="21">
                       <costs>
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
                       </costs>
@@ -4817,29 +4812,6 @@ Could not find type or subtype &apos;Automata&apos;</comment>
               </selectionEntryGroups>
             </selectionEntryGroup>
             <selectionEntryGroup name="For every five models in the unit, one Legion Hussar may exchange his Chainsword for one of the following:" id="7b61-aab9-c59a-d025" hidden="false">
-              <entryLinks>
-                <entryLink import="true" name="Chainsword" hidden="false" id="6c67-fe2d-9f0f-a6b1" type="selectionEntry" targetId="dc89-d283-44d7-8763">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c0dc-2d9f-2629-d361"/>
-                  </constraints>
-                </entryLink>
-                <entryLink import="true" name="Power Weapon" hidden="false" id="d707-ee9a-7bfe-ccfc" type="selectionEntry" targetId="36a7-1c39-670c-5fec">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
-                  </costs>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ef18-44f9-84e5-d2ce"/>
-                  </constraints>
-                </entryLink>
-                <entryLink import="true" name="Charnabal Weapon" hidden="false" id="ade4-4165-55bb-26b1" type="selectionEntry" targetId="e749-ba9b-bb76-a7d9">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
-                  </costs>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="14ad-0eb0-b033-9fb8"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ab3a-f84b-d857-c800"/>
               </constraints>
@@ -4881,6 +4853,11 @@ Could not find type or subtype &apos;Automata&apos;</comment>
                       <costs>
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                       </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Chainsword" hidden="false" id="6252-fc87-b3bf-b747" type="selectionEntry" targetId="dc89-d283-44d7-8763">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="851f-3c8e-442e-1104"/>
+                      </constraints>
                     </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
@@ -5196,225 +5173,6 @@ A model with the Infantry Unit Type that selects a Legion Spatha combat bike as 
             <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="6850-990b-5700-f4e0"/>
           </constraints>
           <selectionEntryGroups>
-            <selectionEntryGroup name="For every five models in the unit, one Legion Hussar may exchange his Chainsword for one of the following:" id="9def-9d6b-3e0d-e469">
-              <entryLinks>
-                <entryLink name="Chainsword" hidden="false" type="selectionEntry" targetId="dc89-d283-44d7-8763" id="fb81-db0b-c83b-ef83">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c697-2f5a-e2a5-0c7b"/>
-                  </constraints>
-                </entryLink>
-                <entryLink name="Power Weapon" hidden="false" type="selectionEntry" targetId="36a7-1c39-670c-5fec" id="7397-0e3b-e9d6-8201">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
-                  </costs>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ea42-bb59-e902-2b5a"/>
-                  </constraints>
-                </entryLink>
-                <entryLink name="Charnabal Weapon" hidden="false" type="selectionEntry" targetId="e749-ba9b-bb76-a7d9" id="843d-c8bb-124e-ba2f">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
-                  </costs>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6370-7ba3-79fe-3388"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e84d-1a51-2e43-e010"/>
-              </constraints>
-              <selectionEntryGroups>
-                <selectionEntryGroup name="1) Chainsword" id="9566-2f02-7805-acfb" hidden="false" collective="false" import="true" defaultSelectionEntryId="5f80-b3e6-a151-40bd">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="09cb-4dd6-e694-9f91" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="82d8-6141-1bf1-2acd" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink import="true" name="Raven&apos;s Talon" hidden="false" id="4516-bd4b-f984-fd44" collective="false" targetId="09d8-64f5-1936-e8ab" type="selectionEntry" sortIndex="20">
-                      <modifiers>
-                        <modifier type="set" value="12.5" field="d2ee-04cb-5f8a-2642">
-                          <conditions>
-                            <condition type="greaterThan" value="1" field="selections" scope="589f-b91d-8246-f5cc" childId="09d8-64f5-1936-e8ab" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-                          </conditions>
-                        </modifier>
-                      </modifiers>
-                      <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
-                      </costs>
-                    </entryLink>
-                    <entryLink import="true" name="Power Weapon" hidden="false" id="50b2-0ab4-5cbd-51fe" collective="false" targetId="8d9c-9f80-c0fd-adcf" type="selectionEntry" sortIndex="17">
-                      <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
-                      </costs>
-                    </entryLink>
-                    <entryLink import="true" name="Charnabal Tabar" hidden="false" id="4a78-992d-7ccd-b743" collective="false" targetId="4611-c33e-f360-7246" type="selectionEntry" sortIndex="12">
-                      <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
-                      </costs>
-                    </entryLink>
-                    <entryLink import="true" name="Charnabal Sabre" hidden="false" id="0e3b-3c6d-04d2-cc6d" collective="false" targetId="30c2-57eb-5bbe-be0b" type="selectionEntry" sortIndex="11">
-                      <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
-                      </costs>
-                    </entryLink>
-                    <entryLink import="true" name="Charnabal Glaive" hidden="false" id="4580-69fe-2d34-bbb2" collective="false" targetId="c07c-35e6-4616-ef25" type="selectionEntry" sortIndex="10">
-                      <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
-                      </costs>
-                    </entryLink>
-                  </entryLinks>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="For every five models in the unit, one Legion Hussar may exchange his Bolt Pistol for one of the following:" id="e276-33c9-0d06-7fce">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0273-dd30-38d7-0897"/>
-              </constraints>
-              <selectionEntryGroups>
-                <selectionEntryGroup name="1) Bolt Pistol" id="0f20-bd9d-0c6f-7990" hidden="false" collective="false" import="true" defaultSelectionEntryId="5f80-b3e6-a151-40bd">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="3340-e40e-bf46-5a4b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="8b9f-a3ec-bea6-f9dd" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink import="true" name="Hand Flamer" hidden="false" id="2af4-9251-537e-02fd" collective="false" targetId="e337-adf4-a11f-0280" type="selectionEntry" sortIndex="7">
-                      <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
-                      </costs>
-                    </entryLink>
-                    <entryLink import="true" name="Plasma Pistol" hidden="false" id="1392-51e4-85e6-e874" collective="false" targetId="717f-cf0a-1593-4bd8" type="selectionEntry" sortIndex="16">
-                      <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
-                      </costs>
-                    </entryLink>
-                    <entryLink import="true" name="Power Fist" hidden="false" id="e324-8722-a4d9-bd7b" collective="false" targetId="768d-b89b-7328-d749" type="selectionEntry" sortIndex="19">
-                      <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
-                      </costs>
-                    </entryLink>
-                    <entryLink import="true" name="Volkite Serpenta" hidden="false" id="962f-9fe4-2bf1-c84f" collective="false" targetId="d535-1da8-290d-69a6" type="selectionEntry" sortIndex="8">
-                      <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
-                      </costs>
-                    </entryLink>
-                    <entryLink import="true" name="Bolt Pistol" hidden="false" id="0dd9-bcef-a881-c3ce" collective="false" targetId="e5ae-6872-37aa-8600" type="selectionEntry" sortIndex="1">
-                      <modifiers>
-                        <modifier type="set" value="true" field="hidden">
-                          <conditions>
-                            <condition type="atLeast" value="1" field="selections" scope="4437-5f83-4383-9545" childId="fb41-0199-e8e8-622b" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-                            <condition type="atLeast" value="1" field="selections" scope="4437-5f83-4383-9545" childId="7d72-7f6d-6330-6871" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-                          </conditions>
-                        </modifier>
-                        <modifier type="set" value="true" field="hidden">
-                          <conditions>
-                            <condition type="atLeast" value="1" field="selections" scope="force" childId="c7be-f327-8718-3dfb" shared="true" includeChildSelections="true"/>
-                          </conditions>
-                        </modifier>
-                      </modifiers>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="04ad-bca2-1893-5537" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                      </constraints>
-                    </entryLink>
-                    <entryLink import="true" name="Graviton Pistol" hidden="false" id="2c68-fdb5-287f-0654" collective="false" targetId="0087-19d3-eca0-cc75" type="selectionEntry" sortIndex="13">
-                      <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
-                      </costs>
-                    </entryLink>
-                    <entryLink import="true" name="Dragon&apos;s Breath Pistol" hidden="false" id="983a-e5d3-c7a0-ce56" collective="false" targetId="c1cb-0fa7-0d39-73ae" type="selectionEntry" sortIndex="6">
-                      <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
-                      </costs>
-                    </entryLink>
-                    <entryLink import="true" name="Raven&apos;s Talon" hidden="false" id="c8b7-1f64-b944-e8cb" collective="false" targetId="09d8-64f5-1936-e8ab" type="selectionEntry" sortIndex="20">
-                      <modifiers>
-                        <modifier type="set" value="12.5" field="d2ee-04cb-5f8a-2642">
-                          <conditions>
-                            <condition type="greaterThan" value="1" field="selections" scope="589f-b91d-8246-f5cc" childId="09d8-64f5-1936-e8ab" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-                          </conditions>
-                        </modifier>
-                      </modifiers>
-                      <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
-                      </costs>
-                    </entryLink>
-                    <entryLink import="true" name="Alchem Pistol" hidden="false" id="1153-fe6a-eacb-7a21" collective="false" targetId="1899-9e9e-76dd-a7ba" type="selectionEntry" sortIndex="5">
-                      <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
-                      </costs>
-                    </entryLink>
-                    <entryLink import="true" name="Æther-Fire Pistol" hidden="false" id="8940-3ded-8df0-76d6" collective="false" targetId="ae13-0ae8-a3ba-f6ff" type="selectionEntry" sortIndex="9">
-                      <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
-                      </costs>
-                    </entryLink>
-                    <entryLink import="true" name="Asphyx Bolt Pistol" hidden="true" id="8cf6-cac7-9ca3-cfa8" collective="false" targetId="07f7-c486-f597-a1b9" type="selectionEntry" sortIndex="2">
-                      <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="1"/>
-                      </costs>
-                    </entryLink>
-                    <entryLink import="true" name="Warpfire Pistol" hidden="false" id="d653-9a7a-3f1e-fa12" collective="false" targetId="a94d-1f53-2902-0237" type="selectionEntry" sortIndex="21">
-                      <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
-                      </costs>
-                    </entryLink>
-                    <entryLink import="true" name="Inferno Pistol" hidden="false" id="7e6a-34b2-5ea8-ee67" collective="false" targetId="dcd1-8b2a-9d97-40ef" type="selectionEntry" sortIndex="14">
-                      <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
-                      </costs>
-                    </entryLink>
-                    <entryLink import="true" name="Shrapnel Pistol" hidden="false" id="9bb1-6d16-0c70-9454" collective="false" targetId="7d72-7f6d-6330-6871" type="selectionEntry" sortIndex="4">
-                      <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
-                      </costs>
-                    </entryLink>
-                    <entryLink import="true" name="Weapons of Desperation" hidden="false" id="2332-1c88-978f-51e7" type="selectionEntryGroup" targetId="1bfb-668b-649a-3117" sortIndex="22">
-                      <modifiers>
-                        <modifier type="set" value="true" field="hidden">
-                          <conditions>
-                            <condition type="equalTo" value="0" field="selections" scope="force" childId="c7be-f327-8718-3dfb" shared="true" includeChildSelections="true"/>
-                          </conditions>
-                        </modifier>
-                      </modifiers>
-                    </entryLink>
-                  </entryLinks>
-                  <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Xenos Doomlock" hidden="true" id="0bb4-b820-6833-eac2" publicationId="d882-d2a-5da1-92c4" sortIndex="18">
-                      <profiles>
-                        <profile name="Xenos doomlock" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="2c07-11aa-f58e-5a9d" publicationId="d882-d2a-5da1-92c4">
-                          <characteristics>
-                            <characteristic name="Range" hidden="false" id="67b1-3c7a-f33c-5ca0" typeId="95ba-cda7-b831-6066">9</characteristic>
-                            <characteristic name="Strength" hidden="false" id="d40b-170b-1986-c80e" typeId="24d9-b8e1-a355-2458">6</characteristic>
-                            <characteristic name="AP" hidden="false" id="1599-bb93-176f-e329" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-                            <characteristic name="Type" hidden="false" id="c323-5355-2679-4e92" typeId="2f86-c8b4-b3b4-3ff9">Pistol 2, Deflagrate, Lethal Exposure</characteristic>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <infoLinks>
-                        <infoLink name="Deflagrate" id="33ea-c690-8f1c-6343" hidden="false" type="rule" targetId="60bc-f79a-67ae-be4f"/>
-                        <infoLink name="Lethal Exposure" id="d408-37a3-1f32-6ace" hidden="false" type="rule" targetId="5ec4-39ed-2360-824c"/>
-                      </infoLinks>
-                      <modifiers>
-                        <modifier type="set" value="false" field="hidden">
-                          <conditions>
-                            <condition type="equalTo" value="1" field="selections" scope="force" childId="cb03-25b3-326f-f8bd" shared="true" includeChildSelections="true"/>
-                          </conditions>
-                        </modifier>
-                      </modifiers>
-                      <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <modifiers>
-                    <modifier type="set" value="7efd-ddf5-8637-4e9" field="defaultSelectionEntryId">
-                      <conditions>
-                        <condition type="equalTo" value="1" field="selections" scope="force" childId="c7be-f327-8718-3dfb" shared="true" includeChildSelections="true"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-            </selectionEntryGroup>
             <selectionEntryGroup name="1) Bolt Pistol" id="a072-b88f-8dcb-9e49" hidden="false" collective="false" import="true" defaultSelectionEntryId="5f80-b3e6-a151-40bd">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="8397-4c88-04d1-df48" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
@@ -5471,7 +5229,7 @@ A model with the Infantry Unit Type that selects a Legion Spatha combat bike as 
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="1"/>
                   </costs>
                 </entryLink>
-                <entryLink import="true" name="Warpfire Pistol" hidden="false" id="185a-7be2-eba6-b83b" collective="false" targetId="a94d-1f53-2902-0237" type="selectionEntry" sortIndex="21">
+                <entryLink import="true" name="Warpfire Pistol" hidden="true" id="185a-7be2-eba6-b83b" collective="false" targetId="a94d-1f53-2902-0237" type="selectionEntry" sortIndex="21">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
                   </costs>
@@ -5536,6 +5294,9 @@ A model with the Infantry Unit Type that selects a Legion Spatha combat bike as 
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="22"/>
           </costs>
+          <entryLinks>
+            <entryLink import="true" name="Chainsword" hidden="false" id="6354-d18b-c1b6-00a3" type="selectionEntry" targetId="b5b7-b50a-ac86-9173"/>
+          </entryLinks>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Spatha Combat Bike (Hussar)" hidden="false" id="23c2-4846-c547-b93f">
               <entryLinks>
