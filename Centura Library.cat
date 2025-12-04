@@ -7349,6 +7349,13 @@ Could not find wargear Legion Veteran Sergeant
                   </categoryLinks>
                 </selectionEntry>
               </selectionEntries>
+              <modifiers>
+                <modifier type="increment" value="1" field="24a3-2a98-4915-a3e0">
+                  <repeats>
+                    <repeat value="10" repeats="1" field="selections" scope="7322-a79c-4ce8-8b16" childId="model" shared="true" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
             </selectionEntryGroup>
             <selectionEntryGroup name="Any model with a Bolter may take a:" id="b337-496e-43f5-9218">
               <entryLinks>
