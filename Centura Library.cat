@@ -2550,7 +2550,7 @@ Could not find wargear Two Sponson Mounted Gravis Heavy Bolter Batteries
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5c4f-ca58-4867-81f2"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Geo-Locator Beacon" hidden="false" type="selectionEntry" targetId="9333-3d3a-1c13-c602" id="b332-2abe-4173-9581">
+            <entryLink name="Smoke Launchers" hidden="false" type="selectionEntry" targetId="0873-34dd-e52d-d33c" id="b332-2abe-4173-9581">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="23ec-d58e-4275-a766"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="88b3-3438-4439-a716"/>
@@ -2582,6 +2582,16 @@ Could not find wargear Two Sponson Mounted Gravis Heavy Bolter Batteries
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1188-2887-4806-9232"/>
                   </constraints>
+                  <profiles>
+                    <profile name="Volkite Dual-Culverin" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="bdc2-3cf9-3680-d346" publicationId="a716-c1c4-7b26-8424" page="134">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">45&quot;</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 6, Deflagrate, Twin-linked</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
                 </entryLink>
                 <entryLink name="Gravis Melta Cannon" hidden="false" type="selectionEntry" targetId="ef6c-f656-171a-03e1" id="1891-69dc-42c3-a3e3">
                   <costs>
@@ -2593,6 +2603,16 @@ Could not find wargear Two Sponson Mounted Gravis Heavy Bolter Batteries
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="66bc-c937-4be6-b3ca"/>
                   </constraints>
+                  <profiles>
+                    <profile name="Gravis Melta Cannon" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="7d98-7c89-298a-0e6d" publicationId="a716-c1c4-7b26-8424" page="133">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 2, Armourbane (Melta), Twin-linked</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
                 </entryLink>
                 <entryLink name="Gravis Lascannon" hidden="false" type="selectionEntry" targetId="1fe0-7c96-5200-0e39" id="52c4-ac97-45e6-85cf">
                   <costs>
@@ -2604,28 +2624,31 @@ Could not find wargear Two Sponson Mounted Gravis Heavy Bolter Batteries
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cfbf-3bbf-4d7b-ab73"/>
                   </constraints>
+                  <profiles>
+                    <profile name="Gravis Lascannon" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="fda4-39c3-85ff-e7f9" publicationId="a716-c1c4-7b26-8424" page="132">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">9</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 2, Sunder</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
                 </entryLink>
-                <entryLink name="Volkite Dual-Culverin" hidden="false" type="selectionEntry" targetId="015f-ee1b-46c1-8937" id="ff62-0908-4c8c-b298">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
-                  </costs>
+                <entryLink import="true" name="Gravis Heavy Bolter Battery" hidden="false" id="05fd-6301-9aaf-0023" type="selectionEntry" targetId="a160-9267-67ac-4546">
                   <modifiers>
-                    <modifier type="set" field="name" value="Two Sponson Mounted Volkite Dual-Culverins"/>
+                    <modifier type="set" value="Two Sponson Mounted Heavy Bolter Batteries" field="name"/>
                   </modifiers>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="864c-c76d-41dd-bd10"/>
-                  </constraints>
-                </entryLink>
-                <entryLink name="Gravis Melta Cannon" hidden="false" type="selectionEntry" targetId="65cc-0f51-4f63-b463" id="42be-da52-41f1-9c78">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
-                  </costs>
-                  <modifiers>
-                    <modifier type="set" field="name" value="Two Sponson Mounted Gravis Melta Cannons"/>
-                  </modifiers>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d772-cf9c-4d28-a121"/>
-                  </constraints>
+                  <profiles>
+                    <profile name="Gravis Heavy Bolter Battery" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="cdf9-344c-122f-5b80" publicationId="a716-c1c4-7b26-8424" page="130">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 8, Twin-linked</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
                 </entryLink>
               </entryLinks>
               <constraints>
@@ -2692,13 +2715,26 @@ Could not find wargear Two Sponson Mounted Gravis Heavy Bolter Batteries
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a748-0a8c-4883-8621"/>
                   </constraints>
                 </entryLink>
+                <entryLink import="true" name="Magna Combi-weapon" hidden="false" id="a049-581e-d969-e852" type="selectionEntry" targetId="4d02-259d-fa50-ef3a">
+                  <modifiers>
+                    <modifier type="set" value="Pintle Mounted Magna Combi-Weapon" field="name"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Minor Combi-weapon" hidden="false" id="276c-8f68-126f-eec0" type="selectionEntry" targetId="53c0-b5d7-f001-b816">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                  <modifiers>
+                    <modifier type="set" value="Pintle Mounted Minor Combi-weapon" field="name"/>
+                  </modifiers>
+                </entryLink>
               </entryLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="54ce-768e-41d6-a3b5"/>
               </constraints>
-              <comment>!BSC Errors from 20240406-1603
-Could not find wargear Pintle Mounted Combi-Weapon (Any Type)
-	 Checked under Combi-Weapon (Any Type)</comment>
             </selectionEntryGroup>
             <selectionEntryGroup name="The Legion Land Raider Tartaros may take any of the following:" id="af3e-1086-4222-a07f">
               <entryLinks>
@@ -2729,14 +2765,6 @@ Could not find wargear Pintle Mounted Combi-Weapon (Any Type)
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ae28-d72f-4d1c-af6b"/>
                   </constraints>
                 </entryLink>
-                <entryLink name="Vox Disruptor Array" hidden="false" type="selectionEntry" targetId="1241-6589-4b5f-af41" id="abd9-d8cc-40e6-842f">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
-                  </costs>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f143-a4d4-4953-8a8c"/>
-                  </constraints>
-                </entryLink>
               </entryLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1417-50e9-4587-aa9c"/>
@@ -2748,11 +2776,6 @@ Could not find wargear Pintle Mounted Combi-Weapon (Any Type)
             <categoryLink targetId="7b0a-a743-a8da-3a39" id="4efd-653c-4f39-bce7" name="Transport Sub-type:" primary="false"/>
             <categoryLink targetId="9b0d-738c-10e4-4ec1" id="e27e-e92b-4ffa-a654" name="Reinforced Sub-type:" primary="false"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Smoke Launchers *Upgrade Cost:
-	 Checked under Smoke Launchers *Upgrade Cost:
-Could not find wargear in The Legion Land Raider Tartaros may exchange its Two Sponson Mounted Gravis Heavy Bolter Batteries for one of the following:
-Could not find wargear in The Legion Land Raider Tartaros may take one of the following:</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -2760,9 +2783,8 @@ Could not find wargear in The Legion Land Raider Tartaros may take one of the fo
         <infoLink name="Power of the Machine Spirit" hidden="false" type="rule" targetId="5a93-13e0-809d-782a" id="d87e-adbb-4532-b621"/>
         <infoLink name="Assault Vehicle" hidden="false" type="rule" targetId="aa61-11f6-2bb5-7c0e" id="c051-46c7-4773-8494"/>
         <infoLink name="Support Squad" hidden="false" type="rule" targetId="768e-56d6-ca52-24ae" id="d53a-bcc5-4e77-96e6"/>
+        <infoLink name="Vox Override" id="4dc3-eb33-5dfa-4ede" hidden="false" type="rule" targetId="00bd-a6e9-2a48-8f40"/>
       </infoLinks>
-      <comment>!BSC Errors from 20240406-1603
-Could not find rule: Vox Override</comment>
     </selectionEntry>
     <selectionEntry name="Legion Terminator Saturnine Squad" type="unit" id="77f4-7d9e-429c-9101" page="18" publicationId="3970-79bb-bdc6-9599">
       <categoryLinks>
@@ -4743,7 +4765,7 @@ Could not find type or subtype &apos;Automata&apos;</comment>
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                       </costs>
                     </entryLink>
-                    <entryLink import="true" name="Asphyx Bolt Pistol" hidden="true" id="7692-177e-f590-2eea" collective="false" targetId="07f7-c486-f597-a1b9" type="selectionEntry" sortIndex="2">
+                    <entryLink import="true" name="Asphyx Bolt Pistol" hidden="false" id="7692-177e-f590-2eea" collective="false" targetId="07f7-c486-f597-a1b9" type="selectionEntry" sortIndex="2">
                       <costs>
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="1"/>
                       </costs>
@@ -7120,6 +7142,210 @@ Bolt Pistol is in two option lists for Legion Sky-Seeker, you will need to combi
               <comment>!BSC Errors from 20240406-1603
 Could not find wargear Legion Veteran Sergeant
 	 Checked under Legion Veteran Sergeant</comment>
+              <selectionEntries>
+                <selectionEntry type="model" import="true" name="Legion Veteran Sergeant" hidden="false" id="e39c-9693-87b8-2149" page="29" publicationId="3970-79bb-bdc6-9599">
+                  <profiles>
+                    <profile name="Legion Veteran Sergeant" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="bc09-c3bc-d96b-a5c5">
+                      <characteristics>
+                        <characteristic typeId="ddd7-6f5c-a939-b69e" name="Unit Type">Infantry (Character)</characteristic>
+                        <characteristic typeId="893e-2d76-8f04-44e5" name="Move">7</characteristic>
+                        <characteristic typeId="cc42-7ed5-7092-5c84" name="WS">5</characteristic>
+                        <characteristic typeId="74ae-c840-0036-d244" name="BS">4</characteristic>
+                        <characteristic typeId="e478-41d4-a092-48a8" name="S">4</characteristic>
+                        <characteristic typeId="c32b-5fdd-3fbe-9b1f" name="T">4</characteristic>
+                        <characteristic typeId="57ee-1126-32a9-5672" name="W">2</characteristic>
+                        <characteristic typeId="62d3-22d7-2d49-52dc" name="I">4</characteristic>
+                        <characteristic typeId="f111-2ce5-dd12-d6b0" name="A">3</characteristic>
+                        <characteristic typeId="e8a6-1da9-d384-8727" name="Ld">8</characteristic>
+                        <characteristic typeId="e593-6b3c-f169-04f0" name="Save">3+</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4052-cc48-e2a4-3a19"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6c43-b678-395f-e301"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="Frag Grenades" hidden="false" id="87ea-d7d0-d35b-45b5" type="selectionEntry" targetId="4fd8-9e1f-ae28-3004">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2a63-305b-df06-0444"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="844a-78d1-cf92-c74c"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Krak Grenades" hidden="false" id="b249-740d-14e8-b01c" type="selectionEntry" targetId="3739-1019-344e-761d">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c772-0121-a4fb-8be2"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="021e-6636-869d-674e"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="Any model with a Bolter may take a:" id="f8bc-eeb4-636f-442d" hidden="false">
+                      <entryLinks>
+                        <entryLink import="true" name="Bayonet" hidden="false" id="c543-be10-faea-90bb" type="selectionEntry" targetId="8413-55c8-60ce-e9bf">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="1"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ae3c-f33d-1e3d-c79e"/>
+                          </constraints>
+                        </entryLink>
+                      </entryLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="47bc-a40e-f5b6-f545"/>
+                      </constraints>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup name="Any Legion Veteran Sergeant may take one of the following:" id="cce9-7d65-650a-474a" hidden="false">
+                      <entryLinks>
+                        <entryLink import="true" name="Chainsword" hidden="false" id="b7bf-935f-9d07-f71c" type="selectionEntry" targetId="dc89-d283-44d7-8763">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="87c1-c7d1-1a62-6e27"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Heavy Chainsword" hidden="false" id="02c1-b610-101b-ba22" type="selectionEntry" targetId="31bb-957a-4e86-b6ca">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="250d-6cb1-52c6-b178"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Power Weapon" hidden="false" id="74f6-8759-a429-f2fa" type="selectionEntry" targetId="36a7-1c39-670c-5fec">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="70ba-9104-5691-74a6"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Lightning Claw" hidden="false" id="f2e7-78be-3fe7-080f" type="selectionEntry" targetId="2603-c45c-25ee-2a86">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="affd-c7e9-2b0f-42ad"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Charnabal Weapon" hidden="false" id="e939-c417-a00f-e64b" type="selectionEntry" targetId="e749-ba9b-bb76-a7d9">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3961-2a84-853c-04d6"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Power Fist" hidden="false" id="abc7-ec15-d893-1838" type="selectionEntry" targetId="768d-b89b-7328-d749">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f2c9-53dc-a245-6364"/>
+                          </constraints>
+                        </entryLink>
+                      </entryLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dd37-8291-b1c9-d6d6"/>
+                      </constraints>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup name="Any Legion Veteran Sergeant may exchange their Bolt Pistol for one of the following:" id="3ab2-c44d-4cc3-7b77" hidden="false">
+                      <entryLinks>
+                        <entryLink import="true" name="Bolt Pistol" hidden="false" id="be2b-daf2-5100-4056" type="selectionEntry" targetId="52fe-46cd-520d-9df3">
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="be81-2c8c-5fd4-629f"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Hand Flamer" hidden="false" id="2948-a773-7ac4-14a3" type="selectionEntry" targetId="6b5f-d62d-7568-38b6">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="214f-cfd3-868b-2716"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Volkite Serpenta" hidden="false" id="905e-93ec-8b12-cd33" type="selectionEntry" targetId="d535-1da8-290d-69a6">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="01b9-2407-35f1-8951"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Plasma Pistol" hidden="false" id="e649-9dbf-b895-e611" type="selectionEntry" targetId="1a7b-4418-8346-66a7">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="72d5-c9e1-7e10-4d79"/>
+                          </constraints>
+                        </entryLink>
+                      </entryLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="31c5-cc4f-2a56-a7a4"/>
+                      </constraints>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup name="Any Legion Veteran Sergeant may exchange their Bolter for one of the following:" id="66b3-3ad5-f2f6-2a38" hidden="false">
+                      <entryLinks>
+                        <entryLink import="true" name="Bolter" hidden="false" id="1b20-bc8a-40aa-46e9" type="selectionEntry" targetId="a080-c391-6083-5e5d">
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="86b2-c2da-f002-2fec"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Minor Combi-Weapon" hidden="false" id="2f29-2dba-47da-2835" type="selectionEntry" targetId="605e-1b86-ca08-9226">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1f13-7ae4-b197-e11d"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Magna Combi-Weapon" hidden="false" id="e6e9-6018-4eda-357a" type="selectionEntry" targetId="e5b1-83e5-7272-a59e">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d035-6dd2-585d-f496"/>
+                          </constraints>
+                        </entryLink>
+                      </entryLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="50ef-9ef2-0f12-72ad"/>
+                      </constraints>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup name="Any Legion Veteran Sergeant may exchange their Power Armour for:" id="98c5-7b48-4005-bcff" hidden="false">
+                      <entryLinks>
+                        <entryLink import="true" name="Power Armour" hidden="false" id="3859-9841-7b34-7bef" type="selectionEntry" targetId="486f-a33c-7da5-c580">
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a5f5-22c2-1407-177e"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Artificer Armour" hidden="false" id="6267-04c8-3230-6012" type="selectionEntry" targetId="9196-3af7-9545-e62b">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c035-34df-4b57-045d"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Power Armour" hidden="false" id="e877-5d0c-a349-a265" type="selectionEntry" targetId="b82e-3b68-4d1f-a0cc">
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4484-e04d-8e2f-453f"/>
+                          </constraints>
+                        </entryLink>
+                      </entryLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="57f9-e476-c874-26ee"/>
+                      </constraints>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                  <categoryLinks>
+                    <categoryLink name="Infantry:" hidden="false" id="3595-7c77-3614-85c2" targetId="8b4f-bfe2-ce7b-f1b1" primary="false"/>
+                    <categoryLink name="Character" hidden="false" id="ac16-64d8-a0e9-105d" targetId="f75a-d5c1-59ba-5c5a" primary="false"/>
+                  </categoryLinks>
+                </selectionEntry>
+              </selectionEntries>
             </selectionEntryGroup>
             <selectionEntryGroup name="Any model with a Bolter may take a:" id="b337-496e-43f5-9218">
               <entryLinks>
