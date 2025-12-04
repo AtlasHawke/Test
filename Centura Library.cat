@@ -7367,6 +7367,10 @@ The option &apos;Hunter Killer Missiles&apos; may need a &apos;multiply by numbe
                   </profiles>
                 </entryLink>
               </entryLinks>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="225e-01c8-2f6e-3f7e-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="225e-01c8-2f6e-3f7e-max"/>
+              </constraints>
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntry>
