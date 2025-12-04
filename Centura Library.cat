@@ -3825,9 +3825,6 @@ Power Weapon is in two option lists for Legion Saturnine Sergeant, you will need
               <constraints>
                 <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="c24d-a5ce-4f62-83e6"/>
               </constraints>
-              <comment>!BSC Errors from 20240406-1603
-Could not find wargear Gravis Chainfist with in-built Combi-Bolter
-	 Checked under Gravis Chainfist with in-built Combi-Bolter</comment>
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Gravis Chainfist with in built Combi-Bolter" hidden="false" id="ecf6-7119-5fce-cec6">
                   <entryLinks>
@@ -7938,39 +7935,10 @@ Could not find wargear in Any Legion Vindicator Thunderer may take one of the fo
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="85af-635b-43d8-9bb9"/>
               </constraints>
             </entryLink>
-            <entryLink name="Gravis Melta Cannon" hidden="false" type="selectionEntry" targetId="ef6c-f656-171a-03e1" id="11b4-efe8-4415-bcf0">
-              <modifiers>
-                <modifier type="set" field="name" value="Two Sponson Mounted Gravis Melta Cannons"/>
-              </modifiers>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="42b6-de8b-4e75-9c72"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bf9e-4c39-42e3-bb16"/>
-              </constraints>
-            </entryLink>
-            <entryLink name="Gravis Melta Cannon" hidden="false" type="selectionEntry" targetId="65cc-0f51-4f63-b463" id="195c-f6c6-4dd5-956e">
-              <modifiers>
-                <modifier type="set" field="name" value="Two Sponson Mounted Gravis Melta Cannons"/>
-              </modifiers>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9e9c-04e6-4d67-aa3c"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1ce0-43be-4808-9f9b"/>
-              </constraints>
-            </entryLink>
           </entryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="A Legion Fire Raptor Destroyer may exchange both its Sponson Mounted Gravis Melta Cannons for:" id="1b61-ea45-46d1-a3e4">
               <entryLinks>
-                <entryLink name="Lascannon Array" hidden="false" type="selectionEntry" targetId="e0b7-d184-f049-8c4b" id="8b8c-5538-4434-a813">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
-                  </costs>
-                  <modifiers>
-                    <modifier type="set" field="name" value="Two Sponson Mounted Lascannon Arrays"/>
-                  </modifiers>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="023c-7bf4-4ef6-bdcd"/>
-                  </constraints>
-                </entryLink>
                 <entryLink name="Lascannon Array" hidden="false" type="selectionEntry" targetId="bb72-5b7e-4cd9-ad77" id="6e9e-9b1e-4087-9605">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
@@ -7980,6 +7948,34 @@ Could not find wargear in Any Legion Vindicator Thunderer may take one of the fo
                   </modifiers>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f5d4-fe3c-42c0-b97a"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Lascannon Array" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="eda4-1ba5-a997-122b" page="297" publicationId="892-6266-f55f-1b9d">
+                      <characteristics>
+                        <characteristic typeId="95ba-cda7-b831-6066" name="Range">48&quot;</characteristic>
+                        <characteristic typeId="24d9-b8e1-a355-2458" name="Strength">9</characteristic>
+                        <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">2</characteristic>
+                        <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Heavy 2, Twin-Linked, Sunder</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </entryLink>
+                <entryLink import="true" name="Gravis Melta Cannon" hidden="false" id="92f8-dddd-5f20-f634" type="selectionEntry" targetId="65cc-0f51-4f63-b463">
+                  <profiles>
+                    <profile name="Gravis Melta Cannon" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="630f-3aa5-0df2-3933" page="297" publicationId="892-6266-f55f-1b9d">
+                      <characteristics>
+                        <characteristic typeId="95ba-cda7-b831-6066" name="Range">24&quot;</characteristic>
+                        <characteristic typeId="24d9-b8e1-a355-2458" name="Strength">8</characteristic>
+                        <characteristic typeId="f7a6-e0d8-7973-cd8d" name="AP">1</characteristic>
+                        <characteristic typeId="2f86-c8b4-b3b4-3ff9" name="Type">Heavy 2, Armourbane (Melta), Twin-Linked</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <modifiers>
+                    <modifier type="set" value="2 Sponson Mounted Gravis Melta Cannons" field="name"/>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c70f-3e0f-42a6-9834"/>
                   </constraints>
                 </entryLink>
               </entryLinks>
@@ -7994,6 +7990,79 @@ Could not find wargear in Any Legion Vindicator Thunderer may take one of the fo
               <comment>!BSC Errors from 20240406-1603
 Could not find wargear Four Hull (Front) Mounted Hellstrike Missiles
 	 Checked under Hellstrike Missiles</comment>
+              <entryLinks>
+                <entryLink import="true" name="Tempest Rocket" hidden="false" id="6d84-3bd8-e705-274e" type="selectionEntry" targetId="2ecd-8d4e-a823-38b8">
+                  <profiles>
+                    <profile name="Tempest Rocket" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="bff0-bff1-c324-4d62" publicationId="a716-c1c4-7b26-8424" page="133">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">60&quot;</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Sunder, One Shot</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile name="Tempest Rocket" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="a177-0f64-d7f2-8be5" publicationId="a716-c1c4-7b26-8424" page="133">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">60&quot;</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Sunder, One Shot</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile name="Tempest Rocket" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="f67f-79c7-0401-8188" publicationId="a716-c1c4-7b26-8424" page="133">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">60&quot;</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Sunder, One Shot</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4289-5826-8d0c-c6d6"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="set" value="4 Hull (Front) Mounted Tempest Rockets" field="name"/>
+                  </modifiers>
+                </entryLink>
+                <entryLink import="true" name="Hellstrike Missile" hidden="false" id="1f97-adb2-605a-57de" type="selectionEntry" targetId="5e24-bdca-a89c-0f40">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4cd4-10cf-6cb0-766b"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="set" value="4 Hull (Front) Mounted Hellstrike Missiles" field="name"/>
+                  </modifiers>
+                  <profiles>
+                    <profile name="Hellstrike Missile" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="4e8c-8f5c-cf61-4a3d" publicationId="a716-c1c4-7b26-8424" page="133">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">72&quot;</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">9</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Sunder, One Shot</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile name="Hellstrike Missile" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="b39d-1774-fcab-d6ad" publicationId="a716-c1c4-7b26-8424" page="133">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">72&quot;</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">9</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Sunder, One Shot</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile name="Hellstrike Missile" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="c2f9-a06d-5c5a-5b49" publicationId="a716-c1c4-7b26-8424" page="133">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">72&quot;</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">9</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Sunder, One Shot</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
@@ -8797,16 +8866,17 @@ Could not find profile for Legion Cataphractii Ruin Master in [&apos;Legion Cata
       <selectionEntries>
         <selectionEntry type="model" name="Legion Doomhammer" id="d771-156d-4df2-b240" page="55" publicationId="3970-79bb-bdc6-9599">
           <profiles>
-            <profile id="d041-b05d-4367-b2f0" name="Legion Doomhammer" typeId="2fae-b053-3f78-e7b2">
+            <profile id="d041-b05d-4367-b2f0" name="Legion Doomhammer" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle">
               <characteristics>
-                <characteristic typeId="3614-4a2d-bffb-90e4" name="Move">12</characteristic>
-                <characteristic typeId="51fb-b7d9-aa59-863d" name="BS">4</characteristic>
-                <characteristic typeId="0ef8-a648-01d0-08ee" name="Front">14</characteristic>
-                <characteristic typeId="f150-c0dc-c192-9cb3" name="Side">13</characteristic>
-                <characteristic typeId="8d4e-2aea-fffc-d556" name="Rear">12</characteristic>
-                <characteristic typeId="a76c-83b1-602f-9e62" name="HP">12</characteristic>
-                <characteristic typeId="0c90-79e2-f768-e547" name="Transport Capacity">22</characteristic>
-                <characteristic typeId="e555-4aed-dfcc-c0b4" name="Unit Type">Vehicle (Super-Heavy, Transport)</characteristic>
+                <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Super-Heavy, Transport)</characteristic>
+                <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">12</characteristic>
+                <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">4</characteristic>
+                <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">14</characteristic>
+                <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">13</characteristic>
+                <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">12</characteristic>
+                <characteristic name="HP" typeId="a76c-83b1-602f-9e62">12</characteristic>
+                <characteristic name="Transport Capacity" typeId="0c90-79e2-f768-e547">22</characteristic>
+                <characteristic name="Access Points" typeId="e217-1b1e-9494-3e3e">Entire Hull</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8822,15 +8892,6 @@ Could not find profile for Legion Cataphractii Ruin Master in [&apos;Legion Cata
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b547-13fb-44cc-8d4d"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7b23-bbc1-411e-910e"/>
-              </constraints>
-            </entryLink>
-            <entryLink name="Twin-linked Heavy Bolter" hidden="false" type="selectionEntry" targetId="d03c-9f7e-84fa-d6e8" id="3eb0-32df-440f-b110">
-              <modifiers>
-                <modifier type="set" field="name" value="Hull (Front) Mounted Twin-Linked Heavy Bolter"/>
-              </modifiers>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5a62-0214-466e-9bad"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a0a7-d247-46d5-ab32"/>
               </constraints>
             </entryLink>
             <entryLink name="Smoke Launchers" hidden="false" type="selectionEntry" targetId="0873-34dd-e52d-d33c" id="c404-d0af-41ce-80a3">
@@ -8851,20 +8912,18 @@ Could not find profile for Legion Cataphractii Ruin Master in [&apos;Legion Cata
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c56b-f3a9-4298-8d06"/>
                   </constraints>
                 </entryLink>
+                <entryLink import="true" name="Twin-linked Heavy Bolter" hidden="false" id="24d5-8e1e-3c3b-de1e" type="selectionEntry" targetId="d03c-9f7e-84fa-d6e8">
+                  <modifiers>
+                    <modifier type="set" value="Hull (Front) Mounted Twin-Linked Heavy Bolter" field="name"/>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3db5-1225-3e5f-44ee"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a145-b3c3-4ba6-86fd"/>
               </constraints>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="A Legion Doomhammer may take up to two pairs of side sponsons, with each sponson armed with:" id="6a61-8dc7-4c7f-b4d5">
-              <constraints>
-                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="3ed9-0e1e-4684-87b8"/>
-              </constraints>
-              <comment>!BSC Errors from 20240406-1603
-Could not find wargear One Lascannon &amp; one Twin-Linked Heavy Flamer
-	 Checked under One Lascannon &amp; one Twin-Linked Heavy Flamer
-Could not find wargear One Lascannon &amp; one Twin-Linked Heavy Bolter
-	 Checked under One Lascannon &amp; one Twin-Linked Heavy Bolter</comment>
             </selectionEntryGroup>
             <selectionEntryGroup name="The Legion Doomhammer may take up to two of the following:" id="55de-773a-45d4-99fb">
               <entryLinks>
@@ -8923,13 +8982,20 @@ Could not find wargear One Lascannon &amp; one Twin-Linked Heavy Bolter
                     <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="f4cd-a39a-4030-b32b"/>
                   </constraints>
                 </entryLink>
+                <entryLink import="true" name="Magna Combi-weapon" hidden="false" id="87ba-a419-bcd5-492a" type="selectionEntry" targetId="4d02-259d-fa50-ef3a">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Minor Combi-weapon" hidden="false" id="b71c-6443-fa8e-48f5" type="selectionEntry" targetId="53c0-b5d7-f001-b816">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
               <constraints>
                 <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="4dda-9ffa-40b6-af80"/>
               </constraints>
-              <comment>!BSC Errors from 20240406-1603
-Could not find wargear Pintle Mounted Combi-Weapon (Any Type)
-	 Checked under Combi-Weapon (Any Type)</comment>
             </selectionEntryGroup>
             <selectionEntryGroup name="The Legion Doomhammer may take any of the following:" id="0aad-9515-4e2e-ad91">
               <entryLinks>
@@ -8954,19 +9020,71 @@ Could not find wargear Pintle Mounted Combi-Weapon (Any Type)
                 </entryLink>
               </entryLinks>
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cc56-80cb-4fe1-9ba3"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="cc56-80cb-4fe1-9ba3"/>
               </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="A Legion DoomHammer may take up to two pairs of side sponsons, with each sponson armed with:" id="85e6-ada4-6480-47c8" hidden="false">
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="605a-f486-18df-4569"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="One Lascannon &amp; one Twin-Linked Heavy Flamer" hidden="false" id="176f-10ff-86ac-f303">
+                  <entryLinks>
+                    <entryLink import="true" name="Lascannon" hidden="false" id="580a-99d6-26db-8f82" type="selectionEntry" targetId="b252-5a86-6e0f-218b">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8870-524b-3cc9-e666"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7965-a635-29e7-d1f9"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Twin-linked Heavy Flamer" hidden="false" id="9a0c-cfc1-a5d5-097f" type="selectionEntry" targetId="18ea-34ad-326b-281b">
+                      <modifiers>
+                        <modifier type="set" value="Hull (Front) Mounted Twin-Linked Heavy Flamer" field="name"/>
+                      </modifiers>
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9fca-5ec1-7315-f0b3"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a016-7052-6242-f9f5"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="7c5a-8348-7d3d-507f"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="One Lascannon &amp; one Twin-Linked Heavy Bolter" hidden="false" id="8177-2c8e-0067-07a4">
+                  <entryLinks>
+                    <entryLink import="true" name="Lascannon" hidden="false" id="5a0a-a40e-767c-cdb1" type="selectionEntry" targetId="b252-5a86-6e0f-218b">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9d24-14a0-ce8b-8960"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dce2-ea94-fc0d-60eb"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Twin-linked Heavy Bolter" hidden="false" id="b335-812e-ce47-0378" type="selectionEntry" targetId="d03c-9f7e-84fa-d6e8">
+                      <modifiers>
+                        <modifier type="set" value="Hull (Front) Mounted Twin-Linked Heavy Bolter" field="name"/>
+                      </modifiers>
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b3ea-ec59-4c4e-07cd"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8579-7d63-95a2-e99e"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="40"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="843a-36a9-27ba-a35e"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
             <categoryLink targetId="e2b6-b770-784c-9e95" id="226b-0932-4b6b-ae51" name="Vehicle:" primary="false"/>
             <categoryLink targetId="7b0a-a743-a8da-3a39" id="a0f7-aad9-4d11-9550" name="Transport Sub-type:" primary="false"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear in A Legion Doomhammer may take up to two pairs of side sponsons, with each sponson armed with:
-Could not find wargear in A Legion Doomhammer may take up to two pairs of side sponsons, with each sponson armed with:
-Could not find wargear in The Legion Doomhammer may take up to two of the following:
-Could not find type or subtype &apos;Super-Heavy&apos;</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
