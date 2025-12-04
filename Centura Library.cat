@@ -3810,7 +3810,7 @@ Power Weapon is in two option lists for Legion Saturnine Sergeant, you will need
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
                   </costs>
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f00f-9825-43d4-b910"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="f00f-9825-43d4-b910"/>
                   </constraints>
                 </entryLink>
                 <entryLink name="Rad-Fragmentation Charge Launcher" hidden="false" type="selectionEntry" targetId="c5ac-bc89-4480-8430" id="0d0b-8004-47fa-a83e">
@@ -3818,7 +3818,7 @@ Power Weapon is in two option lists for Legion Saturnine Sergeant, you will need
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
                   </costs>
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9a6f-f3b1-47d5-885b"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="9a6f-f3b1-47d5-885b"/>
                   </constraints>
                 </entryLink>
               </entryLinks>
