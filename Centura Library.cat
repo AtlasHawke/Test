@@ -7127,12 +7127,6 @@ Bolt Pistol is in two option lists for Legion Sky-Seeker, you will need to combi
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b2bb-b4a8-49d9-9978"/>
               </constraints>
             </entryLink>
-            <entryLink name="Power Armour" hidden="false" type="selectionEntry" targetId="b82e-3b68-4d1f-a0cc" id="292e-c006-440f-86ad">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="581b-9d8e-420c-9bf8"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2a38-3837-4a0a-ac68"/>
-              </constraints>
-            </entryLink>
           </entryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="For every ten models in the unit beyond its original starting size, one Legion Novitiate may be upgraded to a:" id="1235-bfb5-4fe0-80d7">
@@ -7374,11 +7368,6 @@ Could not find wargear in For every ten models in the unit beyond its original s
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ecf7-ca77-4085-99c3"/>
                   </constraints>
                 </entryLink>
-                <entryLink name="Power Armour" hidden="false" type="selectionEntry" targetId="b82e-3b68-4d1f-a0cc" id="d2a3-1536-45fd-8f8e">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5c17-b331-4dd2-8b66"/>
-                  </constraints>
-                </entryLink>
               </entryLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d65d-f2e2-4e5d-8653"/>
@@ -7389,6 +7378,13 @@ Could not find wargear in For every ten models in the unit beyond its original s
             <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="6df4-7ac2-4b66-b8d2" name="Infantry:" primary="false"/>
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="cc95-50f8-43c8-a15d" name="Character" primary="false"/>
           </categoryLinks>
+          <modifiers>
+            <modifier type="increment" value="1" field="b3e1-42ab-445c-b68d">
+              <repeats>
+                <repeat value="9" repeats="1" field="selections" scope="7322-a79c-4ce8-8b16" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
