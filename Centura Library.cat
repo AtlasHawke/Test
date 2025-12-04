@@ -7161,11 +7161,6 @@ Could not find wargear Legion Veteran Sergeant
             </selectionEntryGroup>
             <selectionEntryGroup name="Any Legion Novitiate in the unit may exchange their Bolter for:" id="e523-14bc-40ee-9edc">
               <entryLinks>
-                <entryLink name="Bolter" hidden="false" type="selectionEntry" targetId="a080-c391-6083-5e5d" id="735c-39c9-43c4-9309">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d434-9629-4b4d-a808"/>
-                  </constraints>
-                </entryLink>
                 <entryLink name="Chainsword" hidden="false" type="selectionEntry" targetId="dc89-d283-44d7-8763" id="4446-80f1-4699-8d84">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="1"/>
@@ -7178,6 +7173,187 @@ Could not find wargear Legion Veteran Sergeant
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="05fb-797b-4fc1-a504"/>
               </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Bolter" id="d712-8796-3a8e-4cb1" hidden="false" collective="false" import="true" defaultSelectionEntryId="709c-562b-7b19-f1fc">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9377-84e4-bd76-f5f4" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6886-f586-cbce-2852" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="Bolter" hidden="false" id="c56c-0c4b-778d-8c20" collective="false" targetId="a080-c391-6083-5e5d" type="selectionEntry">
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition type="atLeast" value="1" field="selections" scope="7322-a79c-4ce8-8b16" childId="db53-8568-775f-1ab9" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                                <condition type="atLeast" value="1" field="selections" scope="7322-a79c-4ce8-8b16" childId="1941-21b5-932c-74d6" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                                <condition type="equalTo" value="1" field="selections" scope="force" childId="c7be-f327-8718-3dfb" shared="true" includeChildSelections="true"/>
+                              </conditions>
+                              <conditionGroups>
+                                <conditionGroup type="and">
+                                  <conditions>
+                                    <condition type="equalTo" value="1" field="selections" scope="7322-a79c-4ce8-8b16" childId="8e05-7d1e-16e4-1669" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                                    <condition type="equalTo" value="1" field="selections" scope="force" childId="b2b4-2198-0b90-dd9f" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                                  </conditions>
+                                </conditionGroup>
+                              </conditionGroups>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                      </modifiers>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bbc2-bfc0-4ff7-ab45" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Asphyx Bolter" hidden="false" id="7055-8598-7a14-9e72" collective="false" targetId="dcef-d670-b47a-adfa" type="selectionEntry">
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="equalTo" value="1" field="selections" scope="7322-a79c-4ce8-8b16" childId="8e05-7d1e-16e4-1669" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b4b9-5d77-be6e-3950" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="1"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Shrapnel Bolter" hidden="false" id="731d-c7b9-e931-c82c" collective="false" targetId="db53-8568-775f-1ab9" type="selectionEntry">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b06a-f21b-9dc0-9659" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Volkite Charger" hidden="false" id="59e2-1349-916b-c316" publicationId="9fab-fea7-a93c-2074" page="118" collective="false" targetId="5c82-c306-9c5c-5908" type="selectionEntry">
+                      <modifiers>
+                        <modifier type="set" value="1" field="048a-3d34-f849-5348">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="equalTo" value="1" field="selections" scope="7322-a79c-4ce8-8b16" childId="8e05-7d1e-16e4-1669" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                                <condition type="equalTo" value="1" field="selections" scope="force" childId="b2b4-2198-0b90-dd9f" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition type="equalTo" value="0" field="selections" scope="7322-a79c-4ce8-8b16" childId="8e05-7d1e-16e4-1669" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                                <condition type="equalTo" value="0" field="selections" scope="force" childId="b2b4-2198-0b90-dd9f" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                      </modifiers>
+                      <constraints>
+                        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="048a-3d34-f849-5348" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e4bd-b0f9-8aba-a58c" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2.78"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Autopistol" hidden="false" id="bb7e-be38-af23-df38" type="selectionEntry" targetId="344f-4836-c70d-29a4">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="7e52-b83c-6838-b859" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="c7be-f327-8718-3dfb" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink import="true" name="Autorifle" hidden="false" id="0eda-2a62-67d8-ddc3" type="selectionEntry" targetId="f3ff-0995-248a-5243">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="77e9-7073-61e0-b1e2" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="c7be-f327-8718-3dfb" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink import="true" name="Lascarbine" hidden="false" id="fb26-2ec8-f76d-5e34" type="selectionEntry" targetId="3335-928e-aef8-ca0f">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="dc3f-2b17-41a6-c1f9" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="c7be-f327-8718-3dfb" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink import="true" name="Lasgun" hidden="false" id="0142-2b2b-e5e2-d8a4" type="selectionEntry" targetId="0b4e-2811-0529-f22f">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="f292-3383-fe21-c603" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="c7be-f327-8718-3dfb" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink import="true" name="Laspistol" hidden="false" id="f04d-58d6-c3ed-a232" type="selectionEntry" targetId="3cf9-eb36-3bfe-4970">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="a60c-e792-e8ce-bcea" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="c7be-f327-8718-3dfb" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink import="true" name="Shotgun" hidden="false" id="ce34-f4e0-7e2f-0443" type="selectionEntry" targetId="2dba-5646-1049-c134">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="0fc1-a9e7-79e7-f8d2" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="c7be-f327-8718-3dfb" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink import="true" name="Stubcarbine" hidden="false" id="22c0-7d1a-33e2-7f5c" type="selectionEntry" targetId="090f-d3b8-9e92-40e3">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="5430-7ba5-a13f-4be3" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="c7be-f327-8718-3dfb" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                  </entryLinks>
+                  <modifiers>
+                    <modifier type="set" value="b3d9-4c17-67dc-d7fb" field="defaultSelectionEntryId">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="force" childId="c7be-f327-8718-3dfb" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
@@ -7307,11 +7483,6 @@ Could not find wargear Legion Veteran Sergeant
             </selectionEntryGroup>
             <selectionEntryGroup name="Any Legion Veteran Sergeant may exchange their Bolt Pistol for one of the following:" id="2a6b-08c8-485e-b590">
               <entryLinks>
-                <entryLink name="Bolt Pistol" hidden="false" type="selectionEntry" targetId="52fe-46cd-520d-9df3" id="660b-8134-4bd7-9d7b">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2401-45f6-4fbc-9101"/>
-                  </constraints>
-                </entryLink>
                 <entryLink name="Hand Flamer" hidden="false" type="selectionEntry" targetId="6b5f-d62d-7568-38b6" id="2c41-b34a-4729-9537">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
@@ -7340,14 +7511,144 @@ Could not find wargear Legion Veteran Sergeant
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cfa1-63df-4e46-b732"/>
               </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Bolt Pistol" id="8a1f-d2ee-a194-ef00" hidden="false" collective="false" import="true" defaultSelectionEntryId="b2b9-a9d6-d8ae-6baa">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="7f3d-5e92-bd06-0f10" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="939d-bd66-3330-65fa" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="Shrapnel Pistol" hidden="false" id="a27c-052f-e0bb-1d17" collective="false" targetId="fb41-0199-e8e8-622b" type="selectionEntry" sortIndex="3">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f742-e403-3c70-0b91" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Bolt Pistol" hidden="false" id="bdea-71ea-3231-28d6" collective="false" targetId="52fe-46cd-520d-9df3" type="selectionEntry" sortIndex="1">
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition type="atLeast" value="1" field="selections" scope="7322-a79c-4ce8-8b16" childId="7d72-7f6d-6330-6871" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                                <condition type="atLeast" value="1" field="selections" scope="7322-a79c-4ce8-8b16" childId="fb41-0199-e8e8-622b" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                                <condition type="atLeast" value="1" field="selections" scope="force" childId="c7be-f327-8718-3dfb" shared="true" includeChildSelections="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                      </modifiers>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f28b-1d64-690c-e50f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Asphyx Bolt Pistol" hidden="false" id="d3c4-80d0-dd87-f199" collective="false" targetId="f751-2e0d-353e-3886" type="selectionEntry" sortIndex="2">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="72bd-fb36-8af0-a336" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="1"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Autopistol" hidden="false" id="3c3d-8e20-fa49-d097" type="selectionEntry" targetId="344f-4836-c70d-29a4">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="c03f-5d89-58b9-89ba" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="c7be-f327-8718-3dfb" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink import="true" name="Autorifle" hidden="false" id="78a9-d2a0-cf4e-bf9a" type="selectionEntry" targetId="f3ff-0995-248a-5243">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="df8a-247a-d6bf-ad7f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="c7be-f327-8718-3dfb" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink import="true" name="Lascarbine" hidden="false" id="bf02-69eb-54bc-dd4a" type="selectionEntry" targetId="3335-928e-aef8-ca0f">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="7499-8f6e-157e-535f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="c7be-f327-8718-3dfb" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink import="true" name="Lasgun" hidden="false" id="825b-440d-412c-a97d" type="selectionEntry" targetId="0b4e-2811-0529-f22f">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="cb39-8327-c2ee-4052" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="c7be-f327-8718-3dfb" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink import="true" name="Laspistol" hidden="false" id="89e9-4be3-db3c-23c6" type="selectionEntry" targetId="3cf9-eb36-3bfe-4970">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="61f6-262d-b4f1-8270" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="c7be-f327-8718-3dfb" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink import="true" name="Shotgun" hidden="false" id="46af-1b3f-ad76-1008" type="selectionEntry" targetId="2dba-5646-1049-c134">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="881b-462a-80ea-b306" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="c7be-f327-8718-3dfb" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink import="true" name="Stubcarbine" hidden="false" id="9c47-042f-f036-258b" type="selectionEntry" targetId="090f-d3b8-9e92-40e3">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="635c-3400-ebcb-9477" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="c7be-f327-8718-3dfb" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                  </entryLinks>
+                  <modifiers>
+                    <modifier type="set" value="2b4-f1f-b478-5261" field="defaultSelectionEntryId">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="c7be-f327-8718-3dfb" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntryGroup>
             <selectionEntryGroup name="Any Legion Veteran Sergeant may exchange their Bolter for one of the following:" id="5916-bfc3-40e1-b7a0">
               <entryLinks>
-                <entryLink name="Bolter" hidden="false" type="selectionEntry" targetId="a080-c391-6083-5e5d" id="3eba-6e3b-4738-9270">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="03ef-b50d-4f94-9d54"/>
-                  </constraints>
-                </entryLink>
                 <entryLink name="Minor Combi-Weapon" hidden="false" type="selectionEntry" targetId="605e-1b86-ca08-9226" id="5a52-32ba-4a9a-90b6">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
@@ -7368,6 +7669,187 @@ Could not find wargear Legion Veteran Sergeant
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f1c1-7928-4711-acb3"/>
               </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Bolter" id="400a-b0b8-c0d9-6fad" hidden="false" collective="false" import="true" defaultSelectionEntryId="709c-562b-7b19-f1fc">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1bf3-1e5a-e562-7d79" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d213-ad4b-a283-409f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="Bolter" hidden="false" id="33f5-2a8b-c9c7-eca2" collective="false" targetId="a080-c391-6083-5e5d" type="selectionEntry">
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition type="atLeast" value="1" field="selections" scope="7322-a79c-4ce8-8b16" childId="db53-8568-775f-1ab9" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                                <condition type="atLeast" value="1" field="selections" scope="7322-a79c-4ce8-8b16" childId="1941-21b5-932c-74d6" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                                <condition type="equalTo" value="1" field="selections" scope="force" childId="c7be-f327-8718-3dfb" shared="true" includeChildSelections="true"/>
+                              </conditions>
+                              <conditionGroups>
+                                <conditionGroup type="and">
+                                  <conditions>
+                                    <condition type="equalTo" value="1" field="selections" scope="7322-a79c-4ce8-8b16" childId="8e05-7d1e-16e4-1669" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                                    <condition type="equalTo" value="1" field="selections" scope="force" childId="b2b4-2198-0b90-dd9f" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                                  </conditions>
+                                </conditionGroup>
+                              </conditionGroups>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                      </modifiers>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5064-17fd-0ddd-e494" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Asphyx Bolter" hidden="false" id="139e-dbe3-85a2-2f52" collective="false" targetId="dcef-d670-b47a-adfa" type="selectionEntry">
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="equalTo" value="1" field="selections" scope="7322-a79c-4ce8-8b16" childId="8e05-7d1e-16e4-1669" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fd8a-4b78-9f10-e37c" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="1"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Shrapnel Bolter" hidden="false" id="51ec-85dc-2f0a-c33a" collective="false" targetId="db53-8568-775f-1ab9" type="selectionEntry">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="13ff-ce4a-9168-372c" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Volkite Charger" hidden="false" id="fa46-388e-121a-b152" publicationId="9fab-fea7-a93c-2074" page="118" collective="false" targetId="5c82-c306-9c5c-5908" type="selectionEntry">
+                      <modifiers>
+                        <modifier type="set" value="1" field="aabe-ab47-869b-5851">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="equalTo" value="1" field="selections" scope="7322-a79c-4ce8-8b16" childId="8e05-7d1e-16e4-1669" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                                <condition type="equalTo" value="1" field="selections" scope="force" childId="b2b4-2198-0b90-dd9f" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition type="equalTo" value="0" field="selections" scope="7322-a79c-4ce8-8b16" childId="8e05-7d1e-16e4-1669" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                                <condition type="equalTo" value="0" field="selections" scope="force" childId="b2b4-2198-0b90-dd9f" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                      </modifiers>
+                      <constraints>
+                        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="aabe-ab47-869b-5851" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b59b-c162-815d-66b7" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2.78"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Autopistol" hidden="false" id="99b2-39b9-c95f-52f1" type="selectionEntry" targetId="344f-4836-c70d-29a4">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="c29c-dd5a-15a9-d52b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="c7be-f327-8718-3dfb" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink import="true" name="Autorifle" hidden="false" id="66a5-c877-4ec5-7b6c" type="selectionEntry" targetId="f3ff-0995-248a-5243">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="5055-8057-22f3-1506" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="c7be-f327-8718-3dfb" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink import="true" name="Lascarbine" hidden="false" id="0717-306c-9589-be6f" type="selectionEntry" targetId="3335-928e-aef8-ca0f">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="bb84-a1ec-6222-8626" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="c7be-f327-8718-3dfb" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink import="true" name="Lasgun" hidden="false" id="837b-686c-3319-e275" type="selectionEntry" targetId="0b4e-2811-0529-f22f">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="a0a9-ac29-f4f1-d0e2" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="c7be-f327-8718-3dfb" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink import="true" name="Laspistol" hidden="false" id="19a8-3554-f453-31b9" type="selectionEntry" targetId="3cf9-eb36-3bfe-4970">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="4fd1-c24d-b5be-6cac" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="c7be-f327-8718-3dfb" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink import="true" name="Shotgun" hidden="false" id="27fd-32e9-5593-29b3" type="selectionEntry" targetId="2dba-5646-1049-c134">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="de56-6812-623b-a76b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="c7be-f327-8718-3dfb" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink import="true" name="Stubcarbine" hidden="false" id="4683-12b3-50e7-0ae2" type="selectionEntry" targetId="090f-d3b8-9e92-40e3">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="1576-0fa4-2f6c-ac23" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="c7be-f327-8718-3dfb" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                  </entryLinks>
+                  <modifiers>
+                    <modifier type="set" value="b3d9-4c17-67dc-d7fb" field="defaultSelectionEntryId">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="force" childId="c7be-f327-8718-3dfb" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntryGroup>
             <selectionEntryGroup name="Any Legion Veteran Sergeant may exchange their Power Armour for:" id="5204-6c93-4ddc-87cd">
               <entryLinks>
@@ -7629,11 +8111,6 @@ Could not find wargear Legion Veteran Sergeant
             </selectionEntryGroup>
             <selectionEntryGroup name="Any Legion Veteran Sergeant may exchange their Bolt Pistol for one of the following:" id="4c12-41af-a21b-8229" hidden="false">
               <entryLinks>
-                <entryLink import="true" name="Bolt Pistol" hidden="false" id="e621-2446-9e9e-d280" type="selectionEntry" targetId="52fe-46cd-520d-9df3">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="590a-4e6c-3874-7ca9"/>
-                  </constraints>
-                </entryLink>
                 <entryLink import="true" name="Hand Flamer" hidden="false" id="e5fe-a836-ece6-64f3" type="selectionEntry" targetId="6b5f-d62d-7568-38b6">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
@@ -7662,14 +8139,144 @@ Could not find wargear Legion Veteran Sergeant
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6e1b-4220-25d4-3d33"/>
               </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Bolt Pistol" id="e240-e34e-64ee-b456" hidden="false" collective="false" import="true" defaultSelectionEntryId="b2b9-a9d6-d8ae-6baa">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="38b2-61ef-9e27-55fc" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="e0f8-6773-899b-4677" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="Shrapnel Pistol" hidden="false" id="1a78-2de3-7aca-cffe" collective="false" targetId="fb41-0199-e8e8-622b" type="selectionEntry" sortIndex="3">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0ac5-710b-0fe6-7a63" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Bolt Pistol" hidden="false" id="8d2c-d827-11a9-aceb" collective="false" targetId="52fe-46cd-520d-9df3" type="selectionEntry" sortIndex="1">
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition type="atLeast" value="1" field="selections" scope="7322-a79c-4ce8-8b16" childId="7d72-7f6d-6330-6871" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                                <condition type="atLeast" value="1" field="selections" scope="7322-a79c-4ce8-8b16" childId="fb41-0199-e8e8-622b" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                                <condition type="atLeast" value="1" field="selections" scope="force" childId="c7be-f327-8718-3dfb" shared="true" includeChildSelections="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                      </modifiers>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c55e-b9c6-4f9a-869c" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Asphyx Bolt Pistol" hidden="false" id="2bff-0b8a-74da-b691" collective="false" targetId="f751-2e0d-353e-3886" type="selectionEntry" sortIndex="2">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9771-f1b9-b806-baa6" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="1"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Autopistol" hidden="false" id="7b12-003e-a751-c0f2" type="selectionEntry" targetId="344f-4836-c70d-29a4">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="e76f-6a3e-04e9-7f40" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="c7be-f327-8718-3dfb" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink import="true" name="Autorifle" hidden="false" id="4ff9-281a-5d51-ae3b" type="selectionEntry" targetId="f3ff-0995-248a-5243">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="7081-d0e2-28b6-ef7b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="c7be-f327-8718-3dfb" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink import="true" name="Lascarbine" hidden="false" id="09ef-841b-eb8a-8711" type="selectionEntry" targetId="3335-928e-aef8-ca0f">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="1a0e-4d9b-63c6-e9fb" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="c7be-f327-8718-3dfb" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink import="true" name="Lasgun" hidden="false" id="5a80-bd7c-deb1-168d" type="selectionEntry" targetId="0b4e-2811-0529-f22f">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="d61b-9cf5-9cc4-435e" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="c7be-f327-8718-3dfb" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink import="true" name="Laspistol" hidden="false" id="aa96-37b9-d4bf-07e7" type="selectionEntry" targetId="3cf9-eb36-3bfe-4970">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="8615-a97a-8c46-16cf" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="c7be-f327-8718-3dfb" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink import="true" name="Shotgun" hidden="false" id="5e09-5bea-9c8f-9f32" type="selectionEntry" targetId="2dba-5646-1049-c134">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="5475-b845-c2ae-e607" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="c7be-f327-8718-3dfb" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink import="true" name="Stubcarbine" hidden="false" id="6520-0d63-3db5-1c2a" type="selectionEntry" targetId="090f-d3b8-9e92-40e3">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="ef43-2861-dc27-632b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="c7be-f327-8718-3dfb" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                  </entryLinks>
+                  <modifiers>
+                    <modifier type="set" value="2b4-f1f-b478-5261" field="defaultSelectionEntryId">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="c7be-f327-8718-3dfb" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntryGroup>
             <selectionEntryGroup name="Any Legion Veteran Sergeant may exchange their Bolter for one of the following:" id="4172-c92c-30ee-88ff" hidden="false">
               <entryLinks>
-                <entryLink import="true" name="Bolter" hidden="false" id="4c2f-456b-a604-039c" type="selectionEntry" targetId="a080-c391-6083-5e5d">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f050-d778-2830-968f"/>
-                  </constraints>
-                </entryLink>
                 <entryLink import="true" name="Minor Combi-Weapon" hidden="false" id="7abb-50b0-0e5c-8952" type="selectionEntry" targetId="605e-1b86-ca08-9226">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
@@ -7690,6 +8297,187 @@ Could not find wargear Legion Veteran Sergeant
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f206-ca55-77d0-a125"/>
               </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Bolter" id="54cf-aa98-0326-fb58" hidden="false" collective="false" import="true" defaultSelectionEntryId="709c-562b-7b19-f1fc">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4fa7-b7ee-e012-c443" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fedf-7392-d720-c20a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="Bolter" hidden="false" id="5c79-6588-4a2a-6f18" collective="false" targetId="a080-c391-6083-5e5d" type="selectionEntry">
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition type="atLeast" value="1" field="selections" scope="7322-a79c-4ce8-8b16" childId="db53-8568-775f-1ab9" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                                <condition type="atLeast" value="1" field="selections" scope="7322-a79c-4ce8-8b16" childId="1941-21b5-932c-74d6" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                                <condition type="equalTo" value="1" field="selections" scope="force" childId="c7be-f327-8718-3dfb" shared="true" includeChildSelections="true"/>
+                              </conditions>
+                              <conditionGroups>
+                                <conditionGroup type="and">
+                                  <conditions>
+                                    <condition type="equalTo" value="1" field="selections" scope="7322-a79c-4ce8-8b16" childId="8e05-7d1e-16e4-1669" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                                    <condition type="equalTo" value="1" field="selections" scope="force" childId="b2b4-2198-0b90-dd9f" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                                  </conditions>
+                                </conditionGroup>
+                              </conditionGroups>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                      </modifiers>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fa5d-5c40-55c1-4e9e" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Asphyx Bolter" hidden="false" id="cb74-3382-068e-beae" collective="false" targetId="dcef-d670-b47a-adfa" type="selectionEntry">
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="equalTo" value="1" field="selections" scope="7322-a79c-4ce8-8b16" childId="8e05-7d1e-16e4-1669" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8e3c-9540-5025-991c" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="1"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Shrapnel Bolter" hidden="false" id="035d-5c29-fd3f-9265" collective="false" targetId="db53-8568-775f-1ab9" type="selectionEntry">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6968-5c5c-8c54-d84e" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Volkite Charger" hidden="false" id="bb07-a179-7a02-a2ea" publicationId="9fab-fea7-a93c-2074" page="118" collective="false" targetId="5c82-c306-9c5c-5908" type="selectionEntry">
+                      <modifiers>
+                        <modifier type="set" value="1" field="250f-e4ba-72f8-91fb">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="equalTo" value="1" field="selections" scope="7322-a79c-4ce8-8b16" childId="8e05-7d1e-16e4-1669" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                                <condition type="equalTo" value="1" field="selections" scope="force" childId="b2b4-2198-0b90-dd9f" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition type="equalTo" value="0" field="selections" scope="7322-a79c-4ce8-8b16" childId="8e05-7d1e-16e4-1669" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                                <condition type="equalTo" value="0" field="selections" scope="force" childId="b2b4-2198-0b90-dd9f" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                      </modifiers>
+                      <constraints>
+                        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="250f-e4ba-72f8-91fb" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1ca6-1878-8720-2d46" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2.78"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Autopistol" hidden="false" id="653f-ca9e-0e2d-698c" type="selectionEntry" targetId="344f-4836-c70d-29a4">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="21be-3d0e-3810-15e1" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="c7be-f327-8718-3dfb" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink import="true" name="Autorifle" hidden="false" id="262d-696f-5b5f-026c" type="selectionEntry" targetId="f3ff-0995-248a-5243">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="3b95-ce9e-5ffd-2107" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="c7be-f327-8718-3dfb" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink import="true" name="Lascarbine" hidden="false" id="78da-0775-84d0-436f" type="selectionEntry" targetId="3335-928e-aef8-ca0f">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="ba41-bc6c-4f13-4af4" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="c7be-f327-8718-3dfb" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink import="true" name="Lasgun" hidden="false" id="95ca-d62e-04ae-45d3" type="selectionEntry" targetId="0b4e-2811-0529-f22f">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="5849-e6c3-c710-3a84" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="c7be-f327-8718-3dfb" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink import="true" name="Laspistol" hidden="false" id="7958-58e9-b1aa-6480" type="selectionEntry" targetId="3cf9-eb36-3bfe-4970">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="8f48-098f-82a2-6239" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="c7be-f327-8718-3dfb" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink import="true" name="Shotgun" hidden="false" id="3b8a-9084-f6db-a15f" type="selectionEntry" targetId="2dba-5646-1049-c134">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="b342-4066-1ee1-b414" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="c7be-f327-8718-3dfb" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink import="true" name="Stubcarbine" hidden="false" id="778a-287e-c407-b427" type="selectionEntry" targetId="090f-d3b8-9e92-40e3">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="8bfc-fd97-8c7e-3e68" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="c7be-f327-8718-3dfb" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                  </entryLinks>
+                  <modifiers>
+                    <modifier type="set" value="b3d9-4c17-67dc-d7fb" field="defaultSelectionEntryId">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="force" childId="c7be-f327-8718-3dfb" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntryGroup>
             <selectionEntryGroup name="Any Legion Veteran Sergeant may exchange their Power Armour for:" id="1756-0347-e65c-7619" hidden="false">
               <entryLinks>
