@@ -1552,142 +1552,15 @@ Power Weapon is in two option lists for Legion Saturnine Centurion, you will nee
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e926-8caf-40da-81c9"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Gravis Bolt Cannon" hidden="false" type="selectionEntry" targetId="3b5f-52ab-6534-94a3" id="1ed7-9f68-4d0b-89eb">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="38e0-7f1a-4629-9e7f"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2baf-b535-48a3-9fbe"/>
-              </constraints>
-            </entryLink>
             <entryLink name="Atomantic Deflector" hidden="false" type="selectionEntry" targetId="38fb-9a0b-edef-a497" id="0140-b8b4-4e9b-b320">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="75ca-3d71-41fd-9cf1"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="063a-b5f8-44f7-b140"/>
               </constraints>
             </entryLink>
-            <entryLink name="Gravis Bolt Cannon" hidden="false" type="selectionEntry" targetId="964b-26cd-42da-a1fb" id="ce46-0932-4e0a-917a">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="93d8-fdc3-4673-8722"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3251-9d81-4ee0-9132"/>
-              </constraints>
-            </entryLink>
+            <entryLink import="true" name="Pater Consularis" hidden="false" id="0c22-1dfa-8356-a300" type="selectionEntryGroup" targetId="b93b-ea03-1f8f-654b"/>
           </entryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup name="The Legion Contemptor Centurion may replace a Gravis Bolt Cannon and/or Gravis Power Fist and in-built Combi-Bolter with one of the following:" id="6f0b-71b3-4662-a9e1">
-              <entryLinks>
-                <entryLink name="Gravis Bolt Cannon" hidden="false" type="selectionEntry" targetId="3b5f-52ab-6534-94a3" id="883f-5b8c-4e1a-b919">
-                  <constraints>
-                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="9af7-53e4-4b58-a9af"/>
-                  </constraints>
-                </entryLink>
-                <entryLink name="Gravis Melta Cannon" hidden="false" type="selectionEntry" targetId="ef6c-f656-171a-03e1" id="6408-53e4-44be-a8fc">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
-                  </costs>
-                  <constraints>
-                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="8894-1647-4a35-8aee"/>
-                  </constraints>
-                </entryLink>
-                <entryLink name="Gravis Autocannon" hidden="false" type="selectionEntry" targetId="8a23-e57d-b4a8-14a9" id="e55b-c9d0-4b99-8716">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
-                  </costs>
-                  <constraints>
-                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="8a5e-319b-4649-a3c2"/>
-                  </constraints>
-                </entryLink>
-                <entryLink name="Gravis Plasma Cannon" hidden="false" type="selectionEntry" targetId="32ad-6250-29c7-5466" id="8f2c-05a8-4c85-b639">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
-                  </costs>
-                  <constraints>
-                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="e6f3-3b66-4a60-bd49"/>
-                  </constraints>
-                </entryLink>
-                <entryLink name="Volkite Dual-Culverin" hidden="false" type="selectionEntry" targetId="fead-f3b9-f7c7-1081" id="b944-294c-4c66-9455">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
-                  </costs>
-                  <constraints>
-                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="55f9-35e7-4b95-8d7e"/>
-                  </constraints>
-                </entryLink>
-                <entryLink name="Kheres Assault Cannon" hidden="false" type="selectionEntry" targetId="fe77-2e74-160d-c7af" id="12bb-6e67-4e32-851e">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
-                  </costs>
-                  <constraints>
-                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="be5f-311a-49de-bce1"/>
-                  </constraints>
-                </entryLink>
-                <entryLink name="Gravis Lascannon" hidden="false" type="selectionEntry" targetId="1fe0-7c96-5200-0e39" id="3cf5-cdc1-426d-b047">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
-                  </costs>
-                  <constraints>
-                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="a23c-5f2f-43e6-8beb"/>
-                  </constraints>
-                </entryLink>
-                <entryLink name="Conversion Beam Cannon" hidden="false" type="selectionEntry" targetId="5775-0d94-8e13-8c1f" id="8f65-9d19-4a68-a1f3">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
-                  </costs>
-                  <constraints>
-                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="c15d-6eec-47c3-980b"/>
-                  </constraints>
-                </entryLink>
-                <entryLink name="Gravis Bolt Cannon" hidden="false" type="selectionEntry" targetId="964b-26cd-42da-a1fb" id="2e6e-cab2-44fc-b8fb">
-                  <constraints>
-                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="66a4-991b-4288-bead"/>
-                  </constraints>
-                </entryLink>
-                <entryLink name="Gravis Melta Cannon" hidden="false" type="selectionEntry" targetId="65cc-0f51-4f63-b463" id="5ff1-5a39-4db3-8677">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
-                  </costs>
-                  <constraints>
-                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="979c-0f17-4fe0-b14b"/>
-                  </constraints>
-                </entryLink>
-                <entryLink name="Volkite Dual-Culverin" hidden="false" type="selectionEntry" targetId="015f-ee1b-46c1-8937" id="c776-bfd9-4e73-9086">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
-                  </costs>
-                  <constraints>
-                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="d935-75d4-4058-9366"/>
-                  </constraints>
-                </entryLink>
-                <entryLink name="Kheres Assault Cannon" hidden="false" type="selectionEntry" targetId="846f-31df-4b6b-814b" id="1a8d-6235-4816-b8a1">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
-                  </costs>
-                  <constraints>
-                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="ca27-e9ef-41b7-9a85"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <constraints>
-                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="fb2d-0453-4c28-b3ec"/>
-              </constraints>
-              <comment>!BSC Errors from 20240406-1603
-Could not find wargear Gravis Power Fist (with in-built Combi-Bolter)
-	 Checked under Gravis Power Fist (with in-built Combi-Bolter)
-Could not find wargear Gravis Chainfist (with in-built Combi-Bolter)
-	 Checked under Gravis Chainfist (with in-built Combi-Bolter)</comment>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="The Legion Contemptor Centurion may replace the in-built Combi-Bolter on a Gravis Power Fist or Gravis Chainfist with one of the following:" id="fd35-cd3e-46d9-922c">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ba6e-12ca-4b0b-8001"/>
-              </constraints>
-              <comment>!BSC Errors from 20240406-1603
-Could not find wargear In-built Heavy Flamer
-	 Checked under In-built Heavy Flamer
-Could not find wargear In-built Plasma Blaster
-	 Checked under In-built Plasma Blaster
-Could not find wargear In-built Graviton Gun
-	 Checked under In-built Graviton Gun
-Could not find wargear In-built Meltagun
-	 Checked under In-built Meltagun</comment>
-            </selectionEntryGroup>
             <selectionEntryGroup name="The Legion Contemptor Centurion may take any of the following:" id="32e2-4cdd-4145-8ee1">
               <entryLinks>
                 <entryLink name="Havoc Launcher" hidden="false" type="selectionEntry" targetId="bde9-5abf-ec3d-2273" id="14e5-f863-4842-8fbe">
@@ -1708,23 +1581,209 @@ Could not find wargear In-built Meltagun
                 </entryLink>
               </entryLinks>
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="75c1-48bc-4d6d-804e"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="75c1-48bc-4d6d-804e"/>
               </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="The Legion Castra Ferrum Centurion may replace a Gravis Bolt Cannon and/or Gravis Power Fist and in-built Combi-Bolter with one of the following:" id="ced5-3374-4291-1c9b" hidden="false" defaultSelectionEntryId="feb2-3b46-f2af-e415">
+              <entryLinks>
+                <entryLink import="true" name="Gravis Bolt Cannon" hidden="false" id="b7fe-9210-3853-fb51" type="selectionEntry" targetId="3b5f-52ab-6534-94a3">
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="ccd3-2dd9-c015-d2a0"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Conversion Beam Cannon" hidden="false" id="71b6-f122-8a2c-6e87" type="selectionEntry" targetId="5775-0d94-8e13-8c1f">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="31db-2188-5d29-2649"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Gravis Autocannon" hidden="false" id="a25e-e1d2-3a93-4010" type="selectionEntry" targetId="8a23-e57d-b4a8-14a9">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="cdbf-679a-8633-ffaf"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Kheres Assault Cannon" hidden="false" id="a34a-7c87-c969-a69b" type="selectionEntry" targetId="fe77-2e74-160d-c7af">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="da7e-a893-984d-26af"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Gravis Lascannon" hidden="false" id="dfa9-80db-852c-d324" type="selectionEntry" targetId="1fe0-7c96-5200-0e39">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="ad13-5178-cdbe-37c2"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Gravis Plasma Cannon" hidden="false" id="dc1a-daa6-95d1-ba16" type="selectionEntry" targetId="32ad-6250-29c7-5466">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="f36b-b126-711e-4a7d"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Æther-Fire Magna-Cannon" hidden="false" id="4ac5-81e1-8ccd-4d26" type="selectionEntry" targetId="ab6a-176c-e2e4-e902">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="d60e-dc42-3d14-e510"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Volkite Dual-Culverin" hidden="false" id="57e0-2db5-b612-240a" type="selectionEntry" targetId="015f-ee1b-46c1-8937">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="2d83-fe84-71be-892a"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Gravis Melta Cannon" hidden="false" id="b334-149b-9a47-02ba" type="selectionEntry" targetId="65cc-0f51-4f63-b463">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="0da1-2f22-66bc-aac5"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="9727-75c6-1349-77f7"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Gravis Power Fist w/ in-built Combi-Bolter" hidden="false" id="af61-bb3c-661b-3d7d">
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="4690-855c-e639-cc98"/>
+                  </constraints>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="The Legion Castra Ferrum Centurion may replace an in-built Combi-Bolter with one of the following:" id="27f7-5ef5-12e2-e1d2" hidden="false" defaultSelectionEntryId="ed2e-51df-7a63-829a">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b600-195e-f18d-e669"/>
+                      </constraints>
+                      <entryLinks>
+                        <entryLink import="true" name="Heavy Flamer" hidden="false" id="eca5-e7a2-c356-d6f7" type="selectionEntry" targetId="5507-b432-3b4c-df12">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                          </costs>
+                        </entryLink>
+                        <entryLink import="true" name="Plasma Blaster" hidden="false" id="0ef7-e0d1-2a37-ad3b" type="selectionEntry" targetId="cd52-e9e8-3ab1-995c">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                          </costs>
+                        </entryLink>
+                        <entryLink import="true" name="Graviton Gun" hidden="false" id="9666-79b5-c02f-d2e1" type="selectionEntry" targetId="ea9f-c901-465b-aaaf">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                          </costs>
+                        </entryLink>
+                        <entryLink import="true" name="Meltagun" hidden="false" id="7117-592e-8392-8bef" type="selectionEntry" targetId="4ebd-57e0-3560-e568">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                          </costs>
+                        </entryLink>
+                        <entryLink import="true" name="Combi-Bolter" hidden="false" id="5431-93a0-2089-b0f6" type="selectionEntry" targetId="a498-c66f-9eb7-ca9a"/>
+                      </entryLinks>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup name="Melee Weapon" id="a6c3-1467-9089-ff4e" hidden="false" defaultSelectionEntryId="d0b7-c209-b816-828a">
+                      <entryLinks>
+                        <entryLink import="true" name="Gravis Power Fist" hidden="false" id="918f-118f-18bf-4661" type="selectionEntry" targetId="6f2c-6294-43c1-a2ec">
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c103-11b8-4965-6830"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Gravis Force Weapon" hidden="true" id="05ff-4b07-c147-d3ea" type="selectionEntry" targetId="8ed7-56b7-49b9-9048">
+                          <modifiers>
+                            <modifier type="set" value="false" field="hidden">
+                              <conditions>
+                                <condition type="equalTo" value="1" field="selections" scope="373b-bdcb-41c1-a3ff" childId="664d-b570-9ffd-c105" shared="true"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9a4d-d3af-f010-3445"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Full-Spectra Comms Array" hidden="true" id="91eb-4dbd-7d35-cdc9" type="selectionEntry" targetId="a936-3fc5-4ffd-b483">
+                          <modifiers>
+                            <modifier type="set" value="false" field="hidden">
+                              <conditions>
+                                <condition type="equalTo" value="1" field="selections" scope="373b-bdcb-41c1-a3ff" childId="81aa-4382-b15d-b389" shared="true"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c06a-4450-aef9-d0b3"/>
+                          </constraints>
+                        </entryLink>
+                      </entryLinks>
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4999-4354-4fb0-74f0"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fda8-dd0c-418c-b71a"/>
+                      </constraints>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Gravis ChainFist w/ in-built Combi-Bolter" hidden="false" id="2858-1069-d52b-10bf">
+                  <entryLinks>
+                    <entryLink import="true" name="Gravis Chainfist" hidden="false" id="8ed2-bfdc-f770-f402" type="selectionEntry" targetId="0411-d0be-4b2a-968a">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4137-8e2f-9efc-3082"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8206-d7db-01bb-8140"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="7dc1-7cf4-12a8-0f81"/>
+                  </constraints>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="The Legion Castra Ferrum Centurion may replace an in-built Combi-Bolter with one of the following:" id="f0ea-cbcd-c247-07c8" hidden="false" defaultSelectionEntryId="4046-45a4-3c62-1e9b">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="21a0-58a9-7c5e-dfed"/>
+                      </constraints>
+                      <entryLinks>
+                        <entryLink import="true" name="Heavy Flamer" hidden="false" id="0004-319c-bdfa-27ac" type="selectionEntry" targetId="5507-b432-3b4c-df12">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                          </costs>
+                        </entryLink>
+                        <entryLink import="true" name="Plasma Blaster" hidden="false" id="56a0-21fe-6054-c758" type="selectionEntry" targetId="cd52-e9e8-3ab1-995c">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                          </costs>
+                        </entryLink>
+                        <entryLink import="true" name="Graviton Gun" hidden="false" id="1441-0432-41eb-91cf" type="selectionEntry" targetId="ea9f-c901-465b-aaaf">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                          </costs>
+                        </entryLink>
+                        <entryLink import="true" name="Meltagun" hidden="false" id="9f65-cc59-baac-0962" type="selectionEntry" targetId="4ebd-57e0-3560-e568">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                          </costs>
+                        </entryLink>
+                        <entryLink import="true" name="Combi-Bolter" hidden="false" id="e50a-8e15-3b89-4b06" type="selectionEntry" targetId="a498-c66f-9eb7-ca9a"/>
+                      </entryLinks>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="746c-051b-4958-a974" name="Character" primary="false"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Gravis Power Fist with in-built Combi-Bolter
-	 Checked under Gravis Power Fist with in-built Combi-Bolter
-Could not find wargear in The Legion Contemptor Centurion may replace a Gravis Bolt Cannon and/or Gravis Power Fist and in-built Combi-Bolter with one of the following:
-Could not find wargear in The Legion Contemptor Centurion may replace a Gravis Bolt Cannon and/or Gravis Power Fist and in-built Combi-Bolter with one of the following:
-Could not find wargear in The Legion Contemptor Centurion may replace the in-built Combi-Bolter on a Gravis Power Fist or Gravis Chainfist with one of the following:
-Could not find wargear in The Legion Contemptor Centurion may replace the in-built Combi-Bolter on a Gravis Power Fist or Gravis Chainfist with one of the following:
-Could not find wargear in The Legion Contemptor Centurion may replace the in-built Combi-Bolter on a Gravis Power Fist or Gravis Chainfist with one of the following:
-Could not find wargear in The Legion Contemptor Centurion may replace the in-built Combi-Bolter on a Gravis Power Fist or Gravis Chainfist with one of the following:
-Could not find type or subtype &apos;Dreadnought&apos;</comment>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="(Chaplain) Master craft one weapon to represent a Crozius Arcanum" hidden="true" id="bce1-14e7-bcec-9ff4" collective="false">
               <modifiers>
@@ -1737,7 +1796,7 @@ Could not find type or subtype &apos;Dreadnought&apos;</comment>
                       <conditionGroups>
                         <conditionGroup type="or">
                           <conditions>
-                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="08be-6994-6a63-6279" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="af61-bb3c-661b-3d7d" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
                           </conditions>
                         </conditionGroup>
                       </conditionGroups>
@@ -3715,7 +3774,7 @@ Power Weapon is in two option lists for Legion Saturnine Sergeant, you will need
       <selectionEntries>
         <selectionEntry type="model" name="Contemptor-Cortus Dreadnought" id="6ae1-5d8c-46fa-bb48" page="20" publicationId="3970-79bb-bdc6-9599">
           <profiles>
-            <profile id="f64f-de93-4fe5-8532" name="Contemptor-Cortus Dreadnought" typeId="4bb2-cb95-e6c8-5a21">
+            <profile id="f64f-de93-4fe5-8532" name="Contemptor-Cortus Dreadnought" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
               <characteristics>
                 <characteristic typeId="893e-2d76-8f04-44e5" name="Move">8</characteristic>
                 <characteristic typeId="cc42-7ed5-7092-5c84" name="WS">5</characteristic>
@@ -3764,7 +3823,7 @@ Power Weapon is in two option lists for Legion Saturnine Sergeant, you will need
                 </entryLink>
               </entryLinks>
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c24d-a5ce-4f62-83e6"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="c24d-a5ce-4f62-83e6"/>
               </constraints>
               <comment>!BSC Errors from 20240406-1603
 Could not find wargear Gravis Chainfist with in-built Combi-Bolter
@@ -3772,20 +3831,25 @@ Could not find wargear Gravis Chainfist with in-built Combi-Bolter
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Gravis Chainfist with in built Combi-Bolter" hidden="false" id="ecf6-7119-5fce-cec6">
                   <entryLinks>
-                    <entryLink import="true" name="Gravis Chainfist" hidden="false" id="bb0c-aaf0-52a3-fe08" type="selectionEntry" targetId="0411-d0be-4b2a-968a"/>
-                    <entryLink import="true" name="Combi-Bolter" hidden="false" id="9a41-b473-b507-11dd" type="selectionEntry" targetId="a498-c66f-9eb7-ca9a"/>
+                    <entryLink import="true" name="Gravis Chainfist" hidden="false" id="bb0c-aaf0-52a3-fe08" type="selectionEntry" targetId="0411-d0be-4b2a-968a">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="46b1-b090-3d3f-c839-min"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="46b1-b090-3d3f-c839-max"/>
+                      </constraints>
+                    </entryLink>
                   </entryLinks>
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="Any model in the unit may replace the in-built Combi-Bolter on a Gravis Power Fist or Gravis Chainfist with one of the following:" id="c971-5018-4e8c-8079">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9e4d-3890-45d3-b500"/>
-              </constraints>
-              <comment>!BSC Errors from 20240406-1603
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="2a05-59bb-c9bc-bcfb"/>
+                  </constraints>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="Any model in the unit may replace the in-built Combi-Bolter on a Gravis Power Fist or Gravis Chainfist with one of the following:" id="f5d5-bbc3-81f8-3044" hidden="false">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3289-0c38-43ca-6f1d"/>
+                      </constraints>
+                      <comment>!BSC Errors from 20240406-1603
 Could not find wargear In-built Heavy Flamer
 	 Checked under In-built Heavy Flamer
 Could not find wargear In-built Plasma Blaster
@@ -3794,41 +3858,122 @@ Could not find wargear In-built Graviton Gun
 	 Checked under In-built Graviton Gun
 Could not find wargear In-built Meltagun
 	 Checked under In-built Meltagun</comment>
-              <entryLinks>
-                <entryLink import="true" name="Heavy Flamer" hidden="false" id="f74e-3cf3-ef97-e985" type="selectionEntry" targetId="5507-b432-3b4c-df12">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
-                  </costs>
-                </entryLink>
-                <entryLink import="true" name="Plasma Blaster" hidden="false" id="0543-1964-1f6b-385f" type="selectionEntry" targetId="cd52-e9e8-3ab1-995c">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
-                  </costs>
-                </entryLink>
-                <entryLink import="true" name="Graviton Gun" hidden="false" id="46ed-6df9-ac1c-4251" type="selectionEntry" targetId="ea9f-c901-465b-aaaf">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
-                  </costs>
-                </entryLink>
-                <entryLink import="true" name="Meltagun" hidden="false" id="94fb-7c2c-0951-6262" type="selectionEntry" targetId="4ebd-57e0-3560-e568">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
-                  </costs>
-                </entryLink>
-              </entryLinks>
+                      <entryLinks>
+                        <entryLink import="true" name="Heavy Flamer" hidden="false" id="b876-c45e-7ac6-7887" type="selectionEntry" targetId="5507-b432-3b4c-df12">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9624-7e37-9141-46d5"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Plasma Blaster" hidden="false" id="d762-cbe9-ee63-f583" type="selectionEntry" targetId="cd52-e9e8-3ab1-995c">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f71d-6593-a85a-f692"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Graviton Gun" hidden="false" id="d175-3e25-bcdb-aab1" type="selectionEntry" targetId="ea9f-c901-465b-aaaf">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="240a-bc8d-d661-2de1"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Meltagun" hidden="false" id="5d85-8be8-3f6d-dc3b" type="selectionEntry" targetId="4ebd-57e0-3560-e568">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9788-6c95-5aec-0294"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Combi-Bolter" hidden="false" id="5529-ae5e-5007-96aa" type="selectionEntry" targetId="a498-c66f-9eb7-ca9a">
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6129-8433-577e-5d8d"/>
+                          </constraints>
+                        </entryLink>
+                      </entryLinks>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Gravis Power Fist with in built Combi-Bolter" hidden="false" id="031b-fe85-9c96-79ec">
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="Any model in the unit may replace the in-built Combi-Bolter on a Gravis Power Fist or Gravis Chainfist with one of the following:" id="5ea6-c08e-1fb6-f15f" hidden="false">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5cc7-edbd-48e6-63aa"/>
+                      </constraints>
+                      <comment>!BSC Errors from 20240406-1603
+Could not find wargear In-built Heavy Flamer
+	 Checked under In-built Heavy Flamer
+Could not find wargear In-built Plasma Blaster
+	 Checked under In-built Plasma Blaster
+Could not find wargear In-built Graviton Gun
+	 Checked under In-built Graviton Gun
+Could not find wargear In-built Meltagun
+	 Checked under In-built Meltagun</comment>
+                      <entryLinks>
+                        <entryLink import="true" name="Heavy Flamer" hidden="false" id="bdae-b733-f9c4-de11" type="selectionEntry" targetId="5507-b432-3b4c-df12">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1b46-3d81-b2e7-4823"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Plasma Blaster" hidden="false" id="5593-db1c-989e-dc13" type="selectionEntry" targetId="cd52-e9e8-3ab1-995c">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1154-c60d-ac90-799c"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Graviton Gun" hidden="false" id="62e4-bde5-520a-2a29" type="selectionEntry" targetId="ea9f-c901-465b-aaaf">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8bff-76d9-8739-c1f9"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Meltagun" hidden="false" id="6931-d00d-5938-8199" type="selectionEntry" targetId="4ebd-57e0-3560-e568">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bf85-c46a-6a06-1f17"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Combi-Bolter" hidden="false" id="6c1b-d61f-4e16-1e44" type="selectionEntry" targetId="a498-c66f-9eb7-ca9a">
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2326-0239-f489-b7ba"/>
+                          </constraints>
+                        </entryLink>
+                      </entryLinks>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                  <entryLinks>
+                    <entryLink import="true" name="Gravis Power Fist" hidden="false" id="52b4-609c-bed0-a50d" type="selectionEntry" targetId="6f2c-6294-43c1-a2ec">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2c02-d645-12fd-eaac-min"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2c02-d645-12fd-eaac-max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="de71-262e-b8b5-e7a2"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="150"/>
           </costs>
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Gravis Power Fist with in-built Combi-Bolter" hidden="false" id="2f48-174d-1743-e20c">
-              <entryLinks>
-                <entryLink import="true" name="Gravis Power Fist" hidden="false" id="e171-b540-4f2d-ed31" type="selectionEntry" targetId="6f2c-6294-43c1-a2ec"/>
-                <entryLink import="true" name="Combi-Bolter" hidden="false" id="aa20-4fbe-5139-57dd" type="selectionEntry" targetId="a498-c66f-9eb7-ca9a"/>
-              </entryLinks>
-            </selectionEntry>
-          </selectionEntries>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
