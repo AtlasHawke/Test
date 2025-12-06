@@ -64516,6 +64516,48 @@ A model with the Infantry Unit Type that selects a Legion Scimitar jetbike as an
         </infoLink>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Achea Force Stave" hidden="true" id="6abf-0bec-8615-09b1">
+      <profiles>
+        <profile name="Achea Force Stave" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="6e77-e871-98b2-295e">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+1</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Reach (1), Achean Force</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Achean Force" id="078c-68b9-574e-2bc3" hidden="false" targetId="c56f-80ff-5d8e-1af4" type="rule"/>
+        <infoLink name="Reach (X)" id="089f-ef8b-a90c-f84c" hidden="false" targetId="19bf-62a2-5737-890b" type="rule">
+          <modifiers>
+            <modifier type="set" value="Reach (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="force" childId="21c3-2f28-7820-e51a" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                    <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="f75a-d5c1-59ba-5c5a" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="force" childId="21c3-2f28-7820-e51a" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                    <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="4f07-3d45-4f28-a0c6" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="61a2-7005-1e6c-c08e" name="Hexagrammaton Choice:" hidden="true" collective="false" import="true">
@@ -66755,27 +66797,7 @@ Hit rolls for each attack, for a total of 24 To Hit rolls over the full 6 attack
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
           </costs>
         </entryLink>
-      </entryLinks>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Achea Force Stave" hidden="true" id="ee30-6625-580a-a15f">
-          <profiles>
-            <profile name="Achea Force Stave" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="fe0f-4514-2994-45b3">
-              <characteristics>
-                <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
-                <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+1</characteristic>
-                <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
-                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Reach (1), Achean Force</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink name="Achean Force" id="7c6e-44ac-0319-2bc2" hidden="false" targetId="c56f-80ff-5d8e-1af4" type="rule"/>
-            <infoLink name="Reach (X)" id="8813-f564-71f1-57e2" hidden="false" targetId="19bf-62a2-5737-890b" type="rule">
-              <modifiers>
-                <modifier type="set" value="Reach (1)" field="name"/>
-              </modifiers>
-            </infoLink>
-          </infoLinks>
+        <entryLink import="true" name="Achea Force Stave" hidden="true" id="93bd-6898-5d0f-12d3" type="selectionEntry" targetId="0e26-9092-0203-dfee">
           <modifiers>
             <modifier type="set" value="false" field="hidden">
               <conditionGroups>
@@ -66798,8 +66820,8 @@ Hit rolls for each attack, for a total of 24 To Hit rolls over the full 6 attack
               </conditionGroups>
             </modifier>
           </modifiers>
-        </selectionEntry>
-      </selectionEntries>
+        </entryLink>
+      </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="8b46-faad-df3a-6929" name="Terminator Melee Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="4123-9851-52ba-4f34">
       <modifiers>
