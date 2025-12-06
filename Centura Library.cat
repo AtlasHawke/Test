@@ -10252,7 +10252,6 @@ Could not find wargear in Any Legion Orthrus Destroyer may take one of the follo
     <catalogueLink id="2f60-4242-e6ed-8574" name="Legions Astartes" targetId="25e4-c9e5-8165-1337" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
   <entryLinks>
-    <entryLink import="true" name="Legion Indomitus Centurion" hidden="false" id="d03b-e704-e7c8-a1ae" type="selectionEntry" targetId="4d40-5fee-4219-8354"/>
     <entryLink import="true" name="Legion Indomitus Praetor" hidden="false" id="39a8-2d8b-f8cf-c8e7" type="selectionEntry" targetId="0293-aa91-4e32-bd5f"/>
     <entryLink import="true" name="Legion Indomitus Command Squad" hidden="true" id="25bc-d368-378c-9ed1" targetId="10a1-9ca0-40bd-81fd" type="selectionEntry"/>
     <entryLink import="true" name="Basilisk Anti-Air Emplacement Battery" hidden="false" id="e08e-f74c-57c3-cf3c" targetId="ca32-4dab-4bf6-b3ed" type="selectionEntry"/>
@@ -10283,6 +10282,7 @@ Could not find wargear in Any Legion Orthrus Destroyer may take one of the follo
     <entryLink import="true" name="Legion Whispercutter" hidden="false" id="3eb3-ff01-0ab3-4814" targetId="b176-b2c5-477c-9200" type="selectionEntry"/>
     <entryLink import="true" name="Mutated Spawn" hidden="false" id="f824-0556-39b6-47fa" targetId="d20c-e065-4357-b70c" type="selectionEntry"/>
     <entryLink import="true" name="Possessed Legionnaires" hidden="false" id="703c-9f61-0bdb-46da" targetId="f928-6ae6-4699-ba2b" type="selectionEntry"/>
+    <entryLink import="true" name="Legion Indomitus Centurion" hidden="false" id="c101-ded2-ddbe-1ab7" targetId="4d40-5fee-4219-8354" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Pater Consularis" id="b93b-ea03-1f8f-654b" hidden="false" defaultSelectionEntryId="9d66-295a-5af3-4e38">
