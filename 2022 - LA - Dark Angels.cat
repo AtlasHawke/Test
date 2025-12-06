@@ -6610,5 +6610,6 @@ This additional Reaction may on be made as long as the Warlord has not been remo
   </sharedProfiles>
   <catalogueLinks>
     <catalogueLink id="2f60-18fb-e6ed-8574" name="Legions Astartes" targetId="25e4-c9e5-8165-1337" type="catalogue" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="[Centura] Legiones Astartes" id="e743-a938-1b86-a32b" targetId="d76-4e81-2fef-caa1" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

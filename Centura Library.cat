@@ -10281,6 +10281,12 @@ Could not find wargear in Any Legion Orthrus Destroyer may take one of the follo
     <entryLink import="true" name="Legion Whispercutter" hidden="false" id="3eb3-ff01-0ab3-4814" targetId="b176-b2c5-477c-9200" type="selectionEntry"/>
     <entryLink import="true" name="Mutated Spawn" hidden="false" id="f824-0556-39b6-47fa" targetId="d20c-e065-4357-b70c" type="selectionEntry"/>
     <entryLink import="true" name="Possessed Legionnaires" hidden="false" id="703c-9f61-0bdb-46da" targetId="f928-6ae6-4699-ba2b" type="selectionEntry"/>
+    <entryLink import="true" name="Legion Indomitus Centurion" hidden="false" id="bde0-4cfc-9e50-7b4c" targetId="4d40-5fee-4219-8354" type="selectionEntry"/>
+    <entryLink import="true" name="Legion Saturnine Centurion" hidden="false" id="edf5-8d2d-4f87-d709" targetId="3e29-1bf1-48c9-b302" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="4f85-eb33-30c9-8f51" id="3d19-7a13-4890-e2e8" primary="false" name="HQ:"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Pater Consularis" id="b93b-ea03-1f8f-654b" hidden="false" defaultSelectionEntryId="9d66-295a-5af3-4e38">
