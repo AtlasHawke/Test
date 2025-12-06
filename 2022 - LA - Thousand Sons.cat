@@ -3062,6 +3062,9 @@
           <comment>template_id_2a38-6544-4267-b584    template_targetId_7dee-602c-4b47-be09</comment>
         </entryLink>
       </entryLinks>
+      <categoryLinks>
+        <categoryLink targetId="4f85-eb33-30c9-8f51" id="63e6-5c84-4b8d-50fa" primary="true" name="HQ:"/>
+      </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Legion Saturnine Centurion" hidden="false" id="36ab-ee1e-90c2-af7d" type="selectionEntry" targetId="3e29-1bf1-48c9-b302">
       <entryLinks>
@@ -3082,6 +3085,9 @@
           <comment>template_id_2a38-6544-4267-b584    template_targetId_7dee-602c-4b47-be09</comment>
         </entryLink>
       </entryLinks>
+      <categoryLinks>
+        <categoryLink targetId="4f85-eb33-30c9-8f51" id="f413-8963-d5fa-5280" primary="true" name="HQ:"/>
+      </categoryLinks>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
