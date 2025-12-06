@@ -10271,7 +10271,6 @@ Could not find wargear in Any Legion Orthrus Destroyer may take one of the follo
     <entryLink import="true" name="Legion Novicii Squad*" hidden="false" id="8565-2301-8c3f-cde5" targetId="7322-a79c-4ce8-8b16" type="selectionEntry"/>
     <entryLink import="true" name="Legion Orthrus Destroyer Squadron" hidden="false" id="9646-5212-589f-a31d" targetId="4b16-34fb-4262-95a2" type="selectionEntry"/>
     <entryLink import="true" name="Legion Rhino Advancer" hidden="false" id="4bc1-aad5-46c7-6a07" targetId="83d6-bbaa-416c-9de9" type="selectionEntry"/>
-    <entryLink import="true" name="Legion Saturnine Centurion" hidden="false" id="71e6-0140-76fe-caa0" targetId="3e29-1bf1-48c9-b302" type="selectionEntry"/>
     <entryLink import="true" name="Legion Servo-Automata Maniple" hidden="false" id="51a5-f65d-4e91-ecbf" targetId="6c47-ea09-4079-82bb" type="selectionEntry"/>
     <entryLink import="true" name="Legion Sicaran Incinerator Squadron" hidden="false" id="dad5-dc24-0035-4705" targetId="bb59-1d00-42d4-aaa7" type="selectionEntry"/>
     <entryLink import="true" name="Legion Sky-Seeker Squadron" hidden="false" id="7b00-a3da-f8de-3fb0" targetId="c0a1-df5f-4e38-89e8" type="selectionEntry"/>
@@ -10282,7 +10281,6 @@ Could not find wargear in Any Legion Orthrus Destroyer may take one of the follo
     <entryLink import="true" name="Legion Whispercutter" hidden="false" id="3eb3-ff01-0ab3-4814" targetId="b176-b2c5-477c-9200" type="selectionEntry"/>
     <entryLink import="true" name="Mutated Spawn" hidden="false" id="f824-0556-39b6-47fa" targetId="d20c-e065-4357-b70c" type="selectionEntry"/>
     <entryLink import="true" name="Possessed Legionnaires" hidden="false" id="703c-9f61-0bdb-46da" targetId="f928-6ae6-4699-ba2b" type="selectionEntry"/>
-    <entryLink import="true" name="Legion Indomitus Centurion" hidden="false" id="c101-ded2-ddbe-1ab7" targetId="4d40-5fee-4219-8354" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Pater Consularis" id="b93b-ea03-1f8f-654b" hidden="false" defaultSelectionEntryId="9d66-295a-5af3-4e38">
