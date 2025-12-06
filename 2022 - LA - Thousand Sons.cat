@@ -3043,6 +3043,8 @@
         <categoryLink name="Heavy Support:" hidden="false" id="c36-d912-e401-3360" targetId="7031-469a-1aeb-eab0" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Legion Indomitus Centurion" hidden="false" id="9a21-7346-9e69-4a18" type="selectionEntry" targetId="4d40-5fee-4219-8354"/>
+    <entryLink import="true" name="Legion Saturnine Centurion" hidden="false" id="2f2a-e6f7-2ca3-bd63" type="selectionEntry" targetId="3e29-1bf1-48c9-b302"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="d3ad-275c-e22b-a28f" name="Ammitara Occult Intercession Cabal" hidden="false" collective="false" import="true" type="unit">
