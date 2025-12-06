@@ -6333,6 +6333,7 @@ A Warlord with this Trait and all models in a unit the Warlord has joined that h
   </sharedSelectionEntryGroups>
   <catalogueLinks>
     <catalogueLink id="2f60-18fb-e6ed-8574" name="Legions Astartes" targetId="25e4-c9e5-8165-1337" type="catalogue" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="[Centura] Legiones Astartes" id="0524-6a7f-3328-d6c6" targetId="d76-4e81-2fef-caa1" importRootEntries="true"/>
   </catalogueLinks>
   <selectionEntries>
     <selectionEntry type="upgrade" import="false" name="Legions Astartes or Hereticus" hidden="false" id="d744-9ab9-93ab-ce79">

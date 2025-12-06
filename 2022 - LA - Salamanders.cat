@@ -5912,6 +5912,7 @@
   <catalogueLinks>
     <catalogueLink id="2f60-18fb-e6ed-8574" name="Legions Astartes" targetId="25e4-c9e5-8165-1337" type="catalogue" importRootEntries="true"/>
     <catalogueLink type="catalogue" name="Mech Library" id="5e16-9e11-1492-d139" targetId="7265-8b7a-50ae-51ec"/>
+    <catalogueLink type="catalogue" name="[Centura] Legiones Astartes" id="ac14-5ec0-ce60-4d9b" targetId="d76-4e81-2fef-caa1" importRootEntries="true"/>
   </catalogueLinks>
   <sharedRules>
     <rule name="Flame in the Darkness" hidden="false" id="753e-43cd-f3a0-f58d" publicationId="9fab-fea7-a93c-2074" page="135">

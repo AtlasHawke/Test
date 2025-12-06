@@ -6564,5 +6564,6 @@ A Warlord with this Trait gains a bonus of +1 to its Leadership Characteristic w
   </sharedSelectionEntryGroups>
   <catalogueLinks>
     <catalogueLink id="2f60-18fb-e6ed-8574" name="Legions Astartes" targetId="25e4-c9e5-8165-1337" type="catalogue" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="[Centura] Legiones Astartes" id="2f77-f444-27b8-a5f3" targetId="d76-4e81-2fef-caa1" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

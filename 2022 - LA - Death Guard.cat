@@ -4922,5 +4922,6 @@ Any enemy unit with at least one model within 12&quot; of a Warlord with this Tr
   </sharedRules>
   <catalogueLinks>
     <catalogueLink id="2f60-18fb-e6ed-8574" name="Legions Astartes" targetId="25e4-c9e5-8165-1337" type="catalogue" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="[Centura] Legiones Astartes" id="efb2-0538-6d77-bdc8" targetId="d76-4e81-2fef-caa1" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

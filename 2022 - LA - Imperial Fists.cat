@@ -6103,5 +6103,6 @@ A Warlord with this Trait and all models in any friendly unit that Warlord joins
   </sharedSelectionEntryGroups>
   <catalogueLinks>
     <catalogueLink id="2f60-18fb-e6ed-8574" name="Legions Astartes" targetId="25e4-c9e5-8165-1337" type="catalogue" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="[Centura] Legiones Astartes" id="9771-6b04-f8b4-125e" targetId="d76-4e81-2fef-caa1" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

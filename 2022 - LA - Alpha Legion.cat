@@ -8295,5 +8295,6 @@ A weapon with this special rule may not be used to make Shooting Attacks as part
     <catalogueLink id="4c19-55ad-bb7b-187c" name="LA -  XVII: Word Bearers" targetId="9edf-435d-b09a-9dd3" type="catalogue" importRootEntries="true"/>
     <catalogueLink id="615e-dbe4-e349-94ca" name="LA -  XVIII: Salamanders" targetId="765e-788c-dde3-4683" type="catalogue" importRootEntries="true"/>
     <catalogueLink id="0fd7-0093-a46a-ad80" name="LA - XIX: Raven Guard" targetId="64c8-badb-7d2a-890a" type="catalogue" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="[Centura] Legiones Astartes" id="e294-5f8d-bfaf-65e4" targetId="d76-4e81-2fef-caa1" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

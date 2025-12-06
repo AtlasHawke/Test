@@ -5493,6 +5493,7 @@ Once per battle, a Warlord with this Warlord Trait may, at the start of any one 
   </sharedSelectionEntryGroups>
   <catalogueLinks>
     <catalogueLink id="2f60-18fb-e6ed-8574" name="Legions Astartes" targetId="25e4-c9e5-8165-1337" type="catalogue" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="[Centura] Legiones Astartes" id="608f-7952-5d51-88c9" targetId="d76-4e81-2fef-caa1" importRootEntries="true"/>
   </catalogueLinks>
   <sharedProfiles>
     <profile id="8b1d-ca41-c9a6-32bc" name="Praetorian" hidden="false" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">

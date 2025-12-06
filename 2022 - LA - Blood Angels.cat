@@ -6049,5 +6049,6 @@ Whenever a Warlord with this Trait is on the winning side of a combat in which t
   </sharedSelectionEntryGroups>
   <catalogueLinks>
     <catalogueLink id="9a4b-b42e-d077-a3c7" name="Legions Astartes" targetId="25e4-c9e5-8165-1337" type="catalogue" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="[Centura] Legiones Astartes" id="738e-7c5b-ed0f-dd09" targetId="d76-4e81-2fef-caa1" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>
