@@ -3391,7 +3391,7 @@
             <categoryLink targetId="6e0c-29ba-a445-8321" id="c918-733e-4420-9874" name="Psyker:" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="110"/>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="95"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3458,7 +3458,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="eef1-0f91-a59f-b3e2" name="Contemptor-Osiron Dreadnought Talon" hidden="false" collective="false" import="true" type="unit">
