@@ -614,7 +614,7 @@
     <selectionEntry name="Legion Saturnine Centurion" type="unit" id="3e29-1bf1-48c9-b302" page="8" publicationId="3970-79bb-bdc6-9599">
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="cfa1-3f32-4938-9a35"/>
-        <categoryLink targetId="4f85-eb33-30c9-8f51" id="74c0-465d-4d60-fe7d" primary="false" name="HQ:"/>
+        <categoryLink targetId="4f85-eb33-30c9-8f51" id="74c0-465d-4d60-fe7d" primary="true" name="HQ:"/>
       </categoryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="140"/>
