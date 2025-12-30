@@ -10433,7 +10433,6 @@ Could not find wargear in A Legion Storm Eagle Transporter may exchange all of i
                     <modifier type="set" value="Two Sponson Mounted Heavy Bolters" field="name"/>
                   </modifiers>
                   <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5fcf-3f28-0f02-39b9"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1d4f-84e5-649a-59d3"/>
                   </constraints>
                   <infoLinks>
@@ -15270,7 +15269,7 @@ Could not find wargear Four Hull (Front) Mounted Hellstrike Missiles
                     <modifier type="set" value="Two Sponson Mounted Heavy Bolters" field="name"/>
                   </modifiers>
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1b3e-93a4-87b8-182b"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="1b3e-93a4-87b8-182b"/>
                   </constraints>
                   <infoLinks>
                     <infoLink name="Heavy Bolter" id="1e39-0eb6-f5df-d71d" hidden="false" targetId="d96e-a893-dc91-7f8b" type="profile"/>
@@ -15314,7 +15313,7 @@ Could not find wargear Four Hull (Front) Mounted Hellstrike Missiles
                     <modifier type="set" field="name" value="Pintle Mounted Heavy Bolter"/>
                   </modifiers>
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="81b7-8df2-4172-99bc"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="81b7-8df2-4172-99bc"/>
                   </constraints>
                 </entryLink>
                 <entryLink name="Havoc Launcher" hidden="false" type="selectionEntry" targetId="bde9-5abf-ec3d-2273" id="ac69-f9a9-4794-85bd">
