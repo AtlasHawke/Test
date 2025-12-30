@@ -676,6 +676,11 @@ Gets Hot result it suffers per phase.</description>
 or Sweeping Advance if it is possible to do so.
 A model with this Special Rule can never count as Scoring.</description>
     </rule>
+    <rule name="Vox Override" id="00bd-a6e9-2a48-8f40" hidden="false">
+      <description>As long as a model with this Special Rule is deployed on the
+battlefield, you may re-roll any failed dice roll for determining if a
+Reserve is Disordered.</description>
+    </rule>
   </sharedRules>
   <sharedSelectionEntries>
     <selectionEntry name="Adrastus Bolt Caliver - Bolt Volley" type="upgrade" id="8c95-14de-426e-a476">
@@ -739,8 +744,6 @@ A model with this Special Rule can never count as Scoring.</description>
           </modifiers>
         </infoLink>
       </infoLinks>
-      <comment>!BSC Errors from 20240406-1603
-Could not find rule: Harrower</comment>
       <profiles>
         <profile name="Mortifier Bolter" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="86f0-f748-402d-9245" page="171" publicationId="9fab-fea7-a93c-2074">
           <characteristics>
@@ -751,6 +754,11 @@ Could not find rule: Harrower</comment>
           </characteristics>
         </profile>
       </profiles>
+      <rules>
+        <rule name="Harrower" id="f5f1-9b0e-b0c6-98e9" hidden="false">
+          <description>Any unit from which a model is removed as a casualty during the Shooting phase as a result of an attack from a weapon with this special rule, must take a Morale check as if they had suffered 25% casualties.</description>
+        </rule>
+      </rules>
     </selectionEntry>
     <selectionEntry name="Vulcan Mega Bolter" type="upgrade" id="c683-ce4a-40cd-8c4a">
       <infoLinks>
@@ -839,6 +847,7 @@ Could not find rule: Harrower</comment>
           </modifiers>
         </infoLink>
         <infoLink name="Haywire" hidden="false" type="rule" targetId="1dd4-7a75-5c59-8425" id="dc42-6e38-4a48-8758"/>
+        <infoLink name="Graviton Collapse" id="c66f-9cc2-b176-780e" hidden="false" type="rule" targetId="60d8-5964-8671-7f3b"/>
       </infoLinks>
       <profiles>
         <profile name="Grav-Flux Bombard" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="8234-21c3-4450-afbf" page="171" publicationId="9fab-fea7-a93c-2074">
@@ -850,8 +859,6 @@ Could not find rule: Harrower</comment>
           </characteristics>
         </profile>
       </profiles>
-      <comment>!BSC Errors from 20240406-1603
-Could not find rule: †Graviton Collapse</comment>
     </selectionEntry>
     <selectionEntry name="Vratine Grenade Launcher - Krak" type="upgrade" id="de07-e007-447a-9e3a">
       <profiles>
@@ -900,6 +907,11 @@ Could not find rule: †Graviton Collapse</comment>
     <selectionEntry name="Belicosa Volcano Cannon" type="upgrade" id="e21a-7b5a-4f4c-8684">
       <infoLinks>
         <infoLink name="Ignores Cover" hidden="false" type="rule" targetId="fdb5-59e2-c446-1cbc" id="379c-15e7-4657-bab5"/>
+        <infoLink name="Blast" id="6a0b-4c76-2afe-3718" hidden="false" type="rule" targetId="1d9a-73ef-5f4f-8bd8">
+          <modifiers>
+            <modifier type="set" value="Apocalyptic Blast (10&quot;)" field="name"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <profiles>
         <profile name="Belicosa Volcano Cannon" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="20a5-5034-4a05-be89" page="172" publicationId="9fab-fea7-a93c-2074">
@@ -911,8 +923,6 @@ Could not find rule: †Graviton Collapse</comment>
           </characteristics>
         </profile>
       </profiles>
-      <comment>!BSC Errors from 20240406-1603
-Could not find rule: Apocalyptic Blast (10&quot;)</comment>
     </selectionEntry>
     <selectionEntry name="Gravis Heavy Lascannon" type="upgrade" id="13b6-d15b-4365-87c0">
       <infoLinks>
@@ -957,6 +967,11 @@ Could not find rule: Apocalyptic Blast (10&quot;)</comment>
     <selectionEntry name="Nemesis Volcano Cannon 36&quot; -" type="upgrade" id="53c1-084d-4857-ae26">
       <infoLinks>
         <infoLink name="Ignores Cover" hidden="false" type="rule" targetId="fdb5-59e2-c446-1cbc" id="b0ee-d04d-46bd-a68c"/>
+        <infoLink name="Blast" id="1e57-efe5-90ba-0c93" hidden="false" type="rule" targetId="1d9a-73ef-5f4f-8bd8">
+          <modifiers>
+            <modifier type="set" value="Apocalyptic Blast (10&quot;)" field="name"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <profiles>
         <profile name="Nemesis Volcano Cannon 36&quot; -" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="0266-1ce7-4d3f-9ff2" page="172" publicationId="9fab-fea7-a93c-2074">
@@ -968,8 +983,6 @@ Could not find rule: Apocalyptic Blast (10&quot;)</comment>
           </characteristics>
         </profile>
       </profiles>
-      <comment>!BSC Errors from 20240406-1603
-Could not find rule: Apocalyptic Blast (10&quot;)</comment>
     </selectionEntry>
     <selectionEntry name="Proteus Laser Destroyer" type="upgrade" id="6766-3e58-4552-afc5">
       <infoLinks>
@@ -1971,6 +1984,7 @@ Could not find rule: The Venem</comment>
             <modifier type="set" field="name" value="Two-Handed"/>
           </modifiers>
         </infoLink>
+        <infoLink name="One Use/One Shot" id="4110-349a-0aac-91f0" hidden="false" type="rule" targetId="df0c-5423-b892-491e"/>
       </infoLinks>
       <profiles>
         <profile name="Melta Lance" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="77d9-a631-4987-9432" page="175" publicationId="9fab-fea7-a93c-2074">
@@ -1982,9 +1996,6 @@ Could not find rule: The Venem</comment>
           </characteristics>
         </profile>
       </profiles>
-      <comment>!BSC Errors from 20240406-1603
-Could not find rule: One Use
-Could not find rule: One Use</comment>
     </selectionEntry>
     <selectionEntry name="Ripper Gun" type="upgrade" id="11d3-a8aa-43f2-bc61">
       <infoLinks>
@@ -2053,6 +2064,11 @@ Whenever targeted by a Shooting Attack, the range between an attacking unit and 
       <infoLinks>
         <infoLink name="Instant Death" hidden="false" type="rule" targetId="9e96-fff1-b916-d9a3" id="6c11-66cc-454a-a7ee"/>
         <infoLink name="Distortion Impalement" hidden="false" type="rule" targetId="6145-7aa1-4176-854b" id="1ba7-dc02-485d-9772"/>
+        <infoLink name="Blast" id="112d-02b1-14ca-cf12" hidden="false" type="rule" targetId="1d9a-73ef-5f4f-8bd8">
+          <modifiers>
+            <modifier type="set" value="Apocalyptic Mega-Blast" field="name"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <profiles>
         <profile name="D-Bombard" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="85f5-008b-44b8-ad48" page="152" publicationId="a368-64f0-10c7-c49d">
@@ -2064,8 +2080,6 @@ Whenever targeted by a Shooting Attack, the range between an attacking unit and 
           </characteristics>
         </profile>
       </profiles>
-      <comment>!BSC Errors from 20240406-1709
-Could not find rule: Apocalyptic Mega-Blast</comment>
     </selectionEntry>
     <selectionEntry name="D-Cannon" type="upgrade" id="97cf-1511-4f08-b1da">
       <infoLinks>
@@ -3584,6 +3598,7 @@ Could not find rule: Apocalyptic Mega-Blast</comment>
             <modifier type="set" field="name" value="Blast (3&quot;)"/>
           </modifiers>
         </infoLink>
+        <infoLink name="One Use/One Shot" id="c643-a7d6-658f-bbd1" hidden="false" type="rule" targetId="df0c-5423-b892-491e"/>
       </infoLinks>
       <profiles>
         <profile name="Star Bolas" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="2a31-829c-4487-87e5" page="154" publicationId="a368-64f0-10c7-c49d">
@@ -3595,8 +3610,6 @@ Could not find rule: Apocalyptic Mega-Blast</comment>
           </characteristics>
         </profile>
       </profiles>
-      <comment>!BSC Errors from 20240406-1603
-Could not find rule: One Shot</comment>
     </selectionEntry>
     <selectionEntry name="Triskele (Ranged)" type="upgrade" id="01f2-b90d-42cc-bd4c">
       <profiles>
@@ -3625,6 +3638,7 @@ Could not find rule: One Shot</comment>
         </infoLink>
         <infoLink name="Vortex" hidden="false" type="rule" targetId="a0d8-9118-002e-613d" id="127d-fd4b-4159-873f"/>
         <infoLink name="Ponderous Aim" hidden="false" type="rule" targetId="8bc0-efe7-4762-8dc7" id="2693-bf14-4881-89c6"/>
+        <infoLink name="One Use/One Shot" id="7d19-cf91-d337-18cc" hidden="false" type="rule" targetId="df0c-5423-b892-491e"/>
       </infoLinks>
       <profiles>
         <profile name="Vortex Grenade" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="2f27-97cf-4c86-b420" page="300" publicationId="892-6266-f55f-1b9d">
@@ -3636,9 +3650,6 @@ Could not find rule: One Shot</comment>
           </characteristics>
         </profile>
       </profiles>
-      <comment>!BSC Errors from 20240406-1709
-Could not find rule: One Use
-Could not find rule: One Use</comment>
     </selectionEntry>
     <selectionEntry name="Biting Blade" type="upgrade" id="6998-a1b0-4484-8272">
       <infoLinks>
@@ -4783,6 +4794,7 @@ Any model equipped with a Vyper Jetbike must change its Unit Type to Cavalry (An
             <modifier type="set" field="name" value="Concussive (2)"/>
           </modifiers>
         </infoLink>
+        <infoLink name="One Use/One Shot" id="72df-9aa3-4cc9-3e6b" hidden="false" type="rule" targetId="df0c-5423-b892-491e"/>
       </infoLinks>
       <profiles>
         <profile name="Shield" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="9da0-659f-47a9-be80" page="161" publicationId="a368-64f0-10c7-c49d">
@@ -4794,8 +4806,6 @@ Any model equipped with a Vyper Jetbike must change its Unit Type to Cavalry (An
           </characteristics>
         </profile>
       </profiles>
-      <comment>!BSC Errors from 20240406-1603
-Could not find rule: One Use</comment>
     </selectionEntry>
     <selectionEntry name="For the remainder of the" type="upgrade" id="9214-eba0-42a3-8411">
       <profiles>
@@ -5297,6 +5307,8 @@ Any model with a Warp Jump Generator also gains the Bulky (2) and Deep Strike sp
           </modifiers>
         </infoLink>
         <infoLink name="Haywire" hidden="false" type="rule" targetId="1dd4-7a75-5c59-8425" id="a92a-e15e-40d7-a56e"/>
+        <infoLink name="One Use/One Shot" id="8288-6fb8-f988-8e8d" hidden="false" type="rule" targetId="df0c-5423-b892-491e"/>
+        <infoLink name="Concussive (X)" id="208f-57f2-0156-a5f0" hidden="false" type="rule" targetId="7ce5-1bfb-64e6-f826"/>
       </infoLinks>
       <profiles>
         <profile name="EM-Storm Charge" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="983a-8f8c-4d48-9c26" page="85" publicationId="3970-79bb-bdc6-9599">
@@ -5310,7 +5322,7 @@ Any model with a Warp Jump Generator also gains the Bulky (2) and Deep Strike sp
       </profiles>
       <comment>!BSC Errors from 20240406-1603
 Could not find rule: Concussive
-Could not find rule: One Use</comment>
+</comment>
     </selectionEntry>
     <selectionEntry name="Mole Mortar" type="upgrade" id="aba7-7325-4aeb-8a78">
       <infoLinks>
@@ -5436,6 +5448,7 @@ Could not find rule: One Use</comment>
         </infoLink>
         <infoLink name="Crawling Fire" hidden="false" type="rule" targetId="8258-a7af-e4df-531d" id="5855-e5db-495c-8ce7"/>
         <infoLink name="Lingering Death" hidden="false" type="rule" targetId="be87-f0e5-7446-972b" id="c5f8-ca02-4605-894b"/>
+        <infoLink name="One Use/One Shot" id="7e0b-9a50-573f-1ec3" hidden="false" targetId="df0c-5423-b892-491e" type="rule"/>
       </infoLinks>
       <profiles>
         <profile name="Phosphex Cluster Bombs" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="1702-2c63-41d5-ad18" page="85" publicationId="3970-79bb-bdc6-9599">
@@ -5447,8 +5460,6 @@ Could not find rule: One Use</comment>
           </characteristics>
         </profile>
       </profiles>
-      <comment>!BSC Errors from 20240406-1603
-Could not find rule: One Use</comment>
     </selectionEntry>
     <selectionEntry name="Charnabal Longsword" type="upgrade" id="a142-52fc-4170-93a5">
       <infoLinks>
@@ -7329,6 +7340,11 @@ When any enemy unit is deployed to the battlefield from Reserves, a unit that in
       <infoLinks>
         <infoLink name="Plasma Burn" hidden="false" type="rule" targetId="efaa-c932-9788-9ade" id="0620-0af5-40dd-b94d"/>
         <infoLink name="Ignores Cover" hidden="false" type="rule" targetId="fdb5-59e2-c446-1cbc" id="2cb8-a195-4355-b8a9"/>
+        <infoLink name="Blast" id="1955-4fac-7f7e-c177" hidden="false" type="rule" targetId="1d9a-73ef-5f4f-8bd8">
+          <modifiers>
+            <modifier type="set" value="Apocalyptic Blast (10&quot;)" field="name"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <profiles>
         <profile name="Deathstrike Missile - Plasma Warhead P" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="f40d-9cb5-4231-b3f8" page="298" publicationId="892-6266-f55f-1b9d">
@@ -7341,7 +7357,6 @@ When any enemy unit is deployed to the battlefield from Reserves, a unit that in
         </profile>
       </profiles>
       <comment>!BSC Errors from 20240406-1603
-Could not find rule: Apocalyptic Blast (10&quot;)
 Could not find rule:</comment>
     </selectionEntry>
     <selectionEntry name="Deathstrike Missile - Tactical Nuclear Warhead S" type="upgrade" id="916a-b16e-45d2-9db5">
@@ -7358,9 +7373,13 @@ Could not find rule:</comment>
       <infoLinks>
         <infoLink name="Eye of the Storm" hidden="false" type="rule" targetId="c8d1-3794-4ffc-8b3d" id="3d69-60d3-42f6-a415"/>
         <infoLink name="Impact Flash" hidden="false" type="rule" targetId="aff3-a166-441a-88c2" id="11fe-459a-4e0f-8294"/>
+        <infoLink name="Blast" id="99b9-0df9-6f46-78eb" hidden="false" type="rule" targetId="1d9a-73ef-5f4f-8bd8">
+          <modifiers>
+            <modifier type="set" value="Apocalyptic Mega-blast" field="name"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <comment>!BSC Errors from 20240406-1709
-Could not find rule: Apocalyptic Mega-Blast
 Could not find rule:</comment>
     </selectionEntry>
     <selectionEntry name="Deathstrike Missile - Vortex Warhead I" type="upgrade" id="589e-91e3-4430-b879">
@@ -7424,6 +7443,7 @@ Could not find rule:</comment>
         </infoLink>
         <infoLink name="Crawling Fire" hidden="false" type="rule" targetId="8258-a7af-e4df-531d" id="45df-8bb4-407b-b5c0"/>
         <infoLink name="Lingering Death" hidden="false" type="rule" targetId="be87-f0e5-7446-972b" id="9b6f-5240-4ceb-8450"/>
+        <infoLink name="One Use/One Shot" id="c1e2-cfca-3bcd-fb67" hidden="false" targetId="df0c-5423-b892-491e" type="rule"/>
       </infoLinks>
       <profiles>
         <profile name="Phosphex Bomb" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="9c39-e994-4879-98d1" page="299" publicationId="892-6266-f55f-1b9d">
@@ -7435,8 +7455,6 @@ Could not find rule:</comment>
           </characteristics>
         </profile>
       </profiles>
-      <comment>!BSC Errors from 20240406-1603
-Could not find rule: One Use</comment>
     </selectionEntry>
     <selectionEntry name="Phosphex Canister Shot (Rapier)" type="upgrade" id="6fff-9e0a-4068-a02f">
       <infoLinks>
@@ -7789,6 +7807,7 @@ Could not find rule: One Use</comment>
       <infoLinks>
         <infoLink name="Instant Death" hidden="false" type="rule" targetId="9e96-fff1-b916-d9a3" id="37a5-f9d7-4cf4-92bb"/>
         <infoLink name="Gets Hot" hidden="false" type="rule" targetId="679f-9d97-5ace-a652" id="49c2-b997-47e8-b973"/>
+        <infoLink name="One Use/One Shot" id="b921-5199-cef9-2cb6" hidden="false" type="rule" targetId="df0c-5423-b892-491e"/>
       </infoLinks>
       <profiles>
         <profile name="Adrastus Bolt Caliver - Disintegrator" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="351f-31a9-4756-b82f" page="300" publicationId="892-6266-f55f-1b9d">
@@ -7800,8 +7819,6 @@ Could not find rule: One Use</comment>
           </characteristics>
         </profile>
       </profiles>
-      <comment>!BSC Errors from 20240406-1603
-Could not find rule: One Shot</comment>
     </selectionEntry>
     <selectionEntry name="Chem Cannon" type="upgrade" id="87c1-71cc-44b1-bd0a">
       <infoLinks>
@@ -8175,6 +8192,7 @@ Could not find rule: One Shot</comment>
             <modifier type="set" field="name" value="Brutal (2)"/>
           </modifiers>
         </infoLink>
+        <infoLink name="Paired Weapons" id="ec21-1019-a579-a62c" hidden="false" type="rule" targetId="6a8f-6ca1-72f4-5be0"/>
       </infoLinks>
       <profiles>
         <profile name="Sentinel Powerlifter" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="81bf-bf4c-484c-b78a" page="301" publicationId="892-6266-f55f-1b9d">
@@ -8186,8 +8204,6 @@ Could not find rule: One Shot</comment>
           </characteristics>
         </profile>
       </profiles>
-      <comment>!BSC Errors from 20240406-1603
-Could not find rule: Paired Weapon</comment>
     </selectionEntry>
     <selectionEntry name="Heavy Lascutter (Melee)" type="upgrade" id="98b8-afb2-42da-b75d">
       <infoLinks>
@@ -9795,6 +9811,11 @@ Vratine Voidplate confers a 2+ Armour Save. In addition, a unit that includes an
             <modifier type="set" field="name" value="Concussive (3)"/>
           </modifiers>
         </infoLink>
+        <infoLink name="Blast" id="363e-8571-f377-50e4" hidden="false" type="rule" targetId="1d9a-73ef-5f4f-8bd8">
+          <modifiers>
+            <modifier type="set" value="Apocalyptic Blast (10&quot;)" field="name"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <profiles>
         <profile name="Graviton Ruinator" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="7c6d-f1f8-45a8-af69" page="98" publicationId="f856-58d6-ef02-7d3e">
@@ -9806,8 +9827,6 @@ Vratine Voidplate confers a 2+ Armour Save. In addition, a unit that includes an
           </characteristics>
         </profile>
       </profiles>
-      <comment>!BSC Errors from 20240406-1603
-Could not find rule: Apocalyptic Blast (10&quot;)</comment>
     </selectionEntry>
     <selectionEntry name="Electrocoil Harpoon" type="upgrade" id="950f-2cbd-4ea2-b212">
       <infoLinks>
@@ -10102,6 +10121,7 @@ Could not find rule: Apocalyptic Blast (10&quot;)</comment>
     <selectionEntry name="Shieldbreaker Missile" type="upgrade" id="8aac-2e0d-4d7d-ae3a">
       <infoLinks>
         <infoLink name="Shieldbreaker" hidden="false" type="rule" targetId="0262-3e27-47a9-8de0" id="c9f2-c38c-4f8a-832f"/>
+        <infoLink name="One Use/One Shot" id="53f2-3a05-3c4f-8710" hidden="false" type="rule" targetId="df0c-5423-b892-491e"/>
       </infoLinks>
       <profiles>
         <profile name="Shieldbreaker Missile" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="551c-bb72-4a95-a035" page="99" publicationId="f856-58d6-ef02-7d3e">
@@ -10113,8 +10133,6 @@ Could not find rule: Apocalyptic Blast (10&quot;)</comment>
           </characteristics>
         </profile>
       </profiles>
-      <comment>!BSC Errors from 20240406-1603
-Could not find rule: One Use</comment>
     </selectionEntry>
     <selectionEntry name="Tectomagnic Bomb Rack" type="upgrade" id="7ce9-35bd-489d-8147">
       <infoLinks>
@@ -10152,6 +10170,7 @@ Could not find rule: One Use</comment>
           </modifiers>
         </infoLink>
         <infoLink name="Vortex" hidden="false" type="rule" targetId="a0d8-9118-002e-613d" id="82d1-6a8f-4281-ba8f"/>
+        <infoLink name="One Use/One Shot" id="217b-88bf-e831-3725" hidden="false" type="rule" targetId="df0c-5423-b892-491e"/>
       </infoLinks>
       <profiles>
         <profile name="Vortex Missile" typeName="Weapon" hidden="false" typeId="1a1a-e592-2849-a5c0" id="cbf1-bd18-49d2-9cdc" page="99" publicationId="f856-58d6-ef02-7d3e">
@@ -10163,8 +10182,6 @@ Could not find rule: One Use</comment>
           </characteristics>
         </profile>
       </profiles>
-      <comment>!BSC Errors from 20240406-1603
-Could not find rule: One Use</comment>
     </selectionEntry>
     <selectionEntry name="Arkadia Plasma Array" type="upgrade" id="76e2-56bc-481a-b47f">
       <infoLinks>
