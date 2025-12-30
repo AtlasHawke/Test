@@ -9828,7 +9828,7 @@ Could not find wargear Four Hull (Front) Mounted Hellstrike Missiles
                 <condition type="atLeast" value="1" field="selections" scope="parent" childId="2f74-7840-7cc5-db41" shared="true" includeChildSelections="false"/>
               </conditions>
             </modifier>
-            <modifier type="decrement" value="0" field="dd71-1da8-492d-99d0">
+            <modifier type="decrement" value="1" field="dd71-1da8-492d-99d0">
               <repeats>
                 <repeat value="1" repeats="1" field="selections" scope="parent" childId="841c-2436-76e3-af95" shared="true" roundUp="false"/>
               </repeats>
@@ -10359,6 +10359,12 @@ Could not find wargear Four Hull (Front) Mounted Hellstrike Missiles
           </constraints>
           <entryLinks>
             <entryLink import="true" name="Tartaros Terminator Armour" hidden="false" id="cb93-3462-e3d6-b438" type="selectionEntry" targetId="f850-d0af-8663-ccac"/>
+            <entryLink import="true" name="Legion Vexilla" hidden="false" id="83f3-9175-2f5c-bdfc" type="selectionEntry" targetId="21b1-2a90-9826-1782">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="770e-9b8a-b3bf-59a6-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="770e-9b8a-b3bf-59a6-max"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="Any model in the unit may replace their Combi-Bolter and/or Chainaxe with:" id="e63d-86e1-fb62-5eba" hidden="false">
@@ -10574,6 +10580,12 @@ Could not find wargear Four Hull (Front) Mounted Hellstrike Missiles
           </constraints>
           <entryLinks>
             <entryLink import="true" name="Tartaros Terminator Armour" hidden="false" id="f68f-9dcf-7cc0-424b" type="selectionEntry" targetId="f850-d0af-8663-ccac"/>
+            <entryLink import="true" name="Augury Scanner" hidden="false" id="1e73-7516-91df-35e3" type="selectionEntry" targetId="595f-ed8a-4597-8890">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fee8-952f-6de3-c309-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fee8-952f-6de3-c309-max"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="Any model in the unit may replace their Combi-Bolter and/or Chainaxe with:" id="e122-ecdf-f7a1-0050" hidden="false">
@@ -10789,6 +10801,12 @@ Could not find wargear Four Hull (Front) Mounted Hellstrike Missiles
           </constraints>
           <entryLinks>
             <entryLink import="true" name="Tartaros Terminator Armour" hidden="false" id="3ee8-8cd0-46a6-c350" type="selectionEntry" targetId="f850-d0af-8663-ccac"/>
+            <entryLink import="true" name="Nuncio-Vox" hidden="false" id="c2de-ab74-ac79-b73f" type="selectionEntry" targetId="005e-aae6-ddac-bb45">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9ee4-559f-b308-65ff-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9ee4-559f-b308-65ff-max"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="Any model in the unit may replace their Combi-Bolter and/or Chainaxe with:" id="8335-dbe8-0135-b292" hidden="false">
