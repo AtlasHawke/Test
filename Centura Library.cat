@@ -5792,7 +5792,7 @@ Could not find wargear In-built Meltagun
             </entryLink>
           </entryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Any Legion Servo-Automata may replace their Servo-Arm with one of the following:" id="cb40-80a1-442b-b007">
+            <selectionEntryGroup name="Any Legion Servo-Automata may replace their Servo-Arm with one of the following:" id="cb40-80a1-442b-b007" defaultSelectionEntryId="1290-a2bf-75da-e615">
               <entryLinks>
                 <entryLink name="Flamer" hidden="false" type="selectionEntry" targetId="f0d1-c88b-4f7a-a4ae" id="74df-fe23-47f4-80ad">
                   <constraints>
@@ -7017,8 +7017,7 @@ A model with the Infantry Unit Type that selects a Legion Spatha combat bike as 
             </profile>
           </profiles>
           <constraints>
-            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="15c3-f90c-34eb-b156"/>
-            <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="8f5f-8145-3754-7c1c"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8f5f-8145-3754-7c1c"/>
           </constraints>
           <entryLinks>
             <entryLink import="true" name="Legion Estoc Jetbike" hidden="false" id="00e3-e059-ce4c-0719" type="selectionEntry" targetId="1088-8369-4682-af9f">
@@ -7057,8 +7056,7 @@ A model with the Infantry Unit Type that selects a Legion Spatha combat bike as 
             </profile>
           </profiles>
           <constraints>
-            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="a8e0-adf8-5a85-5a38"/>
-            <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="959c-5d13-21b1-7525"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="959c-5d13-21b1-7525"/>
           </constraints>
           <entryLinks>
             <entryLink import="true" name="Legion Estoc Jetbike" hidden="false" id="e407-0034-d364-4f56" type="selectionEntry" targetId="1088-8369-4682-af9f">
