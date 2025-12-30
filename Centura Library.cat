@@ -6718,6 +6718,75 @@ A model with the Infantry Unit Type that selects a Legion Spatha combat bike as 
               </constraints>
             </entryLink>
           </entryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="The entire unit may replace its Legion Estoc Jetbikes’ Twin-Linked Bolters with:" id="8575-5b5f-c8d1-c343" hidden="false" defaultSelectionEntryId="7879-204f-ae6a-f544">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="863e-7f39-7303-637a"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Twin-linked Bolter" hidden="false" id="7879-204f-ae6a-f544" type="selectionEntry" targetId="e31a-fd70-35c7-8bed">
+                  <modifiers>
+                    <modifier type="set" value="1" field="f619-69f4-95a4-e972-min">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="8575-5b5f-c8d1-c343" childId="1180-f3c1-1a7f-1b6a" shared="true"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="1" field="f619-69f4-95a4-e972-max">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="8575-5b5f-c8d1-c343" childId="1180-f3c1-1a7f-1b6a" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="f619-69f4-95a4-e972-min" automatic="false"/>
+                    <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="f619-69f4-95a4-e972-max" automatic="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Twin-linked Rotor Cannon" hidden="false" id="323a-f007-c01c-d8a5" type="selectionEntry" targetId="37ec-a4b4-de7a-acf3">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="d685-46da-ff0c-9377-min"/>
+                    <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="d685-46da-ff0c-9377-max"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="set" value="1" field="d685-46da-ff0c-9377-min">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="8575-5b5f-c8d1-c343" childId="3d22-00c1-d32c-3724" shared="true"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="1" field="d685-46da-ff0c-9377-max">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="8575-5b5f-c8d1-c343" childId="3d22-00c1-d32c-3724" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+                <entryLink import="true" name="Grenade Launcher" hidden="false" id="ba27-86bb-a25f-9357" type="selectionEntry" targetId="e0f3-3743-a9d0-f5f1">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="01e6-b72d-a1dd-4ae6-min"/>
+                    <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="01e6-b72d-a1dd-4ae6-max"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="set" value="1" field="01e6-b72d-a1dd-4ae6-min">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="8575-5b5f-c8d1-c343" childId="fd6e-9a00-68f3-e96b" shared="true"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="1" field="01e6-b72d-a1dd-4ae6-max">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="8575-5b5f-c8d1-c343" childId="fd6e-9a00-68f3-e96b" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
           </costs>
@@ -6770,6 +6839,70 @@ A model with the Infantry Unit Type that selects a Legion Spatha combat bike as 
                 <characteristic typeId="e593-6b3c-f169-04f0" name="Save">3+</characteristic>
                 <characteristic typeId="ddd7-6f5c-a939-b69e" name="Unit Type">Cavalry (Antigrav, Character)</characteristic>
               </characteristics>
+              <modifiers>
+                <modifier type="set" value="2+" field="e593-6b3c-f169-04f0">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="parent" childId="583e-62cb-53f1-f952" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="(Psyker)" field="ddd7-6f5c-a939-b69e">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="force" childId="21c3-2f28-7820-e51a" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="append" value="(Corrupted)" field="ddd7-6f5c-a939-b69e">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="c0a1-df5f-4e38-89e8" childId="555f-3998-a06e-f415" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="equalTo" value="1" field="selections" scope="c0a1-df5f-4e38-89e8" childId="f783-f0ea-fe35-cdeb" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" value="(Psyker)" field="ddd7-6f5c-a939-b69e">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="parent" childId="ba81-c3d5-e670-c78b" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <modifiers>
+                    <modifier type="increment" value="1" field="cc42-7ed5-7092-5c84">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="c079-21c4-488f-bd3e" childId="c60d-d862-a0b-9909" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="increment" value="1" field="74ae-c840-0036-d244">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="c079-21c4-488f-bd3e" childId="d31f-643d-2343-97b5" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="increment" value="1" field="e478-41d4-a092-48a8">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="c079-21c4-488f-bd3e" childId="3dc0-7375-25fb-3432" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="increment" value="1" field="62d3-22d7-2d49-52dc">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="c079-21c4-488f-bd3e" childId="3911-2f83-ad4c-2dac" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="increment" value="1" field="57ee-1126-32a9-5672">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="ced-ce18-5d5b-e54" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="increment" value="1" field="e8a6-1da9-d384-8727">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="ced-ce18-5d5b-e54" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <comment>In Disgrace All Are Equal</comment>
+                </modifierGroup>
+              </modifierGroups>
             </profile>
           </profiles>
           <constraints>
@@ -6865,7 +6998,7 @@ A model with the Infantry Unit Type that selects a Legion Spatha combat bike as 
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a6a9-a54a-425e-a5e3"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="The Legion Sky-Seeker Sergeant may exchange his Power Armour for:" id="1176-b5b0-4697-8c97">
+            <selectionEntryGroup name="The Legion Sky-Seeker Sergeant may exchange his Power Armour for:" id="1176-b5b0-4697-8c97" defaultSelectionEntryId="866d-1cef-4adb-9d8a">
               <entryLinks>
                 <entryLink name="Artificer Armour" hidden="false" type="selectionEntry" targetId="9196-3af7-9545-e62b" id="50a3-a64a-4d7c-82ae">
                   <costs>
@@ -6992,11 +7125,112 @@ A model with the Infantry Unit Type that selects a Legion Spatha combat bike as 
                 <entryLink import="true" name="Debased Augments (Unit Character)" hidden="false" id="31f9-c401-c2ff-b600" collective="false" targetId="c560-379a-5b80-8d6d" type="selectionEntryGroup"/>
               </entryLinks>
             </selectionEntryGroup>
+            <selectionEntryGroup name="The entire unit may replace its Legion Estoc Jetbikes’ Twin-Linked Bolters with:" id="8fe9-75ec-5b58-9a8b" hidden="false" defaultSelectionEntryId="7879-204f-ae6a-f544">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4d34-6530-0e72-a1c0"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Twin-linked Bolter" hidden="false" id="f518-a0c5-7b81-d911" type="selectionEntry" targetId="e31a-fd70-35c7-8bed">
+                  <modifiers>
+                    <modifier type="set" value="1" field="720f-3174-19e0-d5b7-min">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="8fe9-75ec-5b58-9a8b" childId="1180-f3c1-1a7f-1b6a" shared="true"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="1" field="720f-3174-19e0-d5b7-max">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="8fe9-75ec-5b58-9a8b" childId="1180-f3c1-1a7f-1b6a" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="720f-3174-19e0-d5b7-min" automatic="false"/>
+                    <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="720f-3174-19e0-d5b7-max" automatic="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Twin-linked Rotor Cannon" hidden="false" id="db8f-a335-deb9-7461" type="selectionEntry" targetId="37ec-a4b4-de7a-acf3">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="9c97-9b9a-4a0c-0661-min"/>
+                    <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="9c97-9b9a-4a0c-0661-max"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="set" value="1" field="9c97-9b9a-4a0c-0661-min">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="8fe9-75ec-5b58-9a8b" childId="3d22-00c1-d32c-3724" shared="true"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="1" field="9c97-9b9a-4a0c-0661-max">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="8fe9-75ec-5b58-9a8b" childId="3d22-00c1-d32c-3724" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+                <entryLink import="true" name="Grenade Launcher" hidden="false" id="2961-c6a7-b95e-efbf" type="selectionEntry" targetId="e0f3-3743-a9d0-f5f1">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="a9f7-0571-1db9-4fee-min"/>
+                    <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="a9f7-0571-1db9-4fee-max"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="set" value="1" field="a9f7-0571-1db9-4fee-min">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="8fe9-75ec-5b58-9a8b" childId="fd6e-9a00-68f3-e96b" shared="true"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="1" field="a9f7-0571-1db9-4fee-max">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="8fe9-75ec-5b58-9a8b" childId="fd6e-9a00-68f3-e96b" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
             <categoryLink targetId="4303-1348-cce4-9501" id="1ebc-3b64-4f61-95d3" name="Antigrav Sub-type" primary="false"/>
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="cefc-99bb-447b-bc49" name="Character" primary="false"/>
           </categoryLinks>
+          <infoLinks>
+            <infoLink name="Fear (X)" id="834c-cd57-7b9c-5e45" hidden="false" targetId="21f6-7842-df5c-d2e7" type="rule">
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="equalTo" value="0" field="selections" scope="force" childId="e20d-6f02-d7d5-395f" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="Fear (1)" field="name"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="remove" value="8b4f-bfe2-ce7b-f1b1" field="category">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="force" childId="be5b-1edf-8b27-2e1e" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="remove" value="6d79-a3e4-381f-7b0f" field="category">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="force" childId="be5b-1edf-8b27-2e1e" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="add" value="d8ab-8e21-e193-63ba" field="category">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="force" childId="be5b-1edf-8b27-2e1e" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <comment>The Flesh Is Weak</comment>
+            </modifierGroup>
+          </modifierGroups>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Legion Sky-Seeker/w Legion Vexilla" hidden="false" id="be4c-a273-c8b2-506f" page="27" publicationId="3970-79bb-bdc6-9599">
           <profiles>
@@ -7033,6 +7267,75 @@ A model with the Infantry Unit Type that selects a Legion Spatha combat bike as 
               </constraints>
             </entryLink>
           </entryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="The entire unit may replace its Legion Estoc Jetbikes’ Twin-Linked Bolters with:" id="382e-65cd-4fd5-e3fc" hidden="false" defaultSelectionEntryId="7879-204f-ae6a-f544">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c019-3c24-c04c-d8f7"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Twin-linked Bolter" hidden="false" id="1151-2f20-75c5-2164" type="selectionEntry" targetId="e31a-fd70-35c7-8bed">
+                  <modifiers>
+                    <modifier type="set" value="1" field="2a25-01a4-4796-95a3-min">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="382e-65cd-4fd5-e3fc" childId="1180-f3c1-1a7f-1b6a" shared="true"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="1" field="2a25-01a4-4796-95a3-max">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="382e-65cd-4fd5-e3fc" childId="1180-f3c1-1a7f-1b6a" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="2a25-01a4-4796-95a3-min" automatic="false"/>
+                    <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="2a25-01a4-4796-95a3-max" automatic="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Twin-linked Rotor Cannon" hidden="false" id="f4dd-412d-c04d-02df" type="selectionEntry" targetId="37ec-a4b4-de7a-acf3">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="f4af-0430-12c8-cacb-min"/>
+                    <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="f4af-0430-12c8-cacb-max"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="set" value="1" field="f4af-0430-12c8-cacb-min">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="382e-65cd-4fd5-e3fc" childId="3d22-00c1-d32c-3724" shared="true"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="1" field="f4af-0430-12c8-cacb-max">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="382e-65cd-4fd5-e3fc" childId="3d22-00c1-d32c-3724" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+                <entryLink import="true" name="Grenade Launcher" hidden="false" id="ae59-250f-bce9-e4ed" type="selectionEntry" targetId="e0f3-3743-a9d0-f5f1">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="ca9f-6903-cd4b-15f9-min"/>
+                    <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="ca9f-6903-cd4b-15f9-max"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="set" value="1" field="ca9f-6903-cd4b-15f9-min">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="382e-65cd-4fd5-e3fc" childId="fd6e-9a00-68f3-e96b" shared="true"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="1" field="ca9f-6903-cd4b-15f9-max">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="382e-65cd-4fd5-e3fc" childId="fd6e-9a00-68f3-e96b" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="35"/>
           </costs>
@@ -7075,6 +7378,75 @@ A model with the Infantry Unit Type that selects a Legion Spatha combat bike as 
               </constraints>
             </entryLink>
           </entryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="The entire unit may replace its Legion Estoc Jetbikes’ Twin-Linked Bolters with:" id="e1ca-b6ae-f666-319a" hidden="false" defaultSelectionEntryId="7879-204f-ae6a-f544">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="50cb-2ccc-e160-c021"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Twin-linked Bolter" hidden="false" id="67a0-87b3-4164-0d8f" type="selectionEntry" targetId="e31a-fd70-35c7-8bed">
+                  <modifiers>
+                    <modifier type="set" value="1" field="6301-c3b7-6bae-f210-min">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="e1ca-b6ae-f666-319a" childId="1180-f3c1-1a7f-1b6a" shared="true"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="1" field="6301-c3b7-6bae-f210-max">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="e1ca-b6ae-f666-319a" childId="1180-f3c1-1a7f-1b6a" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="6301-c3b7-6bae-f210-min" automatic="false"/>
+                    <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="6301-c3b7-6bae-f210-max" automatic="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Twin-linked Rotor Cannon" hidden="false" id="a946-3aca-b2b9-5de6" type="selectionEntry" targetId="37ec-a4b4-de7a-acf3">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="1259-36cd-2efc-3276-min"/>
+                    <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="1259-36cd-2efc-3276-max"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="set" value="1" field="1259-36cd-2efc-3276-min">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="e1ca-b6ae-f666-319a" childId="3d22-00c1-d32c-3724" shared="true"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="1" field="1259-36cd-2efc-3276-max">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="e1ca-b6ae-f666-319a" childId="3d22-00c1-d32c-3724" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+                <entryLink import="true" name="Grenade Launcher" hidden="false" id="ad37-ed5a-d688-49c5" type="selectionEntry" targetId="e0f3-3743-a9d0-f5f1">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="847a-f53f-1e03-b380-min"/>
+                    <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="847a-f53f-1e03-b380-max"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="set" value="1" field="847a-f53f-1e03-b380-min">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="e1ca-b6ae-f666-319a" childId="fd6e-9a00-68f3-e96b" shared="true"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="1" field="847a-f53f-1e03-b380-max">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="e1ca-b6ae-f666-319a" childId="fd6e-9a00-68f3-e96b" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="35"/>
           </costs>
@@ -7173,6 +7545,73 @@ A model with the Infantry Unit Type that selects a Legion Spatha combat bike as 
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d8f6-197f-d5cd-9e46"/>
               </constraints>
             </selectionEntryGroup>
+            <selectionEntryGroup name="The entire unit may replace its Legion Estoc Jetbikes’ Twin-Linked Bolters with:" id="4c52-8187-d768-5920" hidden="false" defaultSelectionEntryId="7879-204f-ae6a-f544">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4902-9add-cde5-184b"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Twin-linked Bolter" hidden="false" id="80b8-9f20-a02e-e4cf" type="selectionEntry" targetId="e31a-fd70-35c7-8bed">
+                  <modifiers>
+                    <modifier type="set" value="1" field="4c56-c2a8-2f45-5b95-min">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="4c52-8187-d768-5920" childId="1180-f3c1-1a7f-1b6a" shared="true"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="1" field="4c56-c2a8-2f45-5b95-max">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="4c52-8187-d768-5920" childId="1180-f3c1-1a7f-1b6a" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="4c56-c2a8-2f45-5b95-min" automatic="false"/>
+                    <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="4c56-c2a8-2f45-5b95-max" automatic="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Twin-linked Rotor Cannon" hidden="false" id="847d-6284-de38-6e95" type="selectionEntry" targetId="37ec-a4b4-de7a-acf3">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="0f5f-f8a4-614f-a73b-min"/>
+                    <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="0f5f-f8a4-614f-a73b-max"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="set" value="1" field="0f5f-f8a4-614f-a73b-min">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="4c52-8187-d768-5920" childId="3d22-00c1-d32c-3724" shared="true"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="1" field="0f5f-f8a4-614f-a73b-max">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="4c52-8187-d768-5920" childId="3d22-00c1-d32c-3724" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+                <entryLink import="true" name="Grenade Launcher" hidden="false" id="706c-d9e8-a0f3-9a1b" type="selectionEntry" targetId="e0f3-3743-a9d0-f5f1">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="3f8d-5a69-1521-7938-min"/>
+                    <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="3f8d-5a69-1521-7938-max"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="set" value="1" field="3f8d-5a69-1521-7938-min">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="4c52-8187-d768-5920" childId="fd6e-9a00-68f3-e96b" shared="true"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="1" field="3f8d-5a69-1521-7938-max">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="4c52-8187-d768-5920" childId="fd6e-9a00-68f3-e96b" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
@@ -7187,52 +7626,35 @@ A model with the Infantry Unit Type that selects a Legion Spatha combat bike as 
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup name="The entire unit may replace its Legion Estoc Jetbikes’ Twin-Linked Bolters with:" id="5fa0-c50e-41d3-9209">
+        <selectionEntryGroup name="The entire unit may replace its Legion Estoc Jetbikes’ Twin-Linked Bolters with:" id="db88-15ec-497a-9cb5" hidden="false" defaultSelectionEntryId="7879-204f-ae6a-f544">
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2edf-9a68-4a46-99ba"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="92a0-a0ec-d4bc-67ea"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Twin-linked Bolter" hidden="false" id="e5db-a698-c879-1ac4" type="selectionEntry" targetId="e31a-fd70-35c7-8bed">
-              <modifiers>
-                <modifier type="increment" value="1" field="7be7-0236-7953-25af">
-                  <repeats>
-                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
-                  </repeats>
-                </modifier>
-              </modifiers>
+            <entryLink import="true" name="Twin-linked Bolter" hidden="false" id="1180-f3c1-1a7f-1b6a" type="selectionEntry" targetId="e31a-fd70-35c7-8bed">
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7be7-0236-7953-25af"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5c86-bf3c-be28-f031" automatic="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Rotor Cannon" hidden="false" id="add5-fb40-33c9-5f54" type="selectionEntry" targetId="37ec-a4b4-de7a-acf3">
-              <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
-              </costs>
+            <entryLink import="true" name="Twin-linked Rotor Cannon" hidden="false" id="3d22-00c1-d32c-3724" type="selectionEntry" targetId="37ec-a4b4-de7a-acf3">
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3b11-9707-7300-72b2"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f9c4-8646-8dbc-b5f9"/>
               </constraints>
               <modifiers>
-                <modifier type="increment" value="1" field="3b11-9707-7300-72b2">
+                <modifier type="increment" value="1" field="f9c4-8646-8dbc-b5f9">
                   <repeats>
                     <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
                   </repeats>
                 </modifier>
               </modifiers>
             </entryLink>
-            <entryLink import="true" name="Grenade Launcher" hidden="false" id="7e1a-83c7-24c7-b0ed" type="selectionEntry" targetId="e0f3-3743-a9d0-f5f1">
+            <entryLink import="true" name="Grenade Launcher" hidden="false" id="fd6e-9a00-68f3-e96b" type="selectionEntry" targetId="e0f3-3743-a9d0-f5f1">
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
               </costs>
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cfa0-10e1-e873-5e47"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="44b8-0f44-1f9a-b7bc"/>
               </constraints>
-              <modifiers>
-                <modifier type="increment" value="1" field="cfa0-10e1-e873-5e47">
-                  <repeats>
-                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
-                  </repeats>
-                </modifier>
-              </modifiers>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
