@@ -11321,7 +11321,12 @@ Could not find wargear Four Hull (Front) Mounted Hellstrike Missiles
             <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="6b75-452c-78b8-032f"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Cataphractii Terminator Armour" hidden="false" id="9df6-a7fe-2c50-49bc" type="selectionEntry" targetId="7c9b-b9ab-9a40-8eb5"/>
+            <entryLink import="true" name="Cataphractii Terminator Armour" hidden="false" id="9df6-a7fe-2c50-49bc" type="selectionEntry" targetId="7c9b-b9ab-9a40-8eb5">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bcd6-8535-6828-2868-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bcd6-8535-6828-2868-max"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="Any model in the unit may replace their Combi-Bolter and/or Chainaxe with:" id="4505-3bff-9c8d-8de2" hidden="false">
@@ -11558,7 +11563,12 @@ Could not find wargear Four Hull (Front) Mounted Hellstrike Missiles
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a7a5-a3f0-1132-ace0" negative="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Cataphractii Terminator Armour" hidden="false" id="7a61-ac01-1fec-5f5b" type="selectionEntry" targetId="7c9b-b9ab-9a40-8eb5"/>
+            <entryLink import="true" name="Cataphractii Terminator Armour" hidden="false" id="7a61-ac01-1fec-5f5b" type="selectionEntry" targetId="7c9b-b9ab-9a40-8eb5">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2636-a755-7db1-f49c-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2636-a755-7db1-f49c-max"/>
+              </constraints>
+            </entryLink>
             <entryLink import="true" name="Augury Scanner" hidden="false" id="41ba-b1ad-bd2b-2f84" type="selectionEntry" targetId="595f-ed8a-4597-8890">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f99c-8595-0d76-51a8-min"/>
@@ -11779,7 +11789,12 @@ Could not find wargear Four Hull (Front) Mounted Hellstrike Missiles
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8ee5-886a-44bd-4301"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Cataphractii Terminator Armour" hidden="false" id="8240-755b-5350-84b1" type="selectionEntry" targetId="7c9b-b9ab-9a40-8eb5"/>
+            <entryLink import="true" name="Cataphractii Terminator Armour" hidden="false" id="8240-755b-5350-84b1" type="selectionEntry" targetId="7c9b-b9ab-9a40-8eb5">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6b7f-d096-6c4c-bd18-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6b7f-d096-6c4c-bd18-max"/>
+              </constraints>
+            </entryLink>
             <entryLink import="true" name="Legion Vexilla" hidden="false" id="1044-4c09-e146-fce5" type="selectionEntry" targetId="21b1-2a90-9826-1782">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fd0a-42ff-7765-dade-min"/>
@@ -12000,7 +12015,12 @@ Could not find wargear Four Hull (Front) Mounted Hellstrike Missiles
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1233-4525-1e5f-f681"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Cataphractii Terminator Armour" hidden="false" id="91ea-b973-e9b7-689b" type="selectionEntry" targetId="7c9b-b9ab-9a40-8eb5"/>
+            <entryLink import="true" name="Cataphractii Terminator Armour" hidden="false" id="91ea-b973-e9b7-689b" type="selectionEntry" targetId="7c9b-b9ab-9a40-8eb5">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="263b-fa81-ba47-9d11-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="263b-fa81-ba47-9d11-max"/>
+              </constraints>
+            </entryLink>
             <entryLink import="true" name="Nuncio-Vox" hidden="false" id="06e6-e404-b540-54b3" type="selectionEntry" targetId="005e-aae6-ddac-bb45">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2964-b606-46a3-d2dc-min"/>
@@ -12221,7 +12241,12 @@ Could not find wargear Four Hull (Front) Mounted Hellstrike Missiles
             <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="8ceb-fbbc-c81b-5573"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Cataphractii Terminator Armour" hidden="false" id="60d2-6661-1bb0-7e0d" type="selectionEntry" targetId="7c9b-b9ab-9a40-8eb5"/>
+            <entryLink import="true" name="Cataphractii Terminator Armour" hidden="false" id="60d2-6661-1bb0-7e0d" type="selectionEntry" targetId="7c9b-b9ab-9a40-8eb5">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9d5d-e582-ef3f-124c-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9d5d-e582-ef3f-124c-max"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="For every five models in the unit, one Legion Tartaros Heavy Destroyer may exchange his Combi-Bolter or Chainaxe for one of the following:" id="7a72-f697-63cb-4d6c" hidden="false">
@@ -12474,7 +12499,12 @@ Could not find wargear Four Hull (Front) Mounted Hellstrike Missiles
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5b23-9f61-7a89-20b7"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Cataphractii Terminator Armour" hidden="false" id="a633-c56b-8f18-bc0e" type="selectionEntry" targetId="7c9b-b9ab-9a40-8eb5"/>
+            <entryLink import="true" name="Cataphractii Terminator Armour" hidden="false" id="a633-c56b-8f18-bc0e" type="selectionEntry" targetId="7c9b-b9ab-9a40-8eb5">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4600-b17e-024d-0f7d-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4600-b17e-024d-0f7d-max"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <categoryLinks>
             <categoryLink name="Infantry:" hidden="false" id="e9b7-28eb-99f7-c1ea" targetId="8b4f-bfe2-ce7b-f1b1" primary="false"/>
@@ -12483,7 +12513,7 @@ Could not find wargear Four Hull (Front) Mounted Hellstrike Missiles
           <selectionEntryGroups>
             <selectionEntryGroup name="Any model in the unit may replace their Combi-Bolter and/or Chainaxe with:" id="3d6c-4d42-3a83-dcad" hidden="false">
               <selectionEntryGroups>
-                <selectionEntryGroup name="Combi-Bolter" id="da06-5352-78cb-7a43" hidden="false" defaultSelectionEntryId="1fed-9f20-078a-cf42">
+                <selectionEntryGroup name="Combi-Bolter" id="da06-5352-78cb-7a43" hidden="false" defaultSelectionEntryId="70df-9252-8527-1159">
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="add0-6d90-4830-3bdb-min"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="add0-6d90-4830-3bdb-max"/>
