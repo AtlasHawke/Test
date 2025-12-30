@@ -3304,11 +3304,8 @@ THIS IS A TEMPORARY NOTIFICATION THAT WILL BE REMOVED IN A FEW MONTHS WHEN HOPEF
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">30&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">3</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">-</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 4, Pinning, Shell Shock (1)</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 4, Pinning, Shell Shock (1), Twin-linked</characteristic>
           </characteristics>
-          <modifiers>
-            <modifier type="append" value="Twin-Linked" field="2f86-c8b4-b3b4-3ff9"/>
-          </modifiers>
         </profile>
       </profiles>
       <infoLinks>
@@ -10222,7 +10219,7 @@ Note that this is an exception to the normal rules for Fortifications, and if as
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="37ec-a4b4-de7a-acf3" name="Rotor Cannon" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="37ec-a4b4-de7a-acf3" name="Twin-linked Rotor Cannon" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="2a23-3690-b10a-5ab4" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
         <infoLink id="023b-fb8e-d925-0f4c" name="Shell Shock (X)" hidden="false" targetId="46b7-63a1-941c-96a5" type="rule">
@@ -10231,6 +10228,7 @@ Note that this is an exception to the normal rules for Fortifications, and if as
           </modifiers>
         </infoLink>
         <infoLink id="610d-65de-9ab7-bd2a" name="Rotor Cannon" hidden="false" targetId="911e-cd25-992e-7a74" type="profile"/>
+        <infoLink name="Twin-linked" id="bc41-414c-3c06-4ba3" hidden="false" type="rule" targetId="8542-ee9d-e2fa-52fe"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>

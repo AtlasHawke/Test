@@ -11396,6 +11396,24 @@ attacks made by this model.</characteristic>
       </profiles>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Atomantiic Deflector" hidden="false" id="262a-7f22-d564-1799"/>
+    <selectionEntry type="upgrade" import="true" name="Legion Saturnine Terminator Armor" hidden="false" id="5400-c5f5-fff9-26fd">
+      <profiles>
+        <profile name="Legion Saturnine Terminator Armor" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="0964-d810-b764-1862">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Legion Saturnine Terminator Armour confers a 2+ Armour Save
+and a 4+ Invulnerable save, as well as the Hammer of Wrath (1)
+Special Rule.
+
+A unit that includes any models with Saturnine Terminator armour
+may not make Sweeping Advances.
+
+In addition, a model armed with Saturnine Terminator Armour is
+immune to the effects of both the Rad-Phage Special Rule and of
+the effects of Rad Grenades and Rad Furnace wargear.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
   </sharedSelectionEntries>
   <categoryEntries>
     <categoryEntry name="Daemon Primarch Unit Type:" hidden="false" id="a9b4-ab6c-447a-a8a1">
@@ -11569,4 +11587,7 @@ A unit which passes suffers no negative penalty, and in addition may react as no
   <catalogueLinks>
     <catalogueLink id="5f24-4242-71c3-0547" name="Mech Library" targetId="7265-8b7a-50ae-51ec" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
+  <entryLinks>
+    <entryLink import="true" name="Legion Saturnine Terminator Armor" hidden="false" id="0acb-f3e0-a825-d7e8" targetId="5400-c5f5-fff9-26fd" type="selectionEntry"/>
+  </entryLinks>
 </catalogue>
