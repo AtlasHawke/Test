@@ -6892,7 +6892,7 @@ A model with the Infantry Unit Type that selects a Legion Spatha combat bike as 
                     <condition type="equalTo" value="1" field="selections" scope="parent" childId="583e-62cb-53f1-f952" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
                   </conditions>
                 </modifier>
-                <modifier type="set" value="(Psyker)" field="ddd7-6f5c-a939-b69e">
+                <modifier type="append" value="(Psyker)" field="ddd7-6f5c-a939-b69e">
                   <conditions>
                     <condition type="equalTo" value="1" field="selections" scope="force" childId="21c3-2f28-7820-e51a" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
                   </conditions>
@@ -10372,18 +10372,6 @@ Could not find wargear in A Legion Storm Eagle Transporter may exchange all of i
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="5e8e-2b22-499f-906e"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Heavy Bolter" hidden="false" type="selectionEntry" targetId="6024-6953-b8f4-ce63" id="ef95-0b91-49a0-9d6e">
-              <modifiers>
-                <modifier type="set" field="name" value="Two Sponson Mounted Heavy Bolters"/>
-              </modifiers>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b783-4965-45a7-93f0"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2664-1ff8-4a0f-a7ec"/>
-              </constraints>
-              <infoLinks>
-                <infoLink name="Heavy Bolter" id="0333-d4c2-3241-2a86" hidden="false" targetId="d96e-a893-dc91-7f8b" type="profile"/>
-              </infoLinks>
-            </entryLink>
             <entryLink name="Smoke Launchers" hidden="false" type="selectionEntry" targetId="0873-34dd-e52d-d33c" id="2d7d-4f53-475f-8650">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6999-a46a-48c3-b0c5"/>
@@ -10438,6 +10426,18 @@ Could not find wargear in A Legion Storm Eagle Transporter may exchange all of i
                   </constraints>
                   <infoLinks>
                     <infoLink name="Lascannon" id="0e1f-7699-fb05-a6a7" hidden="false" targetId="603c-2961-bc8c-ed2d" type="profile"/>
+                  </infoLinks>
+                </entryLink>
+                <entryLink import="true" name="Heavy Bolter" hidden="false" id="d379-d75f-cfeb-80c0" type="selectionEntry" targetId="6024-6953-b8f4-ce63">
+                  <modifiers>
+                    <modifier type="set" value="Two Sponson Mounted Heavy Bolters" field="name"/>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5fcf-3f28-0f02-39b9"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1d4f-84e5-649a-59d3"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Heavy Bolter" id="2391-771a-23b5-df0f" hidden="false" targetId="d96e-a893-dc91-7f8b" type="profile"/>
                   </infoLinks>
                 </entryLink>
               </entryLinks>
@@ -10565,8 +10565,8 @@ Could not find wargear in A Legion Storm Eagle Transporter may exchange all of i
                 </entryLink>
               </entryLinks>
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e2ad-7bbd-f82f-3aba-min"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e2ad-7bbd-f82f-3aba-max"/>
+                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="e2ad-7bbd-f82f-3aba-min"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="e2ad-7bbd-f82f-3aba-max"/>
               </constraints>
             </selectionEntryGroup>
           </selectionEntryGroups>
