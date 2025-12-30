@@ -693,7 +693,7 @@
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3de1-1e1f-4b29-833e"/>
                   </constraints>
                 </entryLink>
-                <entryLink name="Rotor Cannon" hidden="false" type="selectionEntry" targetId="37ec-a4b4-de7a-acf3" id="997a-1183-484e-9abd">
+                <entryLink name="Twin-linked Rotor Cannon" hidden="false" type="selectionEntry" targetId="37ec-a4b4-de7a-acf3" id="997a-1183-484e-9abd">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
                   </costs>
@@ -3898,7 +3898,7 @@ Could not find wargear Two Sponson Mounted Gravis Heavy Bolter Batteries
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aa4b-d86c-48fe-a6e8"/>
                   </constraints>
                 </entryLink>
-                <entryLink name="Rotor Cannon" hidden="false" type="selectionEntry" targetId="37ec-a4b4-de7a-acf3" id="44bd-9cd4-43e0-bd0a">
+                <entryLink name="Twin-linked Rotor Cannon" hidden="false" type="selectionEntry" targetId="37ec-a4b4-de7a-acf3" id="44bd-9cd4-43e0-bd0a">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
                   </costs>
@@ -4094,7 +4094,7 @@ Could not find wargear Legion Saturnine Terminator Armour
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2c21-ba07-486b-a5fb"/>
                   </constraints>
                 </entryLink>
-                <entryLink name="Rotor Cannon" hidden="false" type="selectionEntry" targetId="37ec-a4b4-de7a-acf3" id="804f-e50a-49a0-bb16">
+                <entryLink name="Twin-linked Rotor Cannon" hidden="false" type="selectionEntry" targetId="37ec-a4b4-de7a-acf3" id="804f-e50a-49a0-bb16">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
                   </costs>
@@ -5799,7 +5799,7 @@ Could not find wargear In-built Meltagun
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9825-aead-4655-83ff"/>
                   </constraints>
                 </entryLink>
-                <entryLink name="Rotor Cannon" hidden="false" type="selectionEntry" targetId="37ec-a4b4-de7a-acf3" id="240c-dd93-4d99-8ba9">
+                <entryLink name="Twin-linked Rotor Cannon" hidden="false" type="selectionEntry" targetId="37ec-a4b4-de7a-acf3" id="240c-dd93-4d99-8ba9">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9476-6a67-4ddb-89f3"/>
                   </constraints>
@@ -5828,7 +5828,7 @@ Could not find wargear In-built Meltagun
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5217-4a62-4196-869f"/>
                   </constraints>
                 </entryLink>
-                <entryLink name="Plasma Cannon" hidden="false" type="selectionEntryGroup" targetId="bdc7-3f9b-4c67-8641" id="bde3-c762-487e-a393">
+                <entryLink name="Plasma Cannon" hidden="false" type="selectionEntry" targetId="bdc7-3f9b-4c67-8641" id="bde3-c762-487e-a393">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
                   </costs>
@@ -5868,8 +5868,6 @@ Could not find wargear In-built Meltagun
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
           </costs>
-          <comment>
-</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -6728,12 +6726,12 @@ A model with the Infantry Unit Type that selects a Legion Spatha combat bike as 
                   <modifiers>
                     <modifier type="set" value="1" field="f619-69f4-95a4-e972-min">
                       <conditions>
-                        <condition type="equalTo" value="1" field="selections" scope="8575-5b5f-c8d1-c343" childId="1180-f3c1-1a7f-1b6a" shared="true"/>
+                        <condition type="equalTo" value="1" field="selections" scope="c0a1-df5f-4e38-89e8" childId="1180-f3c1-1a7f-1b6a" shared="true"/>
                       </conditions>
                     </modifier>
                     <modifier type="set" value="1" field="f619-69f4-95a4-e972-max">
                       <conditions>
-                        <condition type="equalTo" value="1" field="selections" scope="8575-5b5f-c8d1-c343" childId="1180-f3c1-1a7f-1b6a" shared="true"/>
+                        <condition type="equalTo" value="1" field="selections" scope="c0a1-df5f-4e38-89e8" childId="1180-f3c1-1a7f-1b6a" shared="true"/>
                       </conditions>
                     </modifier>
                   </modifiers>
@@ -6774,12 +6772,12 @@ A model with the Infantry Unit Type that selects a Legion Spatha combat bike as 
                   <modifiers>
                     <modifier type="set" value="1" field="01e6-b72d-a1dd-4ae6-min">
                       <conditions>
-                        <condition type="atLeast" value="1" field="selections" scope="8575-5b5f-c8d1-c343" childId="fd6e-9a00-68f3-e96b" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="c0a1-df5f-4e38-89e8" childId="fd6e-9a00-68f3-e96b" shared="true"/>
                       </conditions>
                     </modifier>
                     <modifier type="set" value="1" field="01e6-b72d-a1dd-4ae6-max">
                       <conditions>
-                        <condition type="atLeast" value="1" field="selections" scope="8575-5b5f-c8d1-c343" childId="fd6e-9a00-68f3-e96b" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="c0a1-df5f-4e38-89e8" childId="fd6e-9a00-68f3-e96b" shared="true"/>
                       </conditions>
                     </modifier>
                   </modifiers>
