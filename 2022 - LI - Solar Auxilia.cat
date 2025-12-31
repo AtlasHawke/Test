@@ -4293,7 +4293,7 @@
                         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4be1-117f-a611-624b" type="max"/>
                       </constraints>
                     </entryLink>
-                    <entryLink id="f1a6-adb7-32f3-afd8" name="Rotor Cannon" hidden="false" collective="false" import="true" targetId="37ec-a4b4-de7a-acf3" type="selectionEntry">
+                    <entryLink id="f1a6-adb7-32f3-afd8" name="Twin-linked Rotor Cannon" hidden="false" collective="false" import="true" targetId="37ec-a4b4-de7a-acf3" type="selectionEntry">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2e7-18f8-fb8f-10a4" type="min"/>
                         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ee6-77fc-533a-adb9" type="max"/>
@@ -12747,5 +12747,6 @@ When an Allied Detachment drawn from the Solar Auxilia Army List has a version o
     <catalogueLink id="e048-9e5e-507c-5bac" name="LI - Assassins and Agents" targetId="2dde-e269-90db-8d33" type="catalogue" importRootEntries="true"/>
     <catalogueLink id="60d6-cab6-4580-b772" name="Mech Library" targetId="7265-8b7a-50ae-51ec" type="catalogue" importRootEntries="true"/>
     <catalogueLink id="60d6-cab6-4580-b4256" name="Imperium Library" targetId="4ab9-6c13-4d80-2f7d" type="catalogue" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="[Imperatus] Solar Auxilia" id="57ae-0e76-607b-1b4f" targetId="e960-66e8-21db-ebb4" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>
