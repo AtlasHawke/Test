@@ -4052,9 +4052,14 @@ Could not find wargear Two Sponson Mounted Gravis Heavy Bolter Batteries
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="60"/>
           </costs>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Legion Saturnine Terminator Armour
-	 Checked under Legion Saturnine Terminator Armour</comment>
+          <entryLinks>
+            <entryLink import="true" name="Legion Saturnine Terminator Armor" hidden="false" id="bc86-0311-29c4-447a" type="selectionEntry" targetId="5400-c5f5-fff9-26fd">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0abf-ce11-790e-2034-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0abf-ce11-790e-2034-max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
         </selectionEntry>
         <selectionEntry type="model" name="Legion Saturnine Sergeant" id="7172-943e-45d4-895d" page="18" publicationId="3970-79bb-bdc6-9599">
           <profiles>
@@ -4246,9 +4251,14 @@ Could not find wargear Legion Saturnine Terminator Armour
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="0b4b-3526-492e-b884" name="Character" primary="false"/>
             <categoryLink targetId="9231-183c-b97b-63f9" id="f7ab-8100-4c5f-8adb" name="Heavy Sub-type:" primary="false"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Legion Saturnine Terminator Armour
-	 Checked under Legion Saturnine Terminator Armour</comment>
+          <entryLinks>
+            <entryLink import="true" name="Legion Saturnine Terminator Armor" hidden="false" id="0dcb-f4b3-977b-35ac" type="selectionEntry" targetId="5400-c5f5-fff9-26fd">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="df94-1555-f5f3-582c-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="df94-1555-f5f3-582c-max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -4301,14 +4311,12 @@ Could not find wargear Legion Saturnine Terminator Armour
             <modifier type="set" field="name" value="Firing Protocols (2)"/>
           </modifiers>
         </infoLink>
+        <infoLink name="Battle-Hardened (X)" id="8aa7-afd1-057c-f275" hidden="false" type="rule" targetId="5c3b-ed0b-4ad0-d547">
+          <modifiers>
+            <modifier type="set" value="Battle Hardened (1)" field="name"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
-      <comment>!BSC Errors from 20240406-1603
-Could not find rule: Battle Hardened (1)
-Combi-Bolter is in two option lists for Legion Saturnine, you will need to combine them by hand.
-Combi-Bolter is in two option lists for Legion Saturnine, you will need to combine them by hand.
-Power Weapon is in two option lists for Legion Saturnine, you will need to combine them by hand.
-Combi-Bolter is in two option lists for Legion Saturnine Sergeant, you will need to combine them by hand.
-Power Weapon is in two option lists for Legion Saturnine Sergeant, you will need to combine them by hand.</comment>
     </selectionEntry>
     <selectionEntry name="Legion Assault Veteran Squad" type="unit" id="bbbd-1956-4682-9ea4" page="19" publicationId="3970-79bb-bdc6-9599">
       <categoryLinks>
@@ -9996,7 +10004,7 @@ A model with the Infantry Unit Type that selects a Legion Spatha combat bike as 
       <selectionEntries>
         <selectionEntry type="model" name="Legion Whispercutter" id="73e8-7df0-410f-adba" page="31" publicationId="3970-79bb-bdc6-9599">
           <profiles>
-            <profile id="7c1e-8f30-44be-8bbe" name="Legion Whispercutter" typeId="4bb2-cb95-e6c8-5a21">
+            <profile id="7c1e-8f30-44be-8bbe" name="Legion Whispercutter" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
               <characteristics>
                 <characteristic typeId="893e-2d76-8f04-44e5" name="Move">16</characteristic>
                 <characteristic typeId="cc42-7ed5-7092-5c84" name="WS">4</characteristic>
@@ -10010,6 +10018,23 @@ A model with the Infantry Unit Type that selects a Legion Spatha combat bike as 
                 <characteristic typeId="e593-6b3c-f169-04f0" name="Save">3+</characteristic>
                 <characteristic typeId="ddd7-6f5c-a939-b69e" name="Unit Type">Cavalry (Antigrav, Heavy, Transport*)</characteristic>
               </characteristics>
+              <modifiers>
+                <modifier type="append" value="(Psyker)" field="ddd7-6f5c-a939-b69e">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="force" childId="21c3-2f28-7820-e51a" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="append" value="(Corrupted)" field="ddd7-6f5c-a939-b69e">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="b176-b2c5-477c-9200" childId="555f-3998-a06e-f415" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="equalTo" value="1" field="selections" scope="b176-b2c5-477c-9200" childId="f783-f0ea-fe35-cdeb" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
             </profile>
           </profiles>
           <constraints>
@@ -10017,15 +10042,15 @@ A model with the Infantry Unit Type that selects a Legion Spatha combat bike as 
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2cc6-bd4c-436a-b489"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Heavy Bolter" hidden="false" type="selectionEntry" targetId="6024-6953-b8f4-ce63" id="107d-402a-4d8e-b424">
+            <entryLink import="true" name="Searchlights" hidden="false" id="b47d-2202-656f-0122" type="selectionEntry" targetId="a280-c496-4014-aca3">
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="532e-cb88-406b-afec"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="008f-59cb-4436-98da"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0e4a-81ac-3086-7369-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0e4a-81ac-3086-7369-max"/>
               </constraints>
             </entryLink>
           </entryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup name="A Legion Whispercutter may replace its Heavy Bolter with a:" id="74dc-ef9a-4b44-8549">
+            <selectionEntryGroup name="A Legion Whispercutter may replace its Heavy Bolter with a:" id="74dc-ef9a-4b44-8549" defaultSelectionEntryId="c52d-0e72-54e2-ffa8">
               <entryLinks>
                 <entryLink name="Heavy Flamer" hidden="false" type="selectionEntry" targetId="aab4-9e33-94f0-5815" id="dfc0-f2e5-4d8e-b0e5">
                   <constraints>
@@ -10048,7 +10073,7 @@ A model with the Infantry Unit Type that selects a Legion Spatha combat bike as 
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4e77-4643-4bf4-ac6c"/>
                   </constraints>
                 </entryLink>
-                <entryLink name="Plasma Cannon" hidden="false" type="selectionEntry" targetId="43f5-3815-6b3a-a363" id="0125-8946-4e2d-a926">
+                <entryLink name="Æther-Fire Cannon" hidden="false" type="selectionEntry" targetId="0139-b673-7b21-0470" id="0125-8946-4e2d-a926">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
@@ -10080,12 +10105,10 @@ A model with the Infantry Unit Type that selects a Legion Spatha combat bike as 
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6afd-6a5e-4801-84b3"/>
                   </constraints>
                 </entryLink>
-                <entryLink name="Graviton Gun" hidden="false" type="selectionEntry" targetId="ea9f-c901-465b-aaaf" id="5d4f-a226-4846-97ca">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
-                  </costs>
+                <entryLink import="true" name="Heavy Bolter" hidden="false" id="c52d-0e72-54e2-ffa8" type="selectionEntry" targetId="6024-6953-b8f4-ce63">
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="919a-54f9-4d05-8309"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fb93-190b-d0a4-d4da"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3ca8-e8eb-7113-89d9"/>
                   </constraints>
                 </entryLink>
               </entryLinks>
@@ -10097,21 +10120,54 @@ A model with the Infantry Unit Type that selects a Legion Spatha combat bike as 
               <constraints>
                 <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="c356-81ae-4fbd-a85c"/>
               </constraints>
-              <comment>!BSC Errors from 20240406-1603
-Could not find wargear Hunter Killer Missiles
-	 Checked under Hunter Killer Missiles</comment>
+              <entryLinks>
+                <entryLink import="true" name="Hunter-Killer Missile" hidden="false" id="a937-81a6-bc1c-0c75" type="selectionEntry" targetId="1bf8-72f8-c331-6900">
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="3457-84ca-918b-9d98"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
             <categoryLink targetId="4303-1348-cce4-9501" id="996c-d157-446e-8029" name="Antigrav Sub-type" primary="false"/>
             <categoryLink targetId="9231-183c-b97b-63f9" id="8934-f1bc-417d-9658" name="Heavy Sub-type:" primary="false"/>
+            <categoryLink targetId="7b0a-a743-a8da-3a39" id="a131-5edc-e67a-2106" primary="false" name="Transport Sub-type:"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Searchlight
-	 Checked under Searchlight
-Could not find wargear in A Legion Whispercutter may take up to two:
-Could not find type or subtype &apos;Cavalry&apos;
-Could not find type or subtype &apos;Transport*&apos;</comment>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Whispercutter Dedicated Transport:" hidden="false" id="69fc-1b9b-1eaa-c5bc">
+              <profiles>
+                <profile name="Whispercutter Dedicated Transport:" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="90df-770b-bf6d-4911">
+                  <characteristics>
+                    <characteristic name="Description" typeId="347e-ee4a-764f-6be3">● A Legion Whispercutter has a Transport Capacity of 6 models. It may only carry models
+with both the Infantry Unit Type and the Skirmish Sub-type.
+A Legion Whispercutter may be purchased as a Dedicated Transport any unit with both
+the Infantry Unit Type and the Skirmish Sub-type, composed of 5 models.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="023c-510e-dc5c-5aff-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="023c-510e-dc5c-5aff-max"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Whispercutter Access Points" hidden="false" id="91cd-f73c-d667-affd">
+              <profiles>
+                <profile name="Whispercutter Access Points" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="9d31-1de8-2652-c77f">
+                  <characteristics>
+                    <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A Legion Whispercutter counts its entire hull as an access point.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="928e-7af7-02d7-2268-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="928e-7af7-02d7-2268-max"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -10130,9 +10186,6 @@ Could not find type or subtype &apos;Transport*&apos;</comment>
           </modifiers>
         </infoLink>
       </infoLinks>
-      <comment>!BSC Errors from 20240406-1603
-Could not find rule: Whispercutter
-The option &apos;Hunter Killer Missiles&apos; may need a &apos;multiply by number of models&apos; modifier</comment>
     </selectionEntry>
     <selectionEntry name="Mutated Spawn" type="unit" id="d20c-e065-4357-b70c" page="36" publicationId="3970-79bb-bdc6-9599">
       <categoryLinks>
@@ -10239,7 +10292,7 @@ The option &apos;Hunter Killer Missiles&apos; may need a &apos;multiply by numbe
       <selectionEntries>
         <selectionEntry type="model" name="Legion Storm Eagle Transporter" id="5a67-f870-42f5-b580" page="37" publicationId="3970-79bb-bdc6-9599">
           <profiles>
-            <profile id="58fb-c688-4676-8d59" name="Legion Storm Eagle Transporter" typeId="2fae-b053-3f78-e7b2">
+            <profile id="58fb-c688-4676-8d59" name="Legion Storm Eagle Transporter" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle">
               <characteristics>
                 <characteristic typeId="3614-4a2d-bffb-90e4" name="Move">18</characteristic>
                 <characteristic typeId="51fb-b7d9-aa59-863d" name="BS">4</characteristic>
@@ -10267,17 +10320,6 @@ The option &apos;Hunter Killer Missiles&apos; may need a &apos;multiply by numbe
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="af0a-f5cb-47bd-85be"/>
                   </constraints>
                 </entryLink>
-                <entryLink name="Gravis Melta Cannon" hidden="false" type="selectionEntry" targetId="ef6c-f656-171a-03e1" id="6732-a2f7-4f6b-8675">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
-                  </costs>
-                  <modifiers>
-                    <modifier type="set" field="name" value="Hull (Front) Mounted Gravis Melta Cannon"/>
-                  </modifiers>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3c99-aae0-4212-8d98"/>
-                  </constraints>
-                </entryLink>
                 <entryLink name="Gravis Melta Cannon" hidden="false" type="selectionEntry" targetId="65cc-0f51-4f63-b463" id="ffd0-9752-472e-ab20">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
@@ -10289,13 +10331,21 @@ The option &apos;Hunter Killer Missiles&apos; may need a &apos;multiply by numbe
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a43b-5369-479b-8567"/>
                   </constraints>
                 </entryLink>
+                <entryLink import="true" name="Missile Launcher w/Frag &amp; Krak Missiles" hidden="false" id="7b18-3254-d42b-89ce" type="selectionEntry" targetId="536a-06f1-e49b-8c6b">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                  <modifiers>
+                    <modifier type="prepend" value="Hull (Front) Mounted " field="name"/>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="41b6-f42b-ac3b-0adc"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="838a-0abd-40c2-80e3"/>
               </constraints>
-              <comment>!BSC Errors from 20240406-1603
-Could not find wargear Hull (Front) Mounted Missile Launcher (with Frag and Krak Missiles)
-	 Checked under Missile Launcher (with Frag and Krak Missiles)</comment>
             </selectionEntryGroup>
             <selectionEntryGroup name="A Legion Storm Eagle Transporter may exchange all of its Hull (Front) Mounted Tempest Rockets for one of the following:" id="93af-84ae-4b29-9a63">
               <entryLinks>
@@ -10309,14 +10359,92 @@ Could not find wargear Hull (Front) Mounted Missile Launcher (with Frag and Krak
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a5da-fe33-4aa6-a948"/>
                   </constraints>
+                  <profiles>
+                    <profile name="Twin-linked Lascannon" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="283f-e429-7b85-9570">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">9</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Sunder, Twin-linked</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </entryLink>
+                <entryLink import="true" name="Hunter-Killer Missile" hidden="false" id="4b8b-cb61-adf4-60c3" type="selectionEntry" targetId="1bf8-72f8-c331-6900">
+                  <modifiers>
+                    <modifier type="prepend" value="4 Hull (Front) Mounted " field="name"/>
+                  </modifiers>
+                  <profiles>
+                    <profile name="Hunter-Killer Missile" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="b867-5e34-1b43-904a" publicationId="a716-c1c4-7b26-8424" page="133">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, One Shot</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile name="Hunter-Killer Missile" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="f6dc-80a4-f32a-2754" publicationId="a716-c1c4-7b26-8424" page="133">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, One Shot</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile name="Hunter-Killer Missile" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="15bf-6ebb-5490-c321" publicationId="a716-c1c4-7b26-8424" page="133">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, One Shot</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2d69-9031-d3ae-330a"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Tempest Rocket" hidden="false" id="ae57-e864-c4cf-a628" type="selectionEntry" targetId="2ecd-8d4e-a823-38b8">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="81b5-15e9-089f-e260"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Tempest Rocket" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="6813-83c8-384d-466b" publicationId="a716-c1c4-7b26-8424" page="133">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">60&quot;</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Sunder, One Shot</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile name="Tempest Rocket" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="3c41-56c7-c217-59b3" publicationId="a716-c1c4-7b26-8424" page="133">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">60&quot;</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Sunder, One Shot</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile name="Tempest Rocket" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="bf18-43ca-17c5-b10f" publicationId="a716-c1c4-7b26-8424" page="133">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">60&quot;</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Sunder, One Shot</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <modifiers>
+                    <modifier type="prepend" value="4 Hull (Front) Mounted " field="name"/>
+                  </modifiers>
                 </entryLink>
               </entryLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="56a7-2f76-47e6-82b3"/>
               </constraints>
-              <comment>!BSC Errors from 20240406-1603
-Could not find wargear Four Hull (Front) Mounted Hunter-Killer Missiles
-	 Checked under Hunter-Killer Missiles</comment>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
@@ -10325,11 +10453,21 @@ Could not find wargear Four Hull (Front) Mounted Hunter-Killer Missiles
             <categoryLink targetId="3a7a-8bb7-b0d3-e2e7" id="89dc-55e5-4250-a2b5" name="Hover Sub-type" primary="false"/>
             <categoryLink targetId="7b0a-a743-a8da-3a39" id="c2f2-ef14-4559-a613" name="Transport Sub-type:" primary="false"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Four Hull (Front) Mounted Tempest Rockets
-	 Checked under Tempest Rockets
-Could not find wargear in A Legion Storm Eagle Transporter may exchange its Hull (Front) Mounted Twin-Linked Heavy Bolter for one of the following:
-Could not find wargear in A Legion Storm Eagle Transporter may exchange all of its Hull (Front) Mounted Tempest Rockets for one of the following:</comment>
+          <comment>
+</comment>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Legion Storm Eagle Transporter Access Points" hidden="false" id="b055-c957-ba8e-c944">
+          <profiles>
+            <profile name="Legion Storm Eagle Transporter Access Points" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="18cd-19ed-6856-930e">
+              <characteristics>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A Legion Storm Eagle Transporter has one access point via the Front Ramp</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1d06-328c-15d4-929f-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1d06-328c-15d4-929f-max"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -10433,7 +10571,7 @@ Could not find wargear in A Legion Storm Eagle Transporter may exchange all of i
                     <modifier type="set" value="Two Sponson Mounted Heavy Bolters" field="name"/>
                   </modifiers>
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1d4f-84e5-649a-59d3"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="1d4f-84e5-649a-59d3"/>
                   </constraints>
                   <infoLinks>
                     <infoLink name="Heavy Bolter" id="2391-771a-23b5-df0f" hidden="false" targetId="d96e-a893-dc91-7f8b" type="profile"/>
@@ -10476,7 +10614,7 @@ Could not find wargear in A Legion Storm Eagle Transporter may exchange all of i
                     <modifier type="set" field="name" value="Pintle Mounted Heavy Bolter"/>
                   </modifiers>
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fd13-e956-4c29-98b9"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="fd13-e956-4c29-98b9"/>
                   </constraints>
                 </entryLink>
                 <entryLink name="Havoc Launcher" hidden="false" type="selectionEntry" targetId="bde9-5abf-ec3d-2273" id="b529-6446-4e94-8e17">
@@ -10610,15 +10748,6 @@ Could not find wargear in A Legion Storm Eagle Transporter may exchange all of i
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="b7d1-1b6b-45e9-986a"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Avenger Bolt Cannon" hidden="false" type="selectionEntry" targetId="0694-69c5-e871-589a" id="a5c9-f672-4c58-92a7">
-              <modifiers>
-                <modifier type="set" field="name" value="Centreline Mounted Avenger Bolt Cannon"/>
-              </modifiers>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2b2d-8f5f-4f82-8c12"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7dda-f952-413a-8c6e"/>
-              </constraints>
-            </entryLink>
             <entryLink name="Combi-Bolter" hidden="false" type="selectionEntry" targetId="0f3d-c07c-7a7e-d534" id="c608-0ea3-4ec6-a6f7">
               <modifiers>
                 <modifier type="set" field="name" value="Hull (Front) Mounted Combi-Bolter"/>
@@ -10634,24 +10763,80 @@ Could not find wargear in A Legion Storm Eagle Transporter may exchange all of i
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="079f-71bc-48b1-b102"/>
               </constraints>
             </entryLink>
-            <entryLink name="Avenger Bolt Cannon" hidden="false" type="selectionEntry" targetId="5cf5-0fba-4b68-ab9b" id="96c4-4460-433f-bd4b">
-              <modifiers>
-                <modifier type="set" field="name" value="Centreline Mounted Avenger Bolt Cannon"/>
-              </modifiers>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1247-8ca8-4bc9-8a6b"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aeaa-aefc-48eb-ad8b"/>
-              </constraints>
-            </entryLink>
           </entryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Any Legion Vindicator Thunderer may exchange its Avenger Bolt Cannon for:" id="5edf-550d-4b31-b250">
+            <selectionEntryGroup name="Any Legion Vindicator Thunderer may exchange its Avenger Bolt Cannon for:" id="5edf-550d-4b31-b250" defaultSelectionEntryId="6e13-adb0-dac5-4f7b">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0956-132a-4828-9b6a"/>
               </constraints>
-              <comment>!BSC Errors from 20240406-1603
-Could not find wargear Centreline Mounted Quad Launcher with Frag Shells
-	 Checked under Quad Launcher with Frag Shells</comment>
+              <entryLinks>
+                <entryLink import="true" name="Avenger Bolt Cannon" hidden="false" id="6e13-adb0-dac5-4f7b" type="selectionEntry" targetId="5cf5-0fba-4b68-ab9b">
+                  <modifiers>
+                    <modifier type="set" value="Centreline Mounted Avenger Bolt Cannon" field="name"/>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7d19-5a30-4490-16ab"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Centreline Mounted Quad Launcher" id="8450-c6a6-ae3a-ce83" hidden="false">
+                  <entryLinks>
+                    <entryLink import="true" name="Quad Launcher - Frag" hidden="false" id="351f-f989-0cf8-d935" type="selectionEntry" targetId="333a-6c28-1031-9134">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4bfb-ff34-7ccf-d1df-min"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4bfb-ff34-7ccf-d1df-max"/>
+                      </constraints>
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                      </costs>
+                      <modifiers>
+                        <modifier type="set" value="Frag Shells" field="name"/>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink import="true" name="Quad Launcher - Incendiary" hidden="false" id="9f32-53c7-a60e-e0be" type="selectionEntry" targetId="8ff6-2222-75b5-ecf7">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                      </costs>
+                      <modifiers>
+                        <modifier type="set" value="Incendiary Shells" field="name"/>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink import="true" name="Quad Launcher - Shatter" hidden="false" id="d3f7-4a28-c8bc-60c8" type="selectionEntry" targetId="adb6-7963-11bd-e72b">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                      </costs>
+                      <modifiers>
+                        <modifier type="set" value="Shatter Shells" field="name"/>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink import="true" name="Quad Launcher - Splinter" hidden="false" id="7520-ead3-0002-d2a3" type="selectionEntry" targetId="f7cc-7f11-f82f-1fdf">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                      </costs>
+                      <modifiers>
+                        <modifier type="set" value="Splinter Shells" field="name"/>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink import="true" name="Phosphex Canister Shot (Rapier)" hidden="true" id="65fb-4892-eefc-fa3e" type="selectionEntry" targetId="6fff-9e0a-4068-a02f">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9243-7849-9293-0da6"/>
+                      </constraints>
+                      <modifiers>
+                        <modifier type="set" value="Phosphex Canister Shot" field="name"/>
+                        <modifier type="set" value="false" field="hidden">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="primary-category" childId="8247-54dc-9194-948f" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntryGroup>
             <selectionEntryGroup name="Any Legion Vindicator Thunderer may take one of the following:" id="e92a-e6eb-41d8-8314">
               <entryLinks>
@@ -10710,13 +10895,26 @@ Could not find wargear Centreline Mounted Quad Launcher with Frag Shells
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6d35-477f-4217-8f67"/>
                   </constraints>
                 </entryLink>
+                <entryLink import="true" name="Magna Combi-weapon" hidden="false" id="c411-7c48-898d-e560" type="selectionEntry" targetId="4d02-259d-fa50-ef3a">
+                  <modifiers>
+                    <modifier type="prepend" value="Pintle Mounted" field="name"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Minor Combi-weapon" hidden="false" id="6593-13bd-72fe-87fb" type="selectionEntry" targetId="53c0-b5d7-f001-b816">
+                  <modifiers>
+                    <modifier type="prepend" value="Pintle Mounted" field="name"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e4fa-4e99-407b-96b7"/>
               </constraints>
-              <comment>!BSC Errors from 20240406-1603
-Could not find wargear Pintle Mounted Combi-Weapon (Any Type)
-	 Checked under Combi-Weapon (Any Type)</comment>
             </selectionEntryGroup>
             <selectionEntryGroup name="Any Legion Vindicator Thunderer may take any of the following:" id="7baa-2716-4528-a693">
               <entryLinks>
@@ -10749,7 +10947,7 @@ Could not find wargear Pintle Mounted Combi-Weapon (Any Type)
                 </entryLink>
               </entryLinks>
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4a26-c089-4fd7-99c4"/>
+                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="4a26-c089-4fd7-99c4"/>
               </constraints>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -10760,9 +10958,6 @@ Could not find wargear Pintle Mounted Combi-Weapon (Any Type)
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="105"/>
           </costs>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear in Any Legion Vindicator Thunderer may exchange its Avenger Bolt Cannon for:
-Could not find wargear in Any Legion Vindicator Thunderer may take one of the following:</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
