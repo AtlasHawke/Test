@@ -12747,6 +12747,6 @@ When an Allied Detachment drawn from the Solar Auxilia Army List has a version o
     <catalogueLink id="e048-9e5e-507c-5bac" name="LI - Assassins and Agents" targetId="2dde-e269-90db-8d33" type="catalogue" importRootEntries="true"/>
     <catalogueLink id="60d6-cab6-4580-b772" name="Mech Library" targetId="7265-8b7a-50ae-51ec" type="catalogue" importRootEntries="true"/>
     <catalogueLink id="60d6-cab6-4580-b4256" name="Imperium Library" targetId="4ab9-6c13-4d80-2f7d" type="catalogue" importRootEntries="true"/>
-    <catalogueLink type="catalogue" name="[Imperatus] Solar Auxilia" id="57ae-0e76-607b-1b4f" targetId="e960-66e8-21db-ebb4" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="[Imperatus] Solar Auxilia" id="57ae-0e76-607b-1b4f" targetId="e960-66e8-21db-ebb4" importRootEntries="false"/>
   </catalogueLinks>
 </catalogue>
