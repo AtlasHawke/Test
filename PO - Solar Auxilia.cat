@@ -6190,4 +6190,42 @@ Could not find wargear in The Auxilia Marauder Destroyer may exchange its eight 
     <catalogueLink id="5f24-4242-71c3-0547" name="Mech Library" targetId="7265-8b7a-50ae-51ec" type="catalogue" importRootEntries="true"/>
     <catalogueLink id="60d6-cad6-4580-b4256" name="Imperium Library" targetId="4ab9-6c13-4d80-2f7d" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
+  <entryLinks>
+    <entryLink import="true" name="Auxilia Artillery Tercio Additions The Unit Listed Below May Be Selected Instead Of Or As Well As The Other Options Presented In Other Publications For An Auxilia Artillery Tercio" hidden="false" id="688e-1e9b-1c38-8480" targetId="5a26-d499-4251-a65c" type="selectionEntry"/>
+    <entryLink import="true" name="Auxilia Breacher Tercio Each Auxilia Breacher Tercio Is A Single Troops Choice, Using Up A Single Troops Slot On The Force Organisation Chart" hidden="false" id="9395-3ef0-dafb-589e" targetId="3310-b0ef-4e41-9a06" type="selectionEntry"/>
+    <entryLink import="true" name="Auxilia Carnodon Tercio Each Auxilia Carnodon Tercio Is A Single Fast Attack Choice, Using Up A Single Fast Attack Slot On The Force Organisation Chart" hidden="false" id="4f77-9432-f513-3c1d" targetId="b287-36c9-40a2-abc5" type="selectionEntry"/>
+    <entryLink import="true" name="Auxilia Infantry Support Tercio Each Auxilia Infantry Support Tercio Is A Single Non-Compulsory Troops Choice, Using Up A Single Troops Slot On The Force Organisation Chart" hidden="false" id="bbb8-26a6-21ee-5439" targetId="6fad-1e31-42a4-90ba" type="selectionEntry"/>
+    <entryLink import="true" name="Auxilia Light Armoured Tercio Each Auxilia Light Armoured Tercio Is A Single Fast Attack Choice, Using Up A Single Fast Attack Slot On The Force Organisation Chart" hidden="false" id="67c4-aab9-5d2e-e39a" targetId="a520-ed43-4d78-b257" type="selectionEntry"/>
+    <entryLink import="true" name="Auxilia Verticalis Drop Tercio Each Solar Auxilia Drop Tercio Is A Single Fast Attack Choice, Using Up A Single Fast Attack Slot On The Force Organisation Chart" hidden="false" id="09db-4189-c889-646d" targetId="124a-f32d-4442-b42b" type="selectionEntry"/>
+    <entryLink import="true" name="Divisio Aeronautica Avenger Strike Fighter" hidden="false" id="68c2-381e-bc20-d3ef" targetId="bba1-0a9b-4dc3-b677" type="selectionEntry"/>
+    <entryLink import="true" name="Divisio Aeronautica Marauder Bomber" hidden="false" id="68ce-6d4f-8ed4-0627" targetId="ff20-da37-490c-9baf" type="selectionEntry"/>
+    <entryLink import="true" name="Divisio Aeronautica Marauder Destroyer" hidden="false" id="fa7c-578d-80ba-69c4" targetId="577a-ddee-48fc-9610" type="selectionEntry"/>
+    <entryLink import="true" name="Enginseer Auxilia Section" hidden="false" id="9adb-6057-7f3a-db34" targetId="5ec1-ae0c-4644-9810" type="selectionEntry"/>
+    <entryLink import="true" name="Lord Marshal Ireton Masade" hidden="false" id="c400-5c0f-2d33-7033" targetId="bbfc-3ecc-4d10-b3de" type="selectionEntry"/>
+    <entryLink import="true" name="Possessed Auxilia" hidden="false" id="067a-b938-c96f-6b47" targetId="022e-bce8-4a52-80cb" type="selectionEntry"/>
+    <entryLink import="true" name="Solar Auxilia Aello Gunship Squadron" hidden="false" id="fc97-8246-0808-e7b2" targetId="f14b-9c7e-49a5-8d08" type="selectionEntry"/>
+    <entryLink import="true" name="Solar Auxilia Aethon Heavy Sentinel Squadron" hidden="false" id="fb5a-af93-5582-feb6" targetId="ce34-d75b-4127-a03f" type="selectionEntry"/>
+    <entryLink import="true" name="Solar Auxilia Battle Psyker" hidden="false" id="b01a-0703-68c5-bfa8" targetId="aeec-9d3a-4d2b-b235" type="selectionEntry"/>
+    <entryLink import="true" name="Solar Auxilia Breacher Section" hidden="false" id="c154-de27-b90f-7f52" targetId="db2d-343f-49a2-ab33" type="selectionEntry"/>
+    <entryLink import="true" name="Solar Auxilia Chimera Transport" hidden="false" id="ecde-93ff-4303-643a" targetId="c052-5fc4-48d3-8edc" type="selectionEntry"/>
+    <entryLink import="true" name="Solar Auxilia Deathstrike Missile Platform" hidden="false" id="b52d-bd44-f2f2-c980" targetId="a3b7-9e16-452a-a23f" type="selectionEntry"/>
+    <entryLink import="true" name="Solar Auxilia Extremis Boarding Rig Section" hidden="false" id="66ca-930c-489e-0323" targetId="c9f5-c244-40bc-9cb1" type="selectionEntry"/>
+    <entryLink import="true" name="Solar Auxilia Furibundus Dreadnought Talon" hidden="false" id="413b-cef1-d017-05f7" targetId="2266-8662-4610-adab" type="selectionEntry"/>
+    <entryLink import="true" name="Solar Auxilia Hades Breaching Drill" hidden="false" id="a0a9-5587-b7fc-4d09" targetId="6fe3-70e8-4c6e-bd58" type="selectionEntry"/>
+    <entryLink import="true" name="Solar Auxilia Heavy Weapons Section" hidden="false" id="79e6-5453-d92a-5a0a" targetId="ca94-82b2-438f-ab63" type="selectionEntry"/>
+    <entryLink import="true" name="Solar Auxilia Hellhound Flame Tank Squadron" hidden="false" id="3ed2-4544-c453-8633" targetId="522c-4262-4041-8226" type="selectionEntry"/>
+    <entryLink import="true" name="Solar Auxilia Hydra Flak Tank Battery" hidden="false" id="c9c5-dc7c-d39c-0374" targetId="5bc1-68e3-45a4-9654" type="selectionEntry"/>
+    <entryLink import="true" name="Solar Auxilia Kelaino Squadron" hidden="false" id="3768-1019-94fa-f23f" targetId="58df-6a8f-4d5c-9cd8" type="selectionEntry"/>
+    <entryLink import="true" name="Solar Auxilia Macharius Omega Heavy Tank" hidden="false" id="2377-2e58-433f-f665" targetId="a91d-e612-47ee-9d84" type="selectionEntry"/>
+    <entryLink import="true" name="Solar Auxilia Manticore Missile Tank Battery" hidden="false" id="17f3-66f2-beab-b7ed" targetId="dccf-1636-412a-9775" type="selectionEntry"/>
+    <entryLink import="true" name="Solar Auxilia Ocypete Gunship Squadron" hidden="false" id="15ea-408b-df26-7a45" targetId="38a3-8291-4911-a216" type="selectionEntry"/>
+    <entryLink import="true" name="Solar Auxilia Pegasus Assault Squadron" hidden="false" id="1213-ba0a-0fcc-6381" targetId="ba90-233d-4f93-a1f0" type="selectionEntry"/>
+    <entryLink import="true" name="Solar Auxilia Pioneer Section" hidden="false" id="7ea2-10dd-d549-37db" targetId="f72d-5f43-4d86-973f" type="selectionEntry"/>
+    <entryLink import="true" name="Solar Auxilia Praetorian Heavy Tank Squadron" hidden="false" id="a957-43fe-c9bc-8236" targetId="1e6e-a529-48f3-a488" type="selectionEntry"/>
+    <entryLink import="true" name="Solar Auxilia Salamander Scout Squadron" hidden="false" id="393f-6967-f70a-6ca1" targetId="3bc7-43f4-4f0a-a5cb" type="selectionEntry"/>
+    <entryLink import="true" name="Solar Auxilia Special Weapons Section" hidden="false" id="6dcc-33e1-8198-b7e5" targetId="8a36-a3d0-44a6-a8ac" type="selectionEntry"/>
+    <entryLink import="true" name="Solar Auxilia Tempestor Land Speeder Squadron" hidden="false" id="b591-6389-1c3e-eaa1" targetId="9510-1c96-4cfe-ae17" type="selectionEntry"/>
+    <entryLink import="true" name="Solar Auxilia Verticalis Drop Section" hidden="false" id="2886-3bf8-99b7-4ca1" targetId="ac43-ffce-4f42-8220" type="selectionEntry"/>
+    <entryLink import="true" name="Solar Auxilia Verticalis Drop Sentinel Squadron" hidden="false" id="7130-4727-cf09-fda7" targetId="d795-a6df-4632-a2b3" type="selectionEntry"/>
+  </entryLinks>
 </catalogue>
