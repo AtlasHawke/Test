@@ -51557,6 +51557,18 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ce6b-2959-2f96-91fd"/>
           </constraints>
         </selectionEntryGroup>
+        <selectionEntryGroup name="If the Legion Tarantula Sentry Gun Battery is entirely armed with Hyperios Missile Launchers, one may be upgraded to a:" id="8d71-ee3e-3367-6664" hidden="false" page="">
+          <entryLinks>
+            <entryLink import="true" name="Hyperios Command Platform" hidden="false" id="3cff-26f0-40cf-528c" type="selectionEntry" targetId="fb42-0378-47f8-a132">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6364-0297-6c40-bda3"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Split Fire" id="3164-4f14-1139-92cb" hidden="false" type="rule" targetId="dea8-564e-9d1b-c685"/>
+              </infoLinks>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="-20"/>
