@@ -32242,7 +32242,7 @@ If one or more Wounds is discounted due to this special rule, and the unit that 
             <entryLink id="ff2f-921c-f6de-2ad4" name="The Spreading Corruption" hidden="false" collective="false" import="true" targetId="f783-f0ea-fe35-cdeb" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Legion Servo-Automata Maniple Retinue" id="3c10-f36b-d083-6fb0" hidden="false">
+        <selectionEntryGroup name="Retinue" id="3c10-f36b-d083-6fb0" hidden="false">
           <selectionEntries>
             <selectionEntry type="unit" import="true" name="Legion Servo-Automata Maniple" hidden="false" id="7079-0697-73bd-0292" page="22" publicationId="3970-79bb-bdc6-9599">
               <categoryLinks>
@@ -32284,7 +32284,7 @@ If one or more Wounds is discounted due to this special rule, and the unit that 
                     </entryLink>
                   </entryLinks>
                   <selectionEntryGroups>
-                    <selectionEntryGroup name="Any Legion Servo-Automata may replace their Servo-Arm with one of the following:" id="e0f5-7a97-536a-2aa2" hidden="false" defaultSelectionEntryId="1290-a2bf-75da-e615">
+                    <selectionEntryGroup name="Any Legion Servo-Automata may replace their Servo-Arm with one of the following:" id="e0f5-7a97-536a-2aa2" hidden="false" defaultSelectionEntryId="254a-14bb-9e83-47fb">
                       <entryLinks>
                         <entryLink import="true" name="Flamer" hidden="false" id="7051-09b9-7ea0-9f94" type="selectionEntry" targetId="f0d1-c88b-4f7a-a4ae">
                           <constraints>
