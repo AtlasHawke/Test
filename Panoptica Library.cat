@@ -5320,9 +5320,6 @@ Any model with a Warp Jump Generator also gains the Bulky (2) and Deep Strike sp
           </characteristics>
         </profile>
       </profiles>
-      <comment>!BSC Errors from 20240406-1603
-Could not find rule: Concussive
-</comment>
     </selectionEntry>
     <selectionEntry name="Mole Mortar" type="upgrade" id="aba7-7325-4aeb-8a78">
       <infoLinks>
