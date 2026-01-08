@@ -32189,130 +32189,6 @@ If one or more Wounds is discounted due to this special rule, and the unit that 
             </modifierGroup>
           </modifierGroups>
         </selectionEntry>
-        <selectionEntry type="unit" import="true" name="Legion Servo-Automata Maniple" hidden="false" id="d6ef-35f5-3287-f078" page="22" publicationId="3970-79bb-bdc6-9599">
-          <categoryLinks>
-            <categoryLink name="Unit:" hidden="false" id="564c-eb36-dd56-a463" targetId="36c3-e85e-97cc-c503" primary="false"/>
-            <categoryLink name="Elites:" hidden="false" id="2a3b-b4aa-a062-c6ba" targetId="7aee-565f-b0ae-294e" primary="true"/>
-          </categoryLinks>
-          <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
-          </costs>
-          <selectionEntries>
-            <selectionEntry type="model" import="true" name="Legion Servo-Automata" hidden="false" id="1dd9-6ca1-7323-fe67" page="22" publicationId="3970-79bb-bdc6-9599">
-              <profiles>
-                <profile name="Legion Servo-Automata" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="a513-ca64-28c3-0141">
-                  <characteristics>
-                    <characteristic typeId="ddd7-6f5c-a939-b69e" name="Unit Type">Automata (Guardian)</characteristic>
-                    <characteristic typeId="893e-2d76-8f04-44e5" name="Move">7</characteristic>
-                    <characteristic typeId="cc42-7ed5-7092-5c84" name="WS">3</characteristic>
-                    <characteristic typeId="74ae-c840-0036-d244" name="BS">2</characteristic>
-                    <characteristic typeId="e478-41d4-a092-48a8" name="S">4</characteristic>
-                    <characteristic typeId="c32b-5fdd-3fbe-9b1f" name="T">5</characteristic>
-                    <characteristic typeId="57ee-1126-32a9-5672" name="W">1</characteristic>
-                    <characteristic typeId="62d3-22d7-2d49-52dc" name="I">1</characteristic>
-                    <characteristic typeId="f111-2ce5-dd12-d6b0" name="A">1</characteristic>
-                    <characteristic typeId="e8a6-1da9-d384-8727" name="Ld">6</characteristic>
-                    <characteristic typeId="e593-6b3c-f169-04f0" name="Save">4+</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <constraints>
-                <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="1665-3be4-b3fc-0bf2"/>
-                <constraint type="max" value="8" field="selections" scope="parent" shared="true" id="b290-f64d-bd0e-f317"/>
-              </constraints>
-              <entryLinks>
-                <entryLink import="true" name="Scout Armour" hidden="false" id="5369-5acc-00dc-9d36" type="selectionEntry" targetId="b282-55aa-d1e2-ebe7">
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="255d-a85d-0443-74d0"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3878-3070-0386-c9a6"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup name="Any Legion Servo-Automata may replace their Servo-Arm with one of the following:" id="3cd1-f9e1-97ac-5f98" hidden="false" defaultSelectionEntryId="1290-a2bf-75da-e615">
-                  <entryLinks>
-                    <entryLink import="true" name="Flamer" hidden="false" id="a808-4376-cd21-ea61" type="selectionEntry" targetId="f0d1-c88b-4f7a-a4ae">
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="948f-1108-d996-8522"/>
-                      </constraints>
-                    </entryLink>
-                    <entryLink import="true" name="Twin-linked Rotor Cannon" hidden="false" id="bd2e-4521-06a1-3f7c" type="selectionEntry" targetId="37ec-a4b4-de7a-acf3">
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1f8d-56c6-8fd3-6a39"/>
-                      </constraints>
-                    </entryLink>
-                    <entryLink import="true" name="Heavy Bolter" hidden="false" id="6a2f-6638-0123-5d85" type="selectionEntry" targetId="6024-6953-b8f4-ce63">
-                      <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
-                      </costs>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f130-f9db-eaf2-7651"/>
-                      </constraints>
-                    </entryLink>
-                    <entryLink import="true" name="Lascutter" hidden="false" id="05e5-f379-e22b-07b6" type="selectionEntry" targetId="6331-c1b9-bf0e-d0e5">
-                      <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
-                      </costs>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9e11-74d9-dcf0-2924"/>
-                      </constraints>
-                    </entryLink>
-                    <entryLink import="true" name="Multi-Melta" hidden="false" id="1d9d-8042-b72a-c7eb" type="selectionEntry" targetId="9332-3834-cf3a-56b4">
-                      <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
-                      </costs>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="236e-b283-ecbf-3a8b"/>
-                      </constraints>
-                    </entryLink>
-                    <entryLink import="true" name="Plasma Cannon" hidden="false" id="b62d-8207-1269-0a4c" type="selectionEntry" targetId="bdc7-3f9b-4c67-8641">
-                      <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
-                      </costs>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6472-43fb-346f-a1c2"/>
-                      </constraints>
-                    </entryLink>
-                    <entryLink import="true" name="Servo-Arm" hidden="false" id="3b18-8f6d-063d-eb1a" type="selectionEntry" targetId="fbef-812d-4d20-9285">
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ee7a-771c-a2e0-472b"/>
-                      </constraints>
-                    </entryLink>
-                    <entryLink import="true" name="Æther-Fire Cannon" hidden="false" id="7b8a-ca53-af83-c06b" type="selectionEntry" targetId="0139-b673-7b21-0470">
-                      <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
-                      </costs>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9f35-07e3-79ff-d1f8"/>
-                      </constraints>
-                    </entryLink>
-                    <entryLink import="true" name="Missile Launcher" hidden="false" id="12fb-0e60-5801-57ca" type="selectionEntry" targetId="0ec3-6c91-952c-e0ea">
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e632-5934-2f85-8d4c"/>
-                      </constraints>
-                    </entryLink>
-                  </entryLinks>
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b344-7c74-8c84-d48a"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c447-bdb3-9431-587b"/>
-                  </constraints>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <categoryLinks>
-                <categoryLink name="Guardian Unit Sub-type" hidden="false" id="7a00-44da-a5eb-71a8" targetId="8745-b21e-8576-7c30" primary="false"/>
-                <categoryLink name="Guardian Unit Sub-Type:" hidden="false" id="2337-152f-57e0-5c5d" targetId="28f2-0db9-4fdb-bde6" primary="false"/>
-              </categoryLinks>
-              <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <infoLinks>
-            <infoLink name="Legiones Astartes (X)" id="a1a5-18da-dd7f-ca36" hidden="false" type="rule" targetId="ffcb-13b4-9b4c-84da"/>
-            <infoLink name="Synthetica Mindlock" id="dde3-cec1-d21e-753b" hidden="false" type="rule" targetId="39e7-9c74-4ec4-a87d"/>
-            <infoLink name="Automata Attendants" id="b4d0-2d2b-212e-1b58" hidden="false" type="rule" targetId="70b5-e3e7-4ff6-a1b4"/>
-          </infoLinks>
-        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="13d4-989d-d468-415b" name="Legiones Unit Upgrades:" hidden="false" collective="false" import="true">
@@ -32365,6 +32241,137 @@ If one or more Wounds is discounted due to this special rule, and the unit that 
             </entryLink>
             <entryLink id="ff2f-921c-f6de-2ad4" name="The Spreading Corruption" hidden="false" collective="false" import="true" targetId="f783-f0ea-fe35-cdeb" type="selectionEntry"/>
           </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Legion Servo-Automata Maniple Retinue" id="3c10-f36b-d083-6fb0" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="unit" import="true" name="Legion Servo-Automata Maniple" hidden="false" id="7079-0697-73bd-0292" page="22" publicationId="3970-79bb-bdc6-9599">
+              <categoryLinks>
+                <categoryLink name="Unit:" hidden="false" id="32d3-24f7-b82e-354f" targetId="36c3-e85e-97cc-c503" primary="false"/>
+                <categoryLink name="Elites:" hidden="false" id="23f1-0c3b-d57f-7a63" targetId="7aee-565f-b0ae-294e" primary="true"/>
+              </categoryLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+              </costs>
+              <selectionEntries>
+                <selectionEntry type="model" import="true" name="Legion Servo-Automata" hidden="false" id="7125-067e-6f6c-dd0f" page="22" publicationId="3970-79bb-bdc6-9599">
+                  <profiles>
+                    <profile name="Legion Servo-Automata" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="102d-cf79-fe14-6ab2">
+                      <characteristics>
+                        <characteristic typeId="ddd7-6f5c-a939-b69e" name="Unit Type">Automata (Guardian)</characteristic>
+                        <characteristic typeId="893e-2d76-8f04-44e5" name="Move">7</characteristic>
+                        <characteristic typeId="cc42-7ed5-7092-5c84" name="WS">3</characteristic>
+                        <characteristic typeId="74ae-c840-0036-d244" name="BS">2</characteristic>
+                        <characteristic typeId="e478-41d4-a092-48a8" name="S">4</characteristic>
+                        <characteristic typeId="c32b-5fdd-3fbe-9b1f" name="T">5</characteristic>
+                        <characteristic typeId="57ee-1126-32a9-5672" name="W">1</characteristic>
+                        <characteristic typeId="62d3-22d7-2d49-52dc" name="I">1</characteristic>
+                        <characteristic typeId="f111-2ce5-dd12-d6b0" name="A">1</characteristic>
+                        <characteristic typeId="e8a6-1da9-d384-8727" name="Ld">6</characteristic>
+                        <characteristic typeId="e593-6b3c-f169-04f0" name="Save">4+</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <constraints>
+                    <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="ee4f-e105-14ae-c35e"/>
+                    <constraint type="max" value="8" field="selections" scope="parent" shared="true" id="82aa-bf73-9a20-4fce"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="Scout Armour" hidden="false" id="fbfd-8b46-0eaa-0a23" type="selectionEntry" targetId="b282-55aa-d1e2-ebe7">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5533-ee48-8b4c-5b85"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="60c3-2571-27d4-cfca"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="Any Legion Servo-Automata may replace their Servo-Arm with one of the following:" id="e0f5-7a97-536a-2aa2" hidden="false" defaultSelectionEntryId="1290-a2bf-75da-e615">
+                      <entryLinks>
+                        <entryLink import="true" name="Flamer" hidden="false" id="7051-09b9-7ea0-9f94" type="selectionEntry" targetId="f0d1-c88b-4f7a-a4ae">
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0282-6b36-84c1-f8fe"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Twin-linked Rotor Cannon" hidden="false" id="667e-13e9-d710-946f" type="selectionEntry" targetId="37ec-a4b4-de7a-acf3">
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3c06-c0b7-330e-b758"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Heavy Bolter" hidden="false" id="44c1-4724-8456-801a" type="selectionEntry" targetId="6024-6953-b8f4-ce63">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b68f-d99b-b8eb-92c8"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Lascutter" hidden="false" id="81ec-fde5-17af-3775" type="selectionEntry" targetId="6331-c1b9-bf0e-d0e5">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="79f3-6f83-386b-5bee"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Multi-Melta" hidden="false" id="db25-102b-9be8-1071" type="selectionEntry" targetId="9332-3834-cf3a-56b4">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="98f7-a277-db8e-28df"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Plasma Cannon" hidden="false" id="a697-1ab4-c2e3-a619" type="selectionEntry" targetId="bdc7-3f9b-4c67-8641">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f3b3-6dbb-11ff-ab5c"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Servo-Arm" hidden="false" id="254a-14bb-9e83-47fb" type="selectionEntry" targetId="fbef-812d-4d20-9285">
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c2fa-0486-5566-12db"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Æther-Fire Cannon" hidden="false" id="96fe-e8bd-3ad1-aa5c" type="selectionEntry" targetId="0139-b673-7b21-0470">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0fec-4049-33c0-c2dd"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Missile Launcher" hidden="false" id="8cc3-d3cb-7e7c-fa11" type="selectionEntry" targetId="0ec3-6c91-952c-e0ea">
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0545-592e-68e8-1bfb"/>
+                          </constraints>
+                        </entryLink>
+                      </entryLinks>
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1bb-1944-feea-705d"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c0ec-cb68-c1b1-6481"/>
+                      </constraints>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                  <categoryLinks>
+                    <categoryLink name="Guardian Unit Sub-type" hidden="false" id="ebb9-0230-2a83-8cb7" targetId="8745-b21e-8576-7c30" primary="false"/>
+                    <categoryLink name="Guardian Unit Sub-Type:" hidden="false" id="51a7-166b-a05a-5d4e" targetId="28f2-0db9-4fdb-bde6" primary="false"/>
+                  </categoryLinks>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <infoLinks>
+                <infoLink name="Legiones Astartes (X)" id="3dbb-4673-3f50-e384" hidden="false" type="rule" targetId="ffcb-13b4-9b4c-84da"/>
+                <infoLink name="Synthetica Mindlock" id="95c4-0790-f93e-49ae" hidden="false" type="rule" targetId="39e7-9c74-4ec4-a87d"/>
+                <infoLink name="Automata Attendants" id="9339-34e8-7889-9a7b" hidden="false" type="rule" targetId="70b5-e3e7-4ff6-a1b4"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1f45-3ee2-0888-0145"/>
+          </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
