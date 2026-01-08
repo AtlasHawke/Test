@@ -5742,6 +5742,18 @@ Could not find wargear In-built Meltagun
               </constraints>
             </selectionEntry>
           </selectionEntries>
+          <modifiers>
+            <modifier type="decrement" value="1" field="5775-30f9-74df-ccd7">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="5282-fb93-0bc9-292d" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="decrement" value="1" field="c328-b61f-3fb3-ce12">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="5282-fb93-0bc9-292d" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -5763,7 +5775,6 @@ Could not find wargear In-built Meltagun
     <selectionEntry name="Legion Servo-Automata Maniple" type="unit" id="6c47-ea09-4079-82bb" page="22" publicationId="3970-79bb-bdc6-9599">
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="6962-c082-4ba0-8cef"/>
-        <categoryLink targetId="7aee-565f-b0ae-294e" primary="true" id="a0e2-aafe-45a8-a806" name="Elites:"/>
       </categoryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
@@ -10453,8 +10464,6 @@ the Infantry Unit Type and the Skirmish Sub-type, composed of 5 models.</charact
             <categoryLink targetId="3a7a-8bb7-b0d3-e2e7" id="89dc-55e5-4250-a2b5" name="Hover Sub-type" primary="false"/>
             <categoryLink targetId="7b0a-a743-a8da-3a39" id="c2f2-ef14-4559-a613" name="Transport Sub-type:" primary="false"/>
           </categoryLinks>
-          <comment>
-</comment>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Legion Storm Eagle Transporter Access Points" hidden="false" id="b055-c957-ba8e-c944">
           <profiles>
