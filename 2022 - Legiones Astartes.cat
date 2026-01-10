@@ -50622,6 +50622,12 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
               <infoLinks>
                 <infoLink name="Sunder" id="f4e8-a2dc-0cdf-a8b5" hidden="false" type="rule" targetId="20e2-75cf-bc16-cd8f"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1d9b-59f1-947f-14c8"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+              </costs>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -50709,7 +50715,7 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
             <entryLink import="true" name="Multi-Laser" hidden="false" id="f428-cf4d-7d89-b751" type="selectionEntry" targetId="003b-af4b-0094-f5c3">
               <modifiers>
                 <modifier type="prepend" value="Two " field="name" join=""/>
-                <modifier type="prepend" value="s" field="name" join=""/>
+                <modifier type="append" value="s" field="name" join=""/>
               </modifiers>
               <constraints>
                 <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="c31e-8282-278f-94c4"/>
@@ -50731,7 +50737,7 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
             <entryLink import="true" name="EM-Storm Charge" hidden="false" id="7798-edbf-15ff-b4ff" type="selectionEntry" targetId="2ef0-e98e-4705-865f">
               <modifiers>
                 <modifier type="prepend" value="Two " field="name" join=""/>
-                <modifier type="prepend" value="s" field="name" join=""/>
+                <modifier type="append" value="s" field="name" join=""/>
               </modifiers>
               <constraints>
                 <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="c4f1-63fb-113c-d278"/>
@@ -50753,7 +50759,7 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
             <entryLink import="true" name="Reaper Autocannon" hidden="false" id="65a0-0fa7-d8bd-f214" type="selectionEntry" targetId="b87f-48de-6ced-043b">
               <modifiers>
                 <modifier type="prepend" value="Two " field="name" join=""/>
-                <modifier type="prepend" value="s" field="name" join=""/>
+                <modifier type="append" value="s" field="name" join=""/>
               </modifiers>
               <constraints>
                 <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="dd0b-4cf4-dfa9-e3a3"/>
@@ -50775,7 +50781,7 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
             <entryLink import="true" name="Phosphex Cluster Bombs" hidden="true" id="4383-2bc9-42e3-379a" type="selectionEntry" targetId="7577-6dc3-4aed-b8a9">
               <modifiers>
                 <modifier type="prepend" value="Two " field="name" join=""/>
-                <modifier type="prepend" value="s" field="name" join=""/>
+                <modifier type="append" value="s" field="name" join=""/>
                 <modifier type="set" value="false" field="hidden">
                   <conditions>
                     <condition type="atLeast" value="1" field="selections" scope="force" childId="8247-54dc-9194-948f" shared="true" includeChildSelections="true"/>
@@ -51561,7 +51567,7 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ce6b-2959-2f96-91fd"/>
           </constraints>
         </selectionEntryGroup>
-        <selectionEntryGroup name="If the Legion Tarantula Sentry Gun Battery is entirely armed with Hyperios Missile Launchers, one may be upgraded to a:" id="8d71-ee3e-3367-6664" hidden="false" page="">
+        <selectionEntryGroup name="If the Legion Tarantula Sentry Gun Battery is entirely armed with Hyperios Missile Launchers, one may be upgraded to a:" id="8d71-ee3e-3367-6664" hidden="false">
           <entryLinks>
             <entryLink import="true" name="Hyperios Command Platform" hidden="false" id="3cff-26f0-40cf-528c" type="selectionEntry" targetId="fb42-0378-47f8-a132">
               <constraints>
