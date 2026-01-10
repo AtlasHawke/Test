@@ -32268,7 +32268,6 @@ If one or more Wounds is discounted due to this special rule, and the unit that 
             <selectionEntry type="unit" import="true" name="Legion Servo-Automata Maniple" hidden="false" id="7079-0697-73bd-0292" page="22" publicationId="3970-79bb-bdc6-9599">
               <categoryLinks>
                 <categoryLink name="Unit:" hidden="false" id="32d3-24f7-b82e-354f" targetId="36c3-e85e-97cc-c503" primary="false"/>
-                <categoryLink name="Elites:" hidden="false" id="23f1-0c3b-d57f-7a63" targetId="7aee-565f-b0ae-294e" primary="true"/>
               </categoryLinks>
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
